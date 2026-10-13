@@ -1,4 +1,8 @@
-# IKKE TRENING
+# GymNotFound
+
+**Offentlig internasjonalt merkenavn:** GymNotFound. **Tidligere arbeidsnavn og GitHub-prosjekt:** IKKE TRENING.
+
+[Merkevarebeslutning og navnekrav](docs/09_MERKEVARE_GYMNOTFOUND.md).
 
 En webapp for mennesker som ønsker mer fysisk aktivitet, men misliker tradisjonell trening eller strever med å komme i gang og opprettholde vaner.
 
