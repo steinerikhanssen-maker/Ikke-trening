@@ -1,6 +1,8 @@
-# AGENTS.md – IKKE TRENING
+# AGENTS.md – GymNotFound (IKKE TRENING 5.0)
 
 Dette dokumentet er bindende for Codex og andre kodeagenter i dette repositoriet.
+
+**Brandbeslutning:** Offentlig navn, UI, plugin-navn og teknisk slug skal være **GymNotFound**. Se `docs/09_MERKEVARE_GYMNOTFOUND.md`. GitHub-repositoriet og gamle spesifikasjonsfilnavn kan fortsatt hete IKKE TRENING.
 
 ## Arbeidsoppdrag og rekkefølge
 
