@@ -1,0 +1,11 @@
+NOT RUN Geoapify live: no legitimate provider key is configured. No key was invented,
+requested in chat or extracted. Mock responses test the actual PHP adapter, caches,
+quotas, validation and error branches; they do not prove live account readiness.
+
+NOT RUN separate minimum WordPress 6.7 / PHP 8.2 combination: an additional
+wordpress:6.7.2-php8.2-apache image pull failed with “no space left on device”.
+The partial image was not used. ZIP installation uses the available WordPress 6.8.3
+/ PHP 8.3.28 image. The latest backend/browser suite also runs WordPress 7.1.3.
+
+Firefox launch limitation is recorded separately in firefox-not-run.txt.
+No production installation or merge has been performed.

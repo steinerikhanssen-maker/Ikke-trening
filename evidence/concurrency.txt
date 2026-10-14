@@ -1,0 +1,3 @@
+ Container gymnotfound-test-db-1  Running
+PASS D7 one of eight concurrent PHP workers reserves the last quota slot
+PASS D12 only four of eight concurrent workers consume the remaining public rate slots

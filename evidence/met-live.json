@@ -1,0 +1,8 @@
+{
+    "provider": "MET Norway",
+    "status": "ok",
+    "forecast_at": "2026-10-14T09:00:00Z",
+    "fetched_at": "2026-10-14T09:22:32+00:00",
+    "current": true,
+    "key_required": false
+}

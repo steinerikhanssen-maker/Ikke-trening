@@ -1,0 +1,35 @@
+
+> gymnotfound@0.1.0-beta.1 test
+> playwright test
+
+
+Running 17 tests using 1 worker
+
+(node:485910) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:485910) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [chromium] › tests/browser/app.spec.cjs:6:1 › B1/B2 first screen: real card and both actions, no account/GPS/external requests (2.7s)
+  ✓   2 [chromium] › tests/browser/app.spec.cjs:15:35 › B3-B9/F5 complete local mobile journey (en) (5.5s)
+  ✓   3 [chromium] › tests/browser/app.spec.cjs:15:35 › B3-B9/F5 complete local mobile journey (nb) (5.9s)
+  ✓   4 [chromium] › tests/browser/app.spec.cjs:33:1 › D9 explicit approximate position, reset and consent refusal leave no raw GPS (3.1s)
+  ✓   5 [chromium] › tests/browser/app.spec.cjs:41:1 › D4/D7 errors and offline loaded app give a usable source-free idea (2.8s)
+  ✓   6 [chromium] › tests/browser/app.spec.cjs:46:1 › E5 rendered external text is text, not executable markup; source and Maps attribution (2.9s)
+  ✓   7 [chromium] › tests/browser/app.spec.cjs:53:1 › B2/E7/F1 keyboard, axe checks in both languages, focus and reduced motion (11.4s)
+  ✓   8 [chromium] › tests/browser/app.spec.cjs:57:48 › F1 layout 320px, no overflow or hidden buttons (2.6s)
+  ✓   9 [chromium] › tests/browser/app.spec.cjs:57:48 › F1 layout 360px, no overflow or hidden buttons (3.0s)
+  ✓  10 [chromium] › tests/browser/app.spec.cjs:57:48 › F1 layout 390px, no overflow or hidden buttons (2.3s)
+  ✓  11 [chromium] › tests/browser/app.spec.cjs:57:48 › F1 layout 768px, no overflow or hidden buttons (2.2s)
+  ✓  12 [chromium] › tests/browser/app.spec.cjs:57:48 › F1 layout 1024px, no overflow or hidden buttons (2.0s)
+  ✓  13 [chromium] › tests/browser/app.spec.cjs:57:48 › F1 layout 1440px, no overflow or hidden buttons (2.4s)
+  ✓  14 [chromium] › tests/browser/app.spec.cjs:61:1 › Storage unavailable is explained without losing the activity flow (1.5s)
+  ✓  15 [chromium] › tests/browser/app.spec.cjs:64:1 › D9 delete cancels a delayed location result; removed data stays removed (2.1s)
+  ✓  16 [chromium] › tests/browser/app.spec.cjs:72:1 › D1/D10 stale forecast is removed when the opened app becomes visible again (1.5s)
+  ✓  17 [chromium] › tests/browser/app.spec.cjs:80:1 › E3 old pending instruction text is never reissued after the reviewed card is removed (1.0s)
+
+  17 passed (59.5s)
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice

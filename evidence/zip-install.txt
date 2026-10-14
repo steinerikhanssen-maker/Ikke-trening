@@ -1,0 +1,12 @@
+PASS A1 upload built ZIP in WP-admin without Node/Composer
+PASS A2 activate ZIP without fatal
+PASS A2 activation creates no app page
+PASS A4 explicit creation creates selected draft
+PASS A2 repeated explicit creation is idempotent
+PASS A3 selected page has standalone shell and a working card
+PASS A2 deactivate/reactivate installed ZIP
+PASS A4 36 editable templates, no duplicate seed
+PASS A4 real bilingual template editing fields
+PASS A4 save settings with admin nonce
+PASS E4 settings action without nonce is rejected
+PASS E4 anonymous settings action rejected by WordPress (no nopriv handler)
