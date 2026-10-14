@@ -7,11 +7,21 @@ Vi har produsert flere 12-sekunders prototyper, men kvaliteten ble for lav: Ken 
 
 Format: **1080 × 1920, 9:16, 30 fps, 360 frames, 12 sekunder, engelsk lyd, H.264/AAC**. Ingen betalte tjenester eller API-er uten ny godkjenning.
 
-## Kildepakke (viktig)
+## Kildepakke – NÅ LASTET OPP TIL GITHUB (14.10.2026)
 
-Det er laget en separat nedlastbar pakke **GymNotFound_Codex_Profesjonell_Animasjon.zip** i ChatGPT-samtalen. Den skal knyttes til Codex-jobben som vedlegg eller pakkes ut i Codex-arbeidsområdet. ZIP-en ligger **ikke i GitHub-repositoriet**.
+Hele den opprinnelige **GymNotFound_Codex_Profesjonell_Animasjon.zip** ligger nå i GitHub under [marketing/animation/source-archive/](source-archive/) som **14 binære deler** (på grunn av opplastingsgrense i GitHub-koblingen). Det er samme 69-filspakke på nøyaktig 7 864 379 byte, ingen deler er utelatt.
 
-Etter utpakking: les `START_HER_CODEX.txt` og `INSTRUKSJON_FOR_BRUKER.txt` i pakkeroten og deretter:
+**Ingen manuell ZIP-vedlegg nødvendig lenger.** Codex skal kjøre fra repoets rot:
+
+```bash
+python3 marketing/animation/source-archive/rebuild_archive.py
+mkdir -p /tmp/gymnotfound-codex-assets
+python3 -m zipfile -e marketing/animation/source-archive/GymNotFound_Codex_Profesjonell_Animasjon.zip /tmp/gymnotfound-codex-assets
+```
+
+Skriptet sammenføyer binærdelene, validerer **SHA-256 `cdf2332a59d40e7ade8d5db839dba1f1d544ae3685449dd9f0cb5b0873283a6e`**, byte-størrelse og ZIP-integritet. Les så `START_HER_CODEX.txt` og kjør `verify_bundle.py` i den utpakkede `GymNotFound_Codex_Profesjonell_Animasjon`-mappen.
+
+Pakken inneholder:
 - `brief/shot_plan.json` / `brief/shotlist_30fps.csv` – konkret regiplan.
 - `brief/character_bible_no.md` – NIM, Alex, tre og visuell kontinuitet.
 - `brief/animation_direction_no.md` – bevegelses- og komisk regi.
@@ -19,8 +29,6 @@ Etter utpakking: les `START_HER_CODEX.txt` og `INSTRUKSJON_FOR_BRUKER.txt` i pak
 - `assets/nim_rig/svg/`, `assets/nim_rig/png/`, `rig_manifest.json` – lagdelt SVG/PNG NIM.
 - `blender/create_project.py` – Blender STARTSKRIPT. Syntakssjekket og asset-kontrollert utenfor Blender; **ikke kjørt/testet i Blender**.
 - `assets/reference/` er **bare** visuell referanse. Ikke bruk gamle storyboardpaneler som filmbilder.
-
-Hvis ZIP-en ikke er tilgjengelig i Codex-miljøet, må den legges ved; ikke hev at filene allerede er importert. Den originale NIM-illustrasjonen er også dokumentert i `reference/IKKE_TRENING_4_1_standalone.html`.
 
 ## Arbeidspakker – utføres i rekkefølge
 
