@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "method": "single packed .blend copied alone to /tmp/gnf-full-relocation; reopened and rendered without adjacent assets",
+  "frame": 333,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "rgba_pixel_sha256": "4870062de6bc1364c82a49ae66b8963cd5b50fb9aee68766cc8a893c0414866c",
+  "native_render_pixels_identical": true,
+  "note": "PNG file hashes differ because Blender writes source path and render date into PNG metadata."
+}

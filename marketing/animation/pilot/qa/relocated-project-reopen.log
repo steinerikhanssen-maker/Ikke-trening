@@ -1,0 +1,82 @@
+Blender 4.3.2
+Read blend: "/tmp/gnf-full-relocation/GymNotFound_S01E01_FINAL.blend"
+Fra:333 Mem:72.42M (Peak 72.42M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | SHOT_07_BRAND, ViewLayer | Synchronizing object | FINAL_BRAND
+Fra:333 Mem:72.44M (Peak 72.44M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | SHOT_07_BRAND, ViewLayer | Synchronizing object | BRAND_FIELD
+Fra:333 Mem:72.55M (Peak 72.55M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | SHOT_07_BRAND, ViewLayer | Synchronizing object | BRAND_HALO
+Fra:333 Mem:72.56M (Peak 72.56M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | SHOT_07_BRAND, ViewLayer | Synchronizing object | S07_01_leg_left
+Fra:333 Mem:72.56M (Peak 72.56M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | SHOT_07_BRAND, ViewLayer | Synchronizing object | S07_02_leg_right
+Fra:333 Mem:72.56M (Peak 72.56M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | SHOT_07_BRAND, ViewLayer | Synchronizing object | S07_03_arm_left
+Fra:333 Mem:72.56M (Peak 72.56M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | SHOT_07_BRAND, ViewLayer | Synchronizing object | S07_04_arm_right
+Fra:333 Mem:72.56M (Peak 72.56M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | SHOT_07_BRAND, ViewLayer | Synchronizing object | S07_05_body
+Fra:333 Mem:72.56M (Peak 72.56M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | SHOT_07_BRAND, ViewLayer | Synchronizing object | S07_06_highlight
+Fra:333 Mem:72.56M (Peak 72.56M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | SHOT_07_BRAND, ViewLayer | Synchronizing object | S07_07_cheeks
+Fra:333 Mem:72.56M (Peak 72.56M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | SHOT_07_BRAND, ViewLayer | Synchronizing object | S07_08_eyes_neutral
+Fra:333 Mem:72.56M (Peak 72.56M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | SHOT_07_BRAND, ViewLayer | Synchronizing object | S07_09_mouth_neutral
+Fra:333 Mem:72.56M (Peak 72.56M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | SHOT_07_BRAND, ViewLayer | Synchronizing object | S07_10_antenna
+Fra:333 Mem:72.56M (Peak 72.56M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | SHOT_07_BRAND, ViewLayer | Synchronizing object | S07_11_sparks
+Fra:333 Mem:72.57M (Peak 72.57M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | SHOT_07_BRAND, ViewLayer | Synchronizing object | FINAL_TAGLINE
+Fra:333 Mem:72.82M (Peak 72.82M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | SHOT_07_BRAND, ViewLayer | Initializing
+Fra:333 Mem:71.71M (Peak 72.82M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | SHOT_07_BRAND, ViewLayer | Updating Images | Loading 00_shadow.png
+Fra:333 Mem:71.71M (Peak 72.82M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | SHOT_07_BRAND, ViewLayer | Updating Images | Loading 09_mouth_mm.png
+Fra:333 Mem:85.21M (Peak 91.94M) | Time:00:00.04 | Mem:3.37M, Peak:3.37M | SHOT_07_BRAND, ViewLayer | Updating Images | Loading 01_leg_left.png
+Fra:333 Mem:81.83M (Peak 91.94M) | Time:00:00.04 | Mem:6.74M, Peak:6.74M | SHOT_07_BRAND, ViewLayer | Updating Images | Loading 09_mouth_oh.png
+Fra:333 Mem:85.20M (Peak 91.95M) | Time:00:00.06 | Mem:10.11M, Peak:10.11M | SHOT_07_BRAND, ViewLayer | Updating Images | Loading 02_leg_right.png
+Fra:333 Mem:95.31M (Peak 102.06M) | Time:00:00.06 | Mem:13.48M, Peak:13.48M | SHOT_07_BRAND, ViewLayer | Updating Images | Loading 09_mouth_ah.png
+Fra:333 Mem:91.94M (Peak 102.06M) | Time:00:00.07 | Mem:16.85M, Peak:16.85M | SHOT_07_BRAND, ViewLayer | Updating Images | Loading 03_arm_left.png
+Fra:333 Mem:102.05M (Peak 108.80M) | Time:00:00.08 | Mem:20.21M, Peak:20.21M | SHOT_07_BRAND, ViewLayer | Updating Images | Loading 04_arm_right.png
+Fra:333 Mem:98.67M (Peak 108.80M) | Time:00:00.08 | Mem:23.58M, Peak:23.58M | SHOT_07_BRAND, ViewLayer | Updating Images | Loading 09_mouth_grin.png
+Fra:333 Mem:102.04M (Peak 108.80M) | Time:00:00.09 | Mem:26.95M, Peak:26.95M | SHOT_07_BRAND, ViewLayer | Updating Images | Loading 05_body.png
+Fra:333 Mem:112.16M (Peak 118.91M) | Time:00:00.11 | Mem:30.32M, Peak:30.32M | SHOT_07_BRAND, ViewLayer | Updating Images | Loading 09_mouth_smirk.png
+Fra:333 Mem:108.78M (Peak 118.91M) | Time:00:00.11 | Mem:33.69M, Peak:33.69M | SHOT_07_BRAND, ViewLayer | Updating Images | Loading 06_highlight.png
+Fra:333 Mem:118.90M (Peak 125.65M) | Time:00:00.18 | Mem:37.06M, Peak:37.06M | SHOT_07_BRAND, ViewLayer | Updating Images | Loading 08_eyes_surprised.png
+Fra:333 Mem:115.52M (Peak 125.65M) | Time:00:00.18 | Mem:40.43M, Peak:40.43M | SHOT_07_BRAND, ViewLayer | Updating Images | Loading 07_cheeks.png
+Fra:333 Mem:125.64M (Peak 132.38M) | Time:00:00.19 | Mem:43.80M, Peak:43.80M | SHOT_07_BRAND, ViewLayer | Updating Images | Loading 08_eyes_neutral.png
+Fra:333 Mem:122.26M (Peak 132.38M) | Time:00:00.20 | Mem:47.17M, Peak:47.17M | SHOT_07_BRAND, ViewLayer | Updating Images | Loading 08_eyes_squint.png
+Fra:333 Mem:125.63M (Peak 132.38M) | Time:00:00.20 | Mem:50.54M, Peak:50.54M | SHOT_07_BRAND, ViewLayer | Updating Images | Loading 09_mouth_neutral.png
+Fra:333 Mem:135.74M (Peak 142.49M) | Time:00:00.22 | Mem:53.91M, Peak:53.91M | SHOT_07_BRAND, ViewLayer | Updating Images | Loading 08_eyes_smug.png
+Fra:333 Mem:132.37M (Peak 142.49M) | Time:00:00.22 | Mem:57.28M, Peak:57.28M | SHOT_07_BRAND, ViewLayer | Updating Images | Loading 10_antenna.png
+Fra:333 Mem:142.48M (Peak 149.23M) | Time:00:00.23 | Mem:60.64M, Peak:60.64M | SHOT_07_BRAND, ViewLayer | Updating Images | Loading 11_sparks.png
+Fra:333 Mem:137.21M (Peak 149.23M) | Time:00:00.24 | Mem:67.38M, Peak:67.38M | SHOT_07_BRAND, ViewLayer | Waiting for render to start
+Fra:333 Mem:137.21M (Peak 149.23M) | Time:00:00.24 | Mem:67.38M, Peak:67.38M | SHOT_07_BRAND, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:333 Mem:137.21M (Peak 149.23M) | Time:00:00.24 | Mem:67.38M, Peak:67.38M | SHOT_07_BRAND, ViewLayer | Updating Scene
+Fra:333 Mem:137.21M (Peak 149.23M) | Time:00:00.24 | Mem:67.38M, Peak:67.38M | SHOT_07_BRAND, ViewLayer | Updating Shaders
+Fra:333 Mem:137.30M (Peak 149.23M) | Time:00:00.25 | Mem:67.39M, Peak:67.39M | SHOT_07_BRAND, ViewLayer | Updating Procedurals
+Fra:333 Mem:137.30M (Peak 149.23M) | Time:00:00.25 | Mem:67.39M, Peak:67.39M | SHOT_07_BRAND, ViewLayer | Updating Background
+Fra:333 Mem:137.30M (Peak 149.23M) | Time:00:00.25 | Mem:67.39M, Peak:67.39M | SHOT_07_BRAND, ViewLayer | Updating Camera
+Fra:333 Mem:137.30M (Peak 149.23M) | Time:00:00.25 | Mem:67.39M, Peak:67.39M | SHOT_07_BRAND, ViewLayer | Updating Meshes Flags
+Fra:333 Mem:137.30M (Peak 149.23M) | Time:00:00.25 | Mem:67.39M, Peak:67.39M | SHOT_07_BRAND, ViewLayer | Updating Objects
+Fra:333 Mem:137.30M (Peak 149.23M) | Time:00:00.25 | Mem:67.39M, Peak:67.39M | SHOT_07_BRAND, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:333 Mem:137.30M (Peak 149.23M) | Time:00:00.25 | Mem:67.39M, Peak:67.39M | SHOT_07_BRAND, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:333 Mem:137.30M (Peak 149.23M) | Time:00:00.25 | Mem:67.39M, Peak:67.39M | SHOT_07_BRAND, ViewLayer | Updating Particle Systems
+Fra:333 Mem:137.30M (Peak 149.23M) | Time:00:00.25 | Mem:67.39M, Peak:67.39M | SHOT_07_BRAND, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:333 Mem:137.30M (Peak 149.23M) | Time:00:00.25 | Mem:67.39M, Peak:67.39M | SHOT_07_BRAND, ViewLayer | Updating Meshes
+Fra:333 Mem:137.36M (Peak 149.23M) | Time:00:00.25 | Mem:67.39M, Peak:67.39M | SHOT_07_BRAND, ViewLayer | Updating Mesh | Computing attributes
+Fra:333 Mem:137.36M (Peak 149.23M) | Time:00:00.25 | Mem:67.39M, Peak:67.39M | SHOT_07_BRAND, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:333 Mem:137.36M (Peak 149.23M) | Time:00:00.25 | Mem:67.39M, Peak:67.39M | SHOT_07_BRAND, ViewLayer | Updating Scene BVH | Building
+Fra:333 Mem:137.36M (Peak 149.23M) | Time:00:00.25 | Mem:67.39M, Peak:67.39M | SHOT_07_BRAND, ViewLayer | Updating Scene BVH | Building BVH
+Fra:333 Mem:137.36M (Peak 149.23M) | Time:00:00.25 | Mem:67.51M, Peak:67.51M | SHOT_07_BRAND, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:333 Mem:137.36M (Peak 149.23M) | Time:00:00.25 | Mem:67.66M, Peak:67.78M | SHOT_07_BRAND, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:333 Mem:137.36M (Peak 149.23M) | Time:00:00.25 | Mem:67.66M, Peak:67.78M | SHOT_07_BRAND, ViewLayer | Updating Mesh | Computing normals
+Fra:333 Mem:137.56M (Peak 149.23M) | Time:00:00.25 | Mem:67.66M, Peak:67.78M | SHOT_07_BRAND, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:333 Mem:137.56M (Peak 149.23M) | Time:00:00.25 | Mem:67.86M, Peak:67.86M | SHOT_07_BRAND, ViewLayer | Updating Objects Flags
+Fra:333 Mem:137.56M (Peak 149.23M) | Time:00:00.25 | Mem:67.86M, Peak:67.86M | SHOT_07_BRAND, ViewLayer | Updating Primitive Offsets
+Fra:333 Mem:137.56M (Peak 149.23M) | Time:00:00.25 | Mem:67.86M, Peak:67.86M | SHOT_07_BRAND, ViewLayer | Updating Images
+Fra:333 Mem:137.56M (Peak 149.23M) | Time:00:00.25 | Mem:67.86M, Peak:67.86M | SHOT_07_BRAND, ViewLayer | Updating Camera Volume
+Fra:333 Mem:137.56M (Peak 149.23M) | Time:00:00.25 | Mem:67.86M, Peak:67.86M | SHOT_07_BRAND, ViewLayer | Updating Lookup Tables
+Fra:333 Mem:137.56M (Peak 149.23M) | Time:00:00.25 | Mem:67.94M, Peak:67.94M | SHOT_07_BRAND, ViewLayer | Updating Lights
+Fra:333 Mem:137.56M (Peak 149.23M) | Time:00:00.25 | Mem:67.94M, Peak:67.94M | SHOT_07_BRAND, ViewLayer | Updating Lights | Computing tree
+Fra:333 Mem:138.29M (Peak 149.23M) | Time:00:00.26 | Mem:68.67M, Peak:68.67M | SHOT_07_BRAND, ViewLayer | Updating Integrator
+Fra:333 Mem:138.29M (Peak 149.23M) | Time:00:00.26 | Mem:68.67M, Peak:68.67M | SHOT_07_BRAND, ViewLayer | Updating Film
+Fra:333 Mem:138.29M (Peak 149.23M) | Time:00:00.26 | Mem:68.59M, Peak:68.67M | SHOT_07_BRAND, ViewLayer | Updating Lookup Tables
+Fra:333 Mem:138.29M (Peak 149.23M) | Time:00:00.26 | Mem:68.68M, Peak:68.68M | SHOT_07_BRAND, ViewLayer | Updating Baking
+Fra:333 Mem:138.29M (Peak 149.23M) | Time:00:00.26 | Mem:68.68M, Peak:68.68M | SHOT_07_BRAND, ViewLayer | Updating Device | Writing constant memory
+Fra:333 Mem:138.30M (Peak 149.23M) | Time:00:00.26 | Mem:68.68M, Peak:68.68M | SHOT_07_BRAND, ViewLayer | Sample 0/2
+Fra:333 Mem:209.49M (Peak 209.49M) | Time:00:00.98 | Remaining:00:00.71 | Mem:139.88M, Peak:139.88M | SHOT_07_BRAND, ViewLayer | Sample 1/2
+Fra:333 Mem:241.14M (Peak 304.42M) | Time:00:01.81 | Mem:139.88M, Peak:139.88M | SHOT_07_BRAND, ViewLayer | Sample 2/2
+Fra:333 Mem:241.14M (Peak 304.42M) | Time:00:01.81 | Mem:139.88M, Peak:139.88M | SHOT_07_BRAND, ViewLayer | Finished
+Saved: '/tmp/gnf-full-relocation/frame_0333.png'
+Time: 00:02.59 (Saving: 00:00.48)
+
+PASS 32 full-project inspections
+
+Blender quit

@@ -1,0 +1,198 @@
+{
+  "blender": "4.3.2",
+  "checks": [
+    {
+      "name": "360 frames / 12 seconds at 30 fps",
+      "status": "PASS"
+    },
+    {
+      "name": "native portrait render",
+      "status": "PASS"
+    },
+    {
+      "name": "seven real animated scene strips",
+      "status": "PASS"
+    },
+    {
+      "name": "complete timeline without gaps or overlaps",
+      "status": "PASS"
+    },
+    {
+      "name": "all used image assets embedded",
+      "status": "PASS"
+    },
+    {
+      "name": "all audio stems and mix embedded",
+      "status": "PASS"
+    },
+    {
+      "name": "relative image and sound references",
+      "status": "PASS"
+    },
+    {
+      "name": "normalized final mix on timeline",
+      "status": "PASS"
+    },
+    {
+      "name": "SHOT_01_APARTMENT static shot camera",
+      "status": "PASS"
+    },
+    {
+      "name": "SHOT_01_APARTMENT_CAPTION_003 safe caption bounds",
+      "status": "PASS"
+    },
+    {
+      "name": "SHOT_01_APARTMENT genuinely weighted meshes",
+      "status": "PASS"
+    },
+    {
+      "name": "SHOT_02_PHONE_NIM static shot camera",
+      "status": "PASS"
+    },
+    {
+      "name": "SHOT_02_PHONE_NIM_CAPTION_058 safe caption bounds",
+      "status": "PASS"
+    },
+    {
+      "name": "SHOT_02_PHONE_NIM_CAPTION_087 safe caption bounds",
+      "status": "PASS"
+    },
+    {
+      "name": "SHOT_02_PHONE_NIM genuinely weighted meshes",
+      "status": "PASS"
+    },
+    {
+      "name": "SHOT_03_DOOR_STEP static shot camera",
+      "status": "PASS"
+    },
+    {
+      "name": "SHOT_03_DOOR_STEP genuinely weighted meshes",
+      "status": "PASS"
+    },
+    {
+      "name": "SHOT_04_FOUND_IT static shot camera",
+      "status": "PASS"
+    },
+    {
+      "name": "SHOT_04_FOUND_IT_CAPTION_151 safe caption bounds",
+      "status": "PASS"
+    },
+    {
+      "name": "SHOT_04_FOUND_IT genuinely weighted meshes",
+      "status": "PASS"
+    },
+    {
+      "name": "SHOT_05_OFFENDED_TREE static shot camera",
+      "status": "PASS"
+    },
+    {
+      "name": "SHOT_05_OFFENDED_TREE_CAPTION_190 safe caption bounds",
+      "status": "PASS"
+    },
+    {
+      "name": "SHOT_06_GOTCHA static shot camera",
+      "status": "PASS"
+    },
+    {
+      "name": "SHOT_06_GOTCHA_CAPTION_243 safe caption bounds",
+      "status": "PASS"
+    },
+    {
+      "name": "SHOT_06_GOTCHA_CAPTION_282 safe caption bounds",
+      "status": "PASS"
+    },
+    {
+      "name": "SHOT_06_GOTCHA genuinely weighted meshes",
+      "status": "PASS"
+    },
+    {
+      "name": "SHOT_07_BRAND static shot camera",
+      "status": "PASS"
+    },
+    {
+      "name": "SHOT_07_BRAND genuinely weighted meshes",
+      "status": "PASS"
+    },
+    {
+      "name": "same Alex face geometry in every appearance",
+      "status": "PASS"
+    },
+    {
+      "name": "seven dialogue captions on editable text objects",
+      "status": "PASS"
+    },
+    {
+      "name": "SHOT_04_FOUND_IT continuous bark deformation",
+      "status": "PASS"
+    },
+    {
+      "name": "SHOT_05_OFFENDED_TREE continuous bark deformation",
+      "status": "PASS"
+    }
+  ],
+  "captions": [
+    {
+      "text": "I hate exercise.",
+      "bounds_pixels": [
+        332.56487488746643,
+        616.4240312576294,
+        1564.4400787353516,
+        1594.1059970855713
+      ]
+    },
+    {
+      "text": "Perfect.",
+      "bounds_pixels": [
+        402.7753973007202,
+        546.2135410308838,
+        1564.2339706420898,
+        1594.1060256958008
+      ]
+    },
+    {
+      "text": "Find the ugliest\ntree.",
+      "bounds_pixels": [
+        329.5476794242859,
+        620.3970050811768,
+        1534.5734024047852,
+        1622.7779388427734
+      ]
+    },
+    {
+      "text": "Found it.",
+      "bounds_pixels": [
+        392.88989067077637,
+        556.0990476608276,
+        1564.440107345581,
+        1594.1059398651123
+      ]
+    },
+    {
+      "text": "I can hear you.",
+      "bounds_pixels": [
+        336.80020093917847,
+        612.1887373924255,
+        1564.440107345581,
+        1602.8202152252197
+      ]
+    },
+    {
+      "text": "You went outside.",
+      "bounds_pixels": [
+        301.54966592788696,
+        643.9910674095154,
+        1564.4400787353516,
+        1594.1059970855713
+      ]
+    },
+    {
+      "text": "Gotcha.",
+      "bounds_pixels": [
+        402.44741678237915,
+        545.3233909606934,
+        1564.4401359558105,
+        1594.1059970855713
+      ]
+    }
+  ]
+}

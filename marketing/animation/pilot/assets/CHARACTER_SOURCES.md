@@ -1,11 +1,11 @@
 # Redigerbare kunstkilder
 
-NIM: originale fullkanvas PNG/SVG-filer i `nim_rig/`, pivoter i `rig_manifest.json`. `layer_bounds.json` begrenser kun tom meshflate i renderer; det beskjærer ikke filer eller flytter kildekoordinater. Beinrigg og uttrykk ligger i `../edit/NIM_PROOF.blend`.
+Primær kilde: `../blender/lib/drawing.py`, satt i scene av `../blender/create_full_pilot.py`.
 
-Alex: egen konseptkunst som mesh- og kurvelag i `../edit/Alex_PROOF.blend`. `ALEX_BODY_ARMATURE` har rot, overkropp, hode, over-/underarmer, lår, legger og føtter. Navngitte klær, hender, ansikt og telefon kan redigeres uavhengig. Kunstgrunnlaget bygges av Alex-delen i `../blender/build_proofs.py`. Dette er en enkel arbeidsfigur, ikke godkjent profesjonell sluttkunst.
+NIM følger de opprinnelige fullkanvas PNG/SVG-filene i `nim_rig/`. `rig_manifest.json` gir pivoter; `layer_bounds.json` begrenser bare tom meshflate og beskjærer aldri kildefilene. Armatur, uttrykksvarianter, blink, munnformer og sekundærbevegelse er redigerbare i `../edit/NIM_PROOF.blend` og fullprosjektets shots. Armens overgang mot kroppen blandes med kroppens egen kildefarge når den går foran silhuetten.
 
-Tree: egen konseptkunst i `../edit/Tree_PROOF.blend`. `TREE_CONTINUOUS_BARK_SKIN` er én sammenhengende overflate med `Bark_folds_reveal` og `Bark_jaw_speech`. Munnens farge ligger i barkmeshens materialer; det finnes ikke en separat munnflate. Øyeinteriørene ligger bak barken til knutene åpnes. Videre kunstnerisk arbeid på bark/mimikk er nødvendig.
+Alex har én kanonisk figur i alle fire opptredener: voksen, mørk hettegenser, grå bukser, rufsete hår og trekvartansikt. Klær, skygger, hender/fingre, telefon, munn og øyne er separate vektede mesh-/kurvelag. Samme ansiktsgeometri kontrolleres i alle shots. Telefonkontakt og planted-fotkontakt er målt mot faktisk evaluert Blender-geometri, ikke bare mot ønskede posisjoner.
 
-Bakgrunner: navngitte mesh-/kurveobjekter i de respektive prosjektfilene: stuevegg, gulv, sofa, skyggelag, parkhimmel, parkbakke og trekroner. Dette er separate redigerbare objekter, ikke et flatt storyboardbilde. Ingen av `assets/reference/*` er brukt som sluttbilder.
+Treet har ett sammenhengende barkmesh med `Bark_Knots_Open`, `Offended_Bark_Brows` og `Bark_Jaw_Viseme`. Materialets furer sitter i samme UV/barkflate og følger deformasjonen. Øyeinteriør ligger bak barken fram til knutene åpnes. Ingen separat munnplate/hull eller svart sirkel brukes.
 
-Alle karakterer/miljøer kan bygges fra den vedlagte Python-kilden i faktisk Blender. NIM-bilder og brukte voice WAV-stems er pakket i prosjektfilene og har relative referanser. Profesjonelt illustrerte Alex-/trelag følger ikke med originalpakken; de vedlagte egenbygde konseptlagene må fortsatt utvikles.
+Miljøene består av egne redigerbare vegg-, gulv-, sofa-, lampe-, vindu-, park-, gjerde-, hus-, gren- og kronelag. Ingen storyboardpaneler eller stillfoto-pan brukes som filmbilder. Alle brukt bilder/fonter er pakket inn, men SVG-mastere og kildefonter er også vedlagt.

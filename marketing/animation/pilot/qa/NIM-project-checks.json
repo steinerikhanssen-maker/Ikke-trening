@@ -1,57 +1,41 @@
 {
-  "version": "4.3.2",
   "file": "NIM_PROOF.blend",
+  "blender": "4.3.2",
   "checks": [
     {
-      "name": "editable project opens in actual Blender",
+      "name": "actual Blender project opens",
       "status": "PASS"
     },
     {
-      "name": "60 frames at 30 fps",
+      "name": "native two-second proof",
       "status": "PASS"
     },
     {
-      "name": "project configured 1080x1920",
+      "name": "camera remains static",
       "status": "PASS"
     },
     {
-      "name": "not marked publication ready",
+      "name": "file image assets embedded",
       "status": "PASS"
     },
     {
-      "name": "camera does not substitute for character acting",
+      "name": "relative image paths",
       "status": "PASS"
     },
     {
-      "name": "all external image textures packed",
+      "name": "real multi-bone rig",
       "status": "PASS"
     },
     {
-      "name": "relative image references",
+      "name": "actual weighted character geometry",
       "status": "PASS"
     },
     {
-      "name": "audition stem packed in project",
+      "name": "poses actually differ",
       "status": "PASS"
     },
     {
-      "name": "relative sound references",
-      "status": "PASS"
-    },
-    {
-      "name": "real multi-bone armature",
-      "status": "PASS"
-    },
-    {
-      "name": "weighted character meshes",
-      "status": "PASS"
-    },
-    {
-      "name": "bone poses differ across frames",
-      "status": "PASS"
-    },
-    {
-      "name": "all geometry coordinates finite",
+      "name": "all mesh coordinates finite",
       "status": "PASS"
     }
   ]

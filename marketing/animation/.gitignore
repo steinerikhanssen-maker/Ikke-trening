@@ -3,5 +3,7 @@ source-archive/GymNotFound_Codex_Profesjonell_Animasjon.zip
 pilot/renders/
 pilot/**/*.blend1
 pilot/**/__pycache__/
-pilot/dist/
+pilot/dist/*
+!pilot/dist/GymNotFound_S01E01_COMPLETE.zip
+!pilot/dist/GymNotFound_S01E01_COMPLETE.zip.sha256
 pilot/qa/raw-render/

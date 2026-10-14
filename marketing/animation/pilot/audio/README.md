@@ -1,7 +1,11 @@
-# Lydkilder for arbeidsleveransen
+# Filmens lyd
 
-`voice/` har sju lokale, nevralgenererte castingauditions, tre ulike stemmer, ingen taleakselerering. Filproveniens, lisenskilde, kontrollsummer og varigheter står i `voice/auditions.json`. Disse er ikke godkjent profesjonell dialog. Se `VOICE_BLOCKER.md`.
+`GymNotFound_S01E01_DIALOGUE.wav`, `GymNotFound_S01E01_SFX.wav` og `GymNotFound_S01E01_MIX.wav` er separate 12-sekunders 48 kHz / 24-bit PCM-stems og normalisert miks. `build_mix.py` gjør resampling, cue-plassering og totrinns loudness-normalisering uten taleakselerering. Måling av den ferdige AAC-filen står i `../qa/media-checks.json`.
 
-`sfx/` har seks originale syntetiske effekter: UI-ping, fotsteg, dørlås, barkknirk, telefonvibrasjon og kort merkesignal. Ingen eksterne opptak, samplebiblioteker eller kommersiell musikk brukes. Signalene og tilfeldighetsfrøet kan redigeres i `generate_sfx.py`; opprinnelse, peak og kontrollsummer står i `sfx/manifest.json`. De er foreslåtte effektstems, ikke en godkjent sluttmiks.
+`voice/` har de sju opprinnelige dialog-WAV-ene. Filnavnene beholder `_AUDITION` fra genereringen, men disse valgte stemmene brukes faktisk i filmen: Alex `am_michael`, NIM `af_heart`, Tree `bm_george`. Proveniens, eksakte modell-/filkontrollsummer og naturlige varigheter står i `voice/auditions.json`. Modellens opprinnelige rate er 24 kHz; miks/AAC er 48 kHz.
 
-Proof-videoene bruker kun den aktuelle castingreplikken, med 0,5 sekunders innledende stillhet. SFX og de øvrige replikkene er separate, ikke en ferdig 12-sekunders miks. Ingen musikk er lagt til. Bruk de faktiske WAV-opptakene når shots og undertekster senere retimes.
+Kokoro-programvaren har MIT-lisens, modellen Apache-2.0. Lisensene er vedlagt. Phonemisering benytter eSpeak NG; selve lyden kommer fra nevralmodellen Kokoro. Ingen eSpeak-robotstemme, kjent stemmeklone, betalt tjeneste eller abonnement er brukt. Ekstern menneskelig vurdering av casting/forståelighet er fortsatt NOT TESTED.
+
+`sfx/` har seks egne signal-/støysynteser med kilde, seed, peak og kontrollsummer. Ingen eksterne opptak, samplebiblioteker eller kommersiell musikk er brukt. Fotsteget er plassert ved landingen i dørklippet; øvrige cues står i `../qa/mix-measurements.json`.
+
+Blender-spor: kanal 4 spiller miksen; kanal 2 er individuell dialog og kanal 3 er effektstemmen, mutet som standard. For ny miks, mut kanal 4 og aktiver kanal 2/3. Alle stems og relative referanser er pakket inn i fullprosjektet. Ingen modellinstallasjon trengs for redigering.

@@ -1,0 +1,92 @@
+{
+  "fps": 30,
+  "frames": 360,
+  "shots": [
+    {
+      "shot": "01",
+      "start_frame": 1,
+      "end_frame": 56,
+      "description": "Apartment"
+    },
+    {
+      "shot": "02",
+      "start_frame": 57,
+      "end_frame": 134,
+      "description": "Phone / NIM"
+    },
+    {
+      "shot": "03",
+      "start_frame": 135,
+      "end_frame": 150,
+      "description": "Door / shoes"
+    },
+    {
+      "shot": "04",
+      "start_frame": 151,
+      "end_frame": 186,
+      "description": "Ugly tree"
+    },
+    {
+      "shot": "05",
+      "start_frame": 187,
+      "end_frame": 235,
+      "description": "Tree reveal"
+    },
+    {
+      "shot": "06",
+      "start_frame": 236,
+      "end_frame": 316,
+      "description": "Gotcha"
+    },
+    {
+      "shot": "07",
+      "start_frame": 317,
+      "end_frame": 360,
+      "description": "GymNotFound"
+    }
+  ],
+  "dialogue": [
+    {
+      "stem": "Alex_01",
+      "start_frame": 3,
+      "text": "I hate exercise.",
+      "duration_seconds": 1.7493333333333334
+    },
+    {
+      "stem": "NIM_01",
+      "start_frame": 58,
+      "text": "Perfect.",
+      "duration_seconds": 0.896
+    },
+    {
+      "stem": "NIM_02",
+      "start_frame": 87,
+      "text": "Find the ugliest tree.",
+      "duration_seconds": 1.572
+    },
+    {
+      "stem": "Alex_02",
+      "start_frame": 151,
+      "text": "Found it.",
+      "duration_seconds": 1.0426666666666666
+    },
+    {
+      "stem": "Tree_01",
+      "start_frame": 190,
+      "text": "I can hear you.",
+      "duration_seconds": 1.4826666666666666
+    },
+    {
+      "stem": "NIM_03",
+      "start_frame": 243,
+      "text": "You went outside.",
+      "duration_seconds": 1.2333333333333334
+    },
+    {
+      "stem": "NIM_04",
+      "start_frame": 282,
+      "text": "Gotcha.",
+      "duration_seconds": 0.9273333333333333
+    }
+  ]
+}

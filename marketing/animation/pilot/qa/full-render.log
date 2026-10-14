@@ -1,0 +1,723 @@
+Condensed actual Blender log. Full verbose log is excluded from Git and ZIP.
+Blender 4.3.2
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0001.png'
+Time: 00:01.83 (Saving: 00:00.43)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0002.png'
+Time: 00:01.84 (Saving: 00:00.45)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0003.png'
+Time: 00:01.73 (Saving: 00:00.31)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0004.png'
+Time: 00:01.70 (Saving: 00:00.34)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0005.png'
+Time: 00:01.58 (Saving: 00:00.36)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0006.png'
+Time: 00:01.66 (Saving: 00:00.40)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0007.png'
+Time: 00:01.84 (Saving: 00:00.39)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0008.png'
+Time: 00:01.79 (Saving: 00:00.38)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0009.png'
+Time: 00:01.60 (Saving: 00:00.38)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0010.png'
+Time: 00:01.68 (Saving: 00:00.32)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0011.png'
+Time: 00:01.66 (Saving: 00:00.35)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0012.png'
+Time: 00:01.85 (Saving: 00:00.36)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0013.png'
+Time: 00:02.06 (Saving: 00:00.48)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0014.png'
+Time: 00:02.18 (Saving: 00:00.39)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0015.png'
+Time: 00:02.08 (Saving: 00:00.56)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0016.png'
+Time: 00:01.59 (Saving: 00:00.32)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0017.png'
+Time: 00:01.80 (Saving: 00:00.41)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0018.png'
+Time: 00:01.55 (Saving: 00:00.31)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0019.png'
+Time: 00:01.75 (Saving: 00:00.42)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0020.png'
+Time: 00:01.69 (Saving: 00:00.36)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0021.png'
+Time: 00:01.87 (Saving: 00:00.38)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0022.png'
+Time: 00:01.60 (Saving: 00:00.36)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0023.png'
+Time: 00:02.08 (Saving: 00:00.49)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0024.png'
+Time: 00:01.69 (Saving: 00:00.42)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0025.png'
+Time: 00:01.78 (Saving: 00:00.33)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0026.png'
+Time: 00:01.60 (Saving: 00:00.33)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0027.png'
+Time: 00:01.67 (Saving: 00:00.37)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0028.png'
+Time: 00:01.82 (Saving: 00:00.38)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0029.png'
+Time: 00:01.77 (Saving: 00:00.32)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0030.png'
+Time: 00:02.22 (Saving: 00:00.37)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0031.png'
+Time: 00:01.61 (Saving: 00:00.34)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0032.png'
+Time: 00:01.77 (Saving: 00:00.53)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0033.png'
+Time: 00:01.61 (Saving: 00:00.28)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0034.png'
+Time: 00:01.67 (Saving: 00:00.31)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0035.png'
+Time: 00:01.81 (Saving: 00:00.37)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0036.png'
+Time: 00:01.86 (Saving: 00:00.33)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0037.png'
+Time: 00:01.80 (Saving: 00:00.43)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0038.png'
+Time: 00:01.71 (Saving: 00:00.33)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0039.png'
+Time: 00:01.90 (Saving: 00:00.34)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0040.png'
+Time: 00:02.08 (Saving: 00:00.32)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0041.png'
+Time: 00:02.24 (Saving: 00:00.26)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0042.png'
+Time: 00:01.87 (Saving: 00:00.37)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0043.png'
+Time: 00:01.83 (Saving: 00:00.27)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0044.png'
+Time: 00:02.14 (Saving: 00:00.42)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0045.png'
+Time: 00:08.34 (Saving: 00:01.35)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0046.png'
+Time: 00:03.14 (Saving: 00:00.70)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0047.png'
+Time: 00:02.20 (Saving: 00:00.35)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0048.png'
+Time: 00:01.66 (Saving: 00:00.41)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0049.png'
+Time: 00:01.59 (Saving: 00:00.39)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0050.png'
+Time: 00:01.69 (Saving: 00:00.48)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0051.png'
+Time: 00:01.62 (Saving: 00:00.36)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0052.png'
+Time: 00:01.96 (Saving: 00:00.39)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0053.png'
+Time: 00:01.66 (Saving: 00:00.32)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0054.png'
+Time: 00:02.01 (Saving: 00:00.38)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0055.png'
+Time: 00:01.47 (Saving: 00:00.31)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0056.png'
+Time: 00:01.65 (Saving: 00:00.38)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0057.png'
+Time: 00:01.62 (Saving: 00:00.36)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0058.png'
+Time: 00:01.77 (Saving: 00:00.35)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0059.png'
+Time: 00:01.65 (Saving: 00:00.36)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0060.png'
+Time: 00:01.76 (Saving: 00:00.32)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0061.png'
+Time: 00:01.64 (Saving: 00:00.40)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0062.png'
+Time: 00:01.83 (Saving: 00:00.37)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0063.png'
+Time: 00:01.63 (Saving: 00:00.26)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0064.png'
+Time: 00:01.75 (Saving: 00:00.28)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0065.png'
+Time: 00:01.91 (Saving: 00:00.38)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0066.png'
+Time: 00:01.91 (Saving: 00:00.34)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0067.png'
+Time: 00:01.53 (Saving: 00:00.32)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0068.png'
+Time: 00:02.00 (Saving: 00:00.39)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0069.png'
+Time: 00:02.01 (Saving: 00:00.42)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0070.png'
+Time: 00:01.67 (Saving: 00:00.39)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0071.png'
+Time: 00:01.73 (Saving: 00:00.46)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0072.png'
+Time: 00:01.69 (Saving: 00:00.34)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0073.png'
+Time: 00:01.71 (Saving: 00:00.34)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0074.png'
+Time: 00:01.63 (Saving: 00:00.35)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0075.png'
+Time: 00:01.64 (Saving: 00:00.38)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0076.png'
+Time: 00:01.65 (Saving: 00:00.38)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0077.png'
+Time: 00:01.76 (Saving: 00:00.31)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0078.png'
+Time: 00:01.77 (Saving: 00:00.41)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0079.png'
+Time: 00:01.69 (Saving: 00:00.31)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0080.png'
+Time: 00:02.19 (Saving: 00:00.62)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0081.png'
+Time: 00:01.90 (Saving: 00:00.32)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0082.png'
+Time: 00:03.71 (Saving: 00:00.60)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0083.png'
+Time: 00:02.14 (Saving: 00:00.60)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0084.png'
+Time: 00:01.63 (Saving: 00:00.31)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0085.png'
+Time: 00:02.15 (Saving: 00:00.31)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0086.png'
+Time: 00:01.58 (Saving: 00:00.31)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0087.png'
+Time: 00:01.74 (Saving: 00:00.39)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0088.png'
+Time: 00:01.91 (Saving: 00:00.47)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0089.png'
+Time: 00:02.18 (Saving: 00:00.45)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0090.png'
+Time: 00:01.89 (Saving: 00:00.46)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0091.png'
+Time: 00:01.60 (Saving: 00:00.31)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0092.png'
+Time: 00:01.76 (Saving: 00:00.50)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0093.png'
+Time: 00:01.66 (Saving: 00:00.33)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0094.png'
+Time: 00:01.75 (Saving: 00:00.36)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0095.png'
+Time: 00:01.89 (Saving: 00:00.35)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0096.png'
+Time: 00:01.88 (Saving: 00:00.35)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0097.png'
+Time: 00:01.66 (Saving: 00:00.36)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0098.png'
+Time: 00:01.79 (Saving: 00:00.31)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0099.png'
+Time: 00:02.00 (Saving: 00:00.38)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0100.png'
+Time: 00:02.07 (Saving: 00:00.38)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0101.png'
+Time: 00:02.07 (Saving: 00:00.31)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0102.png'
+Time: 00:01.71 (Saving: 00:00.37)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0103.png'
+Time: 00:01.74 (Saving: 00:00.33)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0104.png'
+Time: 00:01.64 (Saving: 00:00.34)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0105.png'
+Time: 00:01.84 (Saving: 00:00.39)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0106.png'
+Time: 00:06.33 (Saving: 00:00.43)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0107.png'
+Time: 00:03.61 (Saving: 00:01.02)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0108.png'
+Time: 00:03.81 (Saving: 00:00.46)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0109.png'
+Time: 00:01.93 (Saving: 00:00.36)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0110.png'
+Time: 00:01.86 (Saving: 00:00.33)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0111.png'
+Time: 00:01.81 (Saving: 00:00.35)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0112.png'
+Time: 00:01.83 (Saving: 00:00.34)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0113.png'
+Time: 00:02.01 (Saving: 00:00.42)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0114.png'
+Time: 00:01.99 (Saving: 00:00.35)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0115.png'
+Time: 00:02.01 (Saving: 00:00.43)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0116.png'
+Time: 00:01.93 (Saving: 00:00.41)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0117.png'
+Time: 00:01.77 (Saving: 00:00.31)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0118.png'
+Time: 00:01.84 (Saving: 00:00.34)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0119.png'
+Time: 00:01.67 (Saving: 00:00.29)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0120.png'
+Time: 00:01.71 (Saving: 00:00.34)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0121.png'
+Time: 00:01.55 (Saving: 00:00.28)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0122.png'
+Time: 00:01.84 (Saving: 00:00.34)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0123.png'
+Time: 00:01.87 (Saving: 00:00.35)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0124.png'
+Time: 00:01.89 (Saving: 00:00.34)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0125.png'
+Time: 00:01.98 (Saving: 00:00.41)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0126.png'
+Time: 00:01.79 (Saving: 00:00.39)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0127.png'
+Time: 00:01.62 (Saving: 00:00.28)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0128.png'
+Time: 00:01.82 (Saving: 00:00.29)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0129.png'
+Time: 00:02.04 (Saving: 00:00.31)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0130.png'
+Time: 00:01.72 (Saving: 00:00.27)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0131.png'
+Time: 00:01.56 (Saving: 00:00.35)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0132.png'
+Time: 00:01.68 (Saving: 00:00.32)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0133.png'
+Time: 00:01.54 (Saving: 00:00.32)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0134.png'
+Time: 00:01.61 (Saving: 00:00.30)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0135.png'
+Time: 00:01.53 (Saving: 00:00.32)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0136.png'
+Time: 00:01.51 (Saving: 00:00.30)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0137.png'
+Time: 00:01.58 (Saving: 00:00.34)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0138.png'
+Time: 00:02.85 (Saving: 00:01.53)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0139.png'
+Time: 00:10.45 (Saving: 00:01.59)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0140.png'
+Time: 00:03.70 (Saving: 00:00.68)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0141.png'
+Time: 00:02.64 (Saving: 00:00.38)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0142.png'
+Time: 00:03.80 (Saving: 00:01.52)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0143.png'
+Time: 00:03.14 (Saving: 00:00.66)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0144.png'
+Time: 00:02.95 (Saving: 00:00.92)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0145.png'
+Time: 00:02.34 (Saving: 00:00.48)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0146.png'
+Time: 00:02.40 (Saving: 00:00.30)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0147.png'
+Time: 00:02.28 (Saving: 00:00.36)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0148.png'
+Time: 00:01.65 (Saving: 00:00.34)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0149.png'
+Time: 00:01.71 (Saving: 00:00.37)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0150.png'
+Time: 00:01.59 (Saving: 00:00.28)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0151.png'
+Time: 00:02.81 (Saving: 00:00.49)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0152.png'
+Time: 00:02.60 (Saving: 00:00.31)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0153.png'
+Time: 00:03.86 (Saving: 00:00.37)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0154.png'
+Time: 00:02.74 (Saving: 00:00.45)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0155.png'
+Time: 00:02.37 (Saving: 00:00.29)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0156.png'
+Time: 00:02.47 (Saving: 00:00.31)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0157.png'
+Time: 00:02.73 (Saving: 00:00.29)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0158.png'
+Time: 00:02.46 (Saving: 00:00.29)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0159.png'
+Time: 00:02.22 (Saving: 00:00.29)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0160.png'
+Time: 00:02.18 (Saving: 00:00.35)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0161.png'
+Time: 00:02.35 (Saving: 00:00.31)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0162.png'
+Time: 00:02.21 (Saving: 00:00.27)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0163.png'
+Time: 00:02.08 (Saving: 00:00.31)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0164.png'
+Time: 00:02.36 (Saving: 00:00.27)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0165.png'
+Time: 00:02.51 (Saving: 00:00.30)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0166.png'
+Time: 00:02.31 (Saving: 00:00.32)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0167.png'
+Time: 00:02.10 (Saving: 00:00.34)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0168.png'
+Time: 00:02.24 (Saving: 00:00.38)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0169.png'
+Time: 00:02.35 (Saving: 00:00.46)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0170.png'
+Time: 00:02.24 (Saving: 00:00.41)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0171.png'
+Time: 00:02.68 (Saving: 00:00.46)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0172.png'
+Time: 00:02.55 (Saving: 00:00.40)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0173.png'
+Time: 00:02.47 (Saving: 00:00.40)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0174.png'
+Time: 00:02.50 (Saving: 00:00.40)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0175.png'
+Time: 00:02.51 (Saving: 00:00.37)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0176.png'
+Time: 00:02.32 (Saving: 00:00.28)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0177.png'
+Time: 00:02.42 (Saving: 00:00.32)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0178.png'
+Time: 00:02.36 (Saving: 00:00.28)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0179.png'
+Time: 00:02.45 (Saving: 00:00.49)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0180.png'
+Time: 00:02.54 (Saving: 00:00.47)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0181.png'
+Time: 00:02.96 (Saving: 00:00.39)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0182.png'
+Time: 00:02.31 (Saving: 00:00.34)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0183.png'
+Time: 00:02.26 (Saving: 00:00.30)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0184.png'
+Time: 00:02.30 (Saving: 00:00.35)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0185.png'
+Time: 00:02.55 (Saving: 00:00.30)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0186.png'
+Time: 00:02.22 (Saving: 00:00.36)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0187.png'
+Time: 00:04.48 (Saving: 00:00.40)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0188.png'
+Time: 00:05.12 (Saving: 00:00.35)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0189.png'
+Time: 00:04.11 (Saving: 00:00.54)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0190.png'
+Time: 00:03.64 (Saving: 00:00.28)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0191.png'
+Time: 00:03.78 (Saving: 00:00.29)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0192.png'
+Time: 00:03.75 (Saving: 00:00.29)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0193.png'
+Time: 00:03.89 (Saving: 00:00.42)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0194.png'
+Time: 00:03.84 (Saving: 00:00.47)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0195.png'
+Time: 00:03.97 (Saving: 00:00.47)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0196.png'
+Time: 00:03.88 (Saving: 00:00.36)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0197.png'
+Time: 00:03.72 (Saving: 00:00.35)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0198.png'
+Time: 00:03.96 (Saving: 00:00.30)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0199.png'
+Time: 00:03.99 (Saving: 00:00.45)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0200.png'
+Time: 00:03.84 (Saving: 00:00.43)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0201.png'
+Time: 00:03.76 (Saving: 00:00.30)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0202.png'
+Time: 00:04.01 (Saving: 00:00.42)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0203.png'
+Time: 00:04.50 (Saving: 00:00.35)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0204.png'
+Time: 00:04.25 (Saving: 00:00.36)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0205.png'
+Time: 00:04.56 (Saving: 00:00.29)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0206.png'
+Time: 00:04.09 (Saving: 00:00.35)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0207.png'
+Time: 00:04.54 (Saving: 00:00.30)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0208.png'
+Time: 00:04.26 (Saving: 00:00.31)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0209.png'
+Time: 00:04.48 (Saving: 00:00.37)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0210.png'
+Time: 00:04.13 (Saving: 00:00.43)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0211.png'
+Time: 00:04.26 (Saving: 00:00.40)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0212.png'
+Time: 00:04.00 (Saving: 00:00.34)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0213.png'
+Time: 00:03.94 (Saving: 00:00.32)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0214.png'
+Time: 00:12.36 (Saving: 00:01.48)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0215.png'
+Time: 00:07.75 (Saving: 00:00.53)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0216.png'
+Time: 00:04.21 (Saving: 00:00.43)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0217.png'
+Time: 00:10.99 (Saving: 00:00.39)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0218.png'
+Time: 00:06.76 (Saving: 00:00.60)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0219.png'
+Time: 00:04.60 (Saving: 00:00.41)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0220.png'
+Time: 00:04.60 (Saving: 00:00.55)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0221.png'
+Time: 00:04.51 (Saving: 00:00.40)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0222.png'
+Time: 00:04.53 (Saving: 00:00.37)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0223.png'
+Time: 00:04.47 (Saving: 00:00.45)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0224.png'
+Time: 00:04.28 (Saving: 00:00.47)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0225.png'
+Time: 00:04.10 (Saving: 00:00.39)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0226.png'
+Time: 00:04.37 (Saving: 00:00.38)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0227.png'
+Time: 00:04.34 (Saving: 00:00.41)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0228.png'
+Time: 00:04.14 (Saving: 00:00.37)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0229.png'
+Time: 00:03.73 (Saving: 00:00.39)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0230.png'
+Time: 00:03.76 (Saving: 00:00.36)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0231.png'
+Time: 00:03.70 (Saving: 00:00.38)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0232.png'
+Time: 00:03.62 (Saving: 00:00.35)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0233.png'
+Time: 00:03.98 (Saving: 00:00.37)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0234.png'
+Time: 00:03.63 (Saving: 00:00.34)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0235.png'
+Time: 00:03.75 (Saving: 00:00.32)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0236.png'
+Time: 00:01.52 (Saving: 00:00.32)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0237.png'
+Time: 00:01.48 (Saving: 00:00.25)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0238.png'
+Time: 00:01.54 (Saving: 00:00.29)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0239.png'
+Time: 00:01.52 (Saving: 00:00.26)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0240.png'
+Time: 00:01.63 (Saving: 00:00.35)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0241.png'
+Time: 00:01.53 (Saving: 00:00.34)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0242.png'
+Time: 00:01.64 (Saving: 00:00.32)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0243.png'
+Time: 00:02.27 (Saving: 00:00.33)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0244.png'
+Time: 00:01.81 (Saving: 00:00.35)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0245.png'
+Time: 00:01.50 (Saving: 00:00.32)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0246.png'
+Time: 00:01.51 (Saving: 00:00.26)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0247.png'
+Time: 00:01.60 (Saving: 00:00.33)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0248.png'
+Time: 00:02.27 (Saving: 00:00.88)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0249.png'
+Time: 00:02.31 (Saving: 00:00.34)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0250.png'
+Time: 00:03.14 (Saving: 00:01.11)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0251.png'
+Time: 00:03.89 (Saving: 00:00.34)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0252.png'
+Time: 00:02.69 (Saving: 00:00.63)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0253.png'
+Time: 00:01.93 (Saving: 00:00.29)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0254.png'
+Time: 00:01.58 (Saving: 00:00.41)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0255.png'
+Time: 00:01.54 (Saving: 00:00.38)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0256.png'
+Time: 00:02.04 (Saving: 00:00.32)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0257.png'
+Time: 00:01.74 (Saving: 00:00.27)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0258.png'
+Time: 00:01.46 (Saving: 00:00.25)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0259.png'
+Time: 00:01.39 (Saving: 00:00.26)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0260.png'
+Time: 00:01.48 (Saving: 00:00.34)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0261.png'
+Time: 00:01.50 (Saving: 00:00.27)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0262.png'
+Time: 00:01.55 (Saving: 00:00.31)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0263.png'
+Time: 00:01.46 (Saving: 00:00.25)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0264.png'
+Time: 00:01.69 (Saving: 00:00.33)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0265.png'
+Time: 00:01.46 (Saving: 00:00.31)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0266.png'
+Time: 00:02.05 (Saving: 00:00.48)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0267.png'
+Time: 00:01.81 (Saving: 00:00.33)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0268.png'
+Time: 00:01.59 (Saving: 00:00.27)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0269.png'
+Time: 00:01.30 (Saving: 00:00.25)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0270.png'
+Time: 00:01.51 (Saving: 00:00.31)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0271.png'
+Time: 00:01.34 (Saving: 00:00.23)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0272.png'
+Time: 00:01.38 (Saving: 00:00.25)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0273.png'
+Time: 00:01.58 (Saving: 00:00.29)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0274.png'
+Time: 00:01.60 (Saving: 00:00.32)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0275.png'
+Time: 00:01.59 (Saving: 00:00.25)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0276.png'
+Time: 00:01.54 (Saving: 00:00.33)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0277.png'
+Time: 00:01.66 (Saving: 00:00.36)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0278.png'
+Time: 00:02.12 (Saving: 00:00.26)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0279.png'
+Time: 00:01.77 (Saving: 00:00.35)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0280.png'
+Time: 00:01.50 (Saving: 00:00.35)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0281.png'
+Time: 00:01.87 (Saving: 00:00.36)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0282.png'
+Time: 00:01.92 (Saving: 00:00.52)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0283.png'
+Time: 00:01.60 (Saving: 00:00.31)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0284.png'
+Time: 00:01.73 (Saving: 00:00.23)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0285.png'
+Time: 00:01.40 (Saving: 00:00.25)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0286.png'
+Time: 00:01.46 (Saving: 00:00.32)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0287.png'
+Time: 00:01.26 (Saving: 00:00.21)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0288.png'
+Time: 00:01.40 (Saving: 00:00.24)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0289.png'
+Time: 00:01.49 (Saving: 00:00.29)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0290.png'
+Time: 00:01.53 (Saving: 00:00.33)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0291.png'
+Time: 00:01.45 (Saving: 00:00.25)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0292.png'
+Time: 00:01.29 (Saving: 00:00.24)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0293.png'
+Time: 00:01.61 (Saving: 00:00.36)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0294.png'
+Time: 00:01.52 (Saving: 00:00.30)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0295.png'
+Time: 00:01.61 (Saving: 00:00.39)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0296.png'
+Time: 00:01.34 (Saving: 00:00.25)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0297.png'
+Time: 00:01.51 (Saving: 00:00.36)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0298.png'
+Time: 00:01.76 (Saving: 00:00.37)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0299.png'
+Time: 00:01.58 (Saving: 00:00.41)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0300.png'
+Time: 00:01.54 (Saving: 00:00.35)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0301.png'
+Time: 00:01.42 (Saving: 00:00.30)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0302.png'
+Time: 00:01.66 (Saving: 00:00.33)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0303.png'
+Time: 00:01.38 (Saving: 00:00.32)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0304.png'
+Time: 00:01.63 (Saving: 00:00.37)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0305.png'
+Time: 00:01.39 (Saving: 00:00.29)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0306.png'
+Time: 00:01.52 (Saving: 00:00.32)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0307.png'
+Time: 00:01.37 (Saving: 00:00.29)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0308.png'
+Time: 00:01.52 (Saving: 00:00.35)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0309.png'
+Time: 00:01.36 (Saving: 00:00.28)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0310.png'
+Time: 00:01.33 (Saving: 00:00.28)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0311.png'
+Time: 00:01.54 (Saving: 00:00.34)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0312.png'
+Time: 00:01.51 (Saving: 00:00.30)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0313.png'
+Time: 00:01.49 (Saving: 00:00.32)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0314.png'
+Time: 00:01.42 (Saving: 00:00.22)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0315.png'
+Time: 00:01.66 (Saving: 00:00.31)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0316.png'
+Time: 00:01.56 (Saving: 00:00.30)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0317.png'
+Time: 00:01.48 (Saving: 00:00.30)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0318.png'
+Time: 00:01.43 (Saving: 00:00.36)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0319.png'
+Time: 00:01.42 (Saving: 00:00.34)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0320.png'
+Time: 00:01.32 (Saving: 00:00.26)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0321.png'
+Time: 00:01.25 (Saving: 00:00.25)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0322.png'
+Time: 00:01.48 (Saving: 00:00.26)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0323.png'
+Time: 00:01.61 (Saving: 00:00.35)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0324.png'
+Time: 00:01.52 (Saving: 00:00.31)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0325.png'
+Time: 00:01.35 (Saving: 00:00.29)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0326.png'
+Time: 00:01.49 (Saving: 00:00.28)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0327.png'
+Time: 00:01.29 (Saving: 00:00.30)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0328.png'
+Time: 00:01.34 (Saving: 00:00.27)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0329.png'
+Time: 00:01.54 (Saving: 00:00.31)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0330.png'
+Time: 00:01.31 (Saving: 00:00.32)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0331.png'
+Time: 00:01.73 (Saving: 00:00.46)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0332.png'
+Time: 00:01.45 (Saving: 00:00.36)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0333.png'
+Time: 00:02.12 (Saving: 00:00.32)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0334.png'
+Time: 00:01.61 (Saving: 00:00.33)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0335.png'
+Time: 00:01.47 (Saving: 00:00.26)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0336.png'
+Time: 00:01.35 (Saving: 00:00.26)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0337.png'
+Time: 00:01.32 (Saving: 00:00.24)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0338.png'
+Time: 00:01.32 (Saving: 00:00.27)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0339.png'
+Time: 00:01.29 (Saving: 00:00.26)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0340.png'
+Time: 00:01.32 (Saving: 00:00.25)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0341.png'
+Time: 00:01.70 (Saving: 00:00.32)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0342.png'
+Time: 00:01.48 (Saving: 00:00.30)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0343.png'
+Time: 00:01.52 (Saving: 00:00.27)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0344.png'
+Time: 00:01.43 (Saving: 00:00.28)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0345.png'
+Time: 00:01.47 (Saving: 00:00.32)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0346.png'
+Time: 00:01.46 (Saving: 00:00.34)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0347.png'
+Time: 00:01.43 (Saving: 00:00.33)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0348.png'
+Time: 00:01.44 (Saving: 00:00.28)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0349.png'
+Time: 00:01.27 (Saving: 00:00.23)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0350.png'
+Time: 00:01.39 (Saving: 00:00.28)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0351.png'
+Time: 00:01.48 (Saving: 00:00.33)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0352.png'
+Time: 00:01.40 (Saving: 00:00.28)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0353.png'
+Time: 00:01.57 (Saving: 00:00.35)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0354.png'
+Time: 00:01.43 (Saving: 00:00.27)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0355.png'
+Time: 00:01.63 (Saving: 00:00.33)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0356.png'
+Time: 00:01.33 (Saving: 00:00.30)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0357.png'
+Time: 00:01.39 (Saving: 00:00.34)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0358.png'
+Time: 00:01.37 (Saving: 00:00.30)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0359.png'
+Time: 00:01.37 (Saving: 00:00.30)
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/renders/FINAL/frame_0360.png'
+Time: 00:01.64 (Saving: 00:00.30)
+Blender quit

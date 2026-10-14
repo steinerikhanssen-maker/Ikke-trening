@@ -1,52 +1,64 @@
-# The Ugly Tree – karakterprøver for issue #4
+# GymNotFound – The Ugly Tree
 
-**Arbeidsleveranse. Kvalitetsporten er ikke bestått. Ingen fullfilm eller publiseringsklar master er levert.**
+Én ferdig klippet 12-sekunders pilot med ekte Blender-karakterrigger, tre ulike engelske stemmer, lydmiks og undertekster. **Publisering er ikke utført.** Fysisk mobiltest, fem uavhengige seere og ekstern vurdering av stemmespill/leppesynk er ikke gjennomført; se den eksplisitte kvalitetsrapporten.
 
-Denne grenen er isolert fra WordPress-pluginen. Den inneholder tre redigerbare Blender-prosjekter, tre bevegelsesprøver og sju lokale stemmeauditions og faktiske kontrollresultater. Kildene er rekonstruert fra de 14 delene på main med korrekt SHA-256. Originale storyboardbilder brukes aldri som filmbilder.
+| Leveranse | Fil |
+|---|---|
+| H.264/AAC-film, 1080×1920, 30 fps, 12.00 s | `final/GymNotFound_S01E01_TikTok_FINAL.mp4` |
+| Redigerbart prosjekt med sju shots og full tidslinje | `edit/GymNotFound_S01E01_FINAL.blend` |
+| Tre native karakterprøver, to sekunder hver | `previews/NIM_acting.mp4`, `Alex_walk.mp4`, `Tree_reveal.mp4` |
+| Forside | `final/GymNotFound_S01E01_COVER.png` |
+| Dialog, effekter og miks | `audio/` |
+| Engelske undertekster | `subtitles.srt` |
+| Faktiske kontroller og kjente begrensninger | `qa/TESTRAPPORT.txt` |
 
-Åpne [review.html](review.html) lokalt for å spille av prøvene. MP4-ene i `previews/` er **540×960, 30 fps og to sekunder**. NIM og treet har AAC-lyd med stemmeauditions; Alex er en stum bevegelsesprøve; dette er prøveformat, ikke formatet til den bestilte 1080×1920-sluttfilmen. Prosjektene er konfigurert til 1080×1920 og har alle NIM-teksturer og brukte stemmestems pakket inn.
+Åpne [review.html](review.html) lokalt for film og prøver. Historiske M1-rapporter ligger i `qa/history/`. De beskriver den første arbeidsleveransen, ikke den oppdaterte eksporten.
 
-| Prøve | Redigerbart prosjekt | Innhold og begrensning |
-|---|---|---|
-| NIM_acting.mp4 | edit/NIM_PROOF.blend | Ekte flerlags beinrigg, armgest, uttrykksbytte, bevisst blink og antenneetterklang. Lokal «Perfect»-audition; endelig leppesynk ikke godkjent. |
-| Alex_walk.mp4 | edit/Alex_PROOF.blend | Originale mesh-/kurvelag bundet til kropp, armer og ben. Sittende posering, oppreisning og steg. Enkel konseptkunst, kontakt/telefon krever videre arbeid. |
-| Tree_reveal.mp4 | edit/Tree_PROOF.blend | Sammenhengende barkmesh med shape keys for knuter/bryn og talebevegelse. Ingen separat munnflate. Lokal «I can hear you»-audition. Materiale/uttrykk krever kunstnerisk viderearbeid. |
+## Rediger prosjektet
 
-Den opprinnelige NIM-kunsten er bevart som fullkanvas SVG og PNG under `assets/nim_rig/`. Alex, treet og miljøene er redigerbar, proseduralt tegnet kunst i `blender/build_proofs.py` og de lagrede `.blend`-filene. Dette er ikke godkjent erstatning for konseptreferansens profesjonelle tegnestil.
+Åpne `.blend` og velg scenen **GYMNOTFOUND_S01E01_EDIT**. Blender Video Sequencer har sju scene-klipp. Hvert shot inneholder separate karakter-, bakgrunns- og tekstobjekter. Kameraene står stille; rigger, kroppsdeler, uttrykk og barkmesh animeres.
 
-## Reproduser
+NIMs originale fullkanvas PNG/SVG-kunst og pivoter er bevart. Figuren har beinrigg med armgest, bevisst blink, munnformer og antennebevegelse. Alex er samme voksne figur i fire shots, med vektede kroppsdeler, hånd-/telefonkontakt og føtter som står fast gjennom oppreisningen. Treet har ett sammenhengende barkmesh med animerte knuter, bryn og kjeve; munnen er en deformasjon og fargefure i barken.
 
-Faktisk kjørt versjon: **Blender 4.3.2**, Cycles CPU; **FFmpeg 7.1.5**. Python-standardbibliotek er nok. Ingen betalt API, abonnement, nytt GPU-miljø eller produksjonssystem brukes.
+Tidslinjens kanal 4 spiller den normaliserte miksen. Kanal 2 har de sju individuelle dialogstemmene og kanal 3 effektstemmen; disse er mutet for å unngå dobbel lyd. Mut kanal 4 og aktiver kanal 2/3 for egen miks. Individuelle originale SFX og alle dialog-WAV-er følger også med. Alle brukte bilder, fonter og lydstems er pakket og har relative referanser. Ingen TTS-modell eller betalt tjeneste trengs for å åpne prosjektet.
 
-Fra repoets rot:
+Dialogen beholder naturlig hastighet. Shot-planen er retimet rundt faktiske opptak; `edit/edit_timing.json` er gjeldende klippeplan, mens `brief/shot_plan.json` er originalbestillingen. Blender-tekstobjekter og `.srt` er redigerbare; teksten er ikke bakt inn i scenekunsten.
+
+## Bygg på nytt
+
+Faktisk kjørt: Blender **4.3.2**, FFmpeg **7.1.5**, vanlig Python. Fra repoets rot:
 
 ```bash
-python3 marketing/animation/source-archive/rebuild_archive.py
-python3 marketing/animation/pilot/verify_bundle.py
-bash marketing/animation/pilot/blender/render_proofs.sh
+bash marketing/animation/pilot/blender/render_pilot.sh
 ```
 
-Skriptet bygger ekte rigger, renderer alle 60 bilder i hver prøve, pakker H.264 og åpner prosjektene igjen i faktisk Blender. Proof-rendering bruker 50 prosent av prosjektoppløsningen. Rå PNG-sekvenser, verbose rendererlogger og Blender-backup er utelatt fra Git; sammendragsloggene beholder alle 180 faktiske lagrede bilder. Git-tracked MP4/prosjektfiler trenger ingen ny rendering for gjennomgang.
+Skriptet bygger kilder og tidslinje, lager lydmiks, renderer de tre prøvene og alle 360 native filmbilder, encoder MP4, verifiserer og pakker leveransen. Rendering bruker Cycles CPU som standard. EEVEE er også prøvd med en lokal virtuell X-skjerm, men er ikke en nødvendig avhengighet. Blender 4.5/5.x er ikke testet.
 
-Blender utenfor skymiljøet: åpne en `edit/*_PROOF.blend`, velg armaturen i Pose Mode og rediger nøkler/mesh/kurver. Tree har redigerbare shape keys på `TREE_CONTINUOUS_BARK_SKIN`. NIMs teksturer er pakket; SVG-masterne er også vedlagt. Tekst ligger som egne redigerbare tekstobjekter. Kameraet er statisk; figurene animeres.
+Primær kunst-/riggkilde er `blender/create_full_pilot.py` og `blender/lib/drawing.py`. `build_proofs.py` og det opprinnelige `create_project.py` er tidligere arbeids-/startskript; de er ikke sluttfilmens kilde. Rå bilder, verbose logger og Blender-backup er utelatt fra Git/ZIP. Sammendragslogger og kontrollsummer er vedlagt.
 
-EEVEE kunne ikke opprette en grafikkontekst i dette miljøet. Cycles fungerer. Den installerte Blender-byggen mangler OpenImageDenoise; den funksjonen er derfor slått av. Blender 4.5 LTS/5.x er ikke testet.
+For å pakke de eksisterende sluttfilene uten ny rendering:
 
-Valgfri browser-QA bruker Node og `@playwright/test` 1.56.1 med systemets Chromium 154.0.8037.57. Kjør HTTP-serveren fra repoets rot i én terminal, og QA i en annen:
+```bash
+python3 marketing/animation/pilot/qa/package_handoff.py
+```
+
+Valgfri browser-QA bruker Node, `@playwright/test` 1.56.1 og system-Chromium 154. Start HTTP-server i én terminal:
 
 ```bash
 python3 -m http.server 8090 --bind 127.0.0.1 --directory marketing/animation/pilot
 ```
+
+I en annen terminal:
 
 ```bash
 npm install --prefix /tmp/gnf-animation-browser --ignore-scripts --no-audit --no-fund @playwright/test@1.56.1
 NODE_PATH=/tmp/gnf-animation-browser/node_modules node marketing/animation/pilot/qa/browser_playback.cjs
 ```
 
-`GNF_CHROMIUM_PATH` kan settes til en annen lokal Chromium-fil; standard er `/usr/bin/chromium`. Testen måler faktisk dekodet avspilling, ikke menneskelig lytting eller fysisk mobiltest.
+`GNF_CHROMIUM_PATH` kan peke på en annen lokal Chromium. Testen viser faktisk avspilling og dekoding; den erstatter ikke fysisk telefon eller menneskelig lytting.
 
-## Kvalitetsport og videre arbeid
+## Kilder og kostnader
 
-Les [qa/TESTRAPPORT.txt](qa/TESTRAPPORT.txt) og [audio/VOICE_BLOCKER.md](audio/VOICE_BLOCKER.md). Tekniske PASS er ikke kreativ godkjenning. M2 holdes igjen etter oppdragets regel om tre beståtte karakterprøver. De sju shottene, manus og undertekstreferansen er bevart i `brief/` for senere regiarbeid; de er **ikke** fremstilt som ferdig klippet timeline.
+Den opprinnelige 69-filspakken er verifisert med SHA-256 `cdf2332a59d40e7ade8d5db839dba1f1d544ae3685449dd9f0cb5b0873283a6e`. Storyboardbilder brukes kun som referanse og aldri som filmbilder. Alex, tre og miljøer er egne redigerbare vector-/mesh-kilder. NIM følger originalen. Open Sans-lisens og MIT/Apache-lisenser for den lokale Kokoro-stemmekilden er vedlagt. SFX er egen signal-/støy-syntese uten eksterne opptak eller kommersiell musikk.
 
-Nødvendige neste produksjonstrinn er bedre Alex-/trekunst og kontaktposering, godkjente naturlige stemmer, lydstyrte ansiktsnøkler, visuelt godkjente M1-prøver og deretter de sju shottene. Mobilavspilling med og uten lyd og forståelsestest på fem personer må gjennomføres før publisering. Ingen automatisk merge eller TikTok-publisering.
+Ingen betalt API, abonnement, WordPress-endring, produksjonsinstallasjon, automatisk merge eller TikTok-publisering er utført.

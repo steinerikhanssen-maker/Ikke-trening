@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "method": "copied current blender/assets/audio sources to fresh /tmp/gnf-source-rebuild, actually executed create_full_pilot.py in Blender and rendered revised shot 6",
+  "frame": 290,
+  "native_render_pixels_identical": true,
+  "rgba_pixel_sha256": "234a026626f12f89e9d45350f49f14a97a6b207bfe68708c68e3de734a8461ab"
+}

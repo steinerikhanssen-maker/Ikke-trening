@@ -1,0 +1,59 @@
+{
+  "premaster": {
+    "input_i": "-24.64",
+    "input_tp": "-5.57",
+    "input_lra": "2.40",
+    "input_thresh": "-36.01",
+    "output_i": "-15.50",
+    "output_tp": "-1.50",
+    "output_lra": "2.30",
+    "output_thresh": "-26.71",
+    "normalization_type": "dynamic",
+    "target_offset": "1.50"
+  },
+  "normalized": {
+    "input_i": "-24.64",
+    "input_tp": "-5.57",
+    "input_lra": "2.40",
+    "input_thresh": "-36.01",
+    "output_i": "-14.92",
+    "output_tp": "-1.50",
+    "output_lra": "2.70",
+    "output_thresh": "-26.14",
+    "normalization_type": "dynamic",
+    "target_offset": "0.92"
+  },
+  "sfx_cues": [
+    {
+      "file": "ui_ping.wav",
+      "seconds": 1.85,
+      "gain": 0.32
+    },
+    {
+      "file": "footstep.wav",
+      "seconds": 4.97,
+      "gain": 0.28
+    },
+    {
+      "file": "door_latch.wav",
+      "seconds": 4.86,
+      "gain": 0.24
+    },
+    {
+      "file": "bark_creak.wav",
+      "seconds": 6.19,
+      "gain": 0.3
+    },
+    {
+      "file": "phone_vibration.wav",
+      "seconds": 7.9,
+      "gain": 0.28
+    },
+    {
+      "file": "brand_stinger.wav",
+      "seconds": 10.55,
+      "gain": 0.25
+    }
+  ],
+  "voice_speed": 1.0
+}
