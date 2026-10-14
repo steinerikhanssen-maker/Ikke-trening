@@ -14,6 +14,24 @@ Denne grenen er isolert fra WordPress-pluginen. Den inneholder tre redigerbare B
 
 Den opprinnelige NIM-kunsten er bevart som fullkanvas SVG og PNG under `assets/nim_rig/`. Alex, treet og miljøene er redigerbar, proseduralt tegnet kunst i `blender/build_proofs.py` og de lagrede `.blend`-filene. Dette er ikke godkjent erstatning for konseptreferansens profesjonelle tegnestil.
 
+## M1-revisjon 14. oktober, videreført på eksisterende gren
+
+`blender/refine_characters.py` videreutvikler de eksisterende Alex-/treriggene.
+NIM-prosjektet, videoen og kildekunsten er uendret. Alex beholder nå telefonen
+under oppreisning/steg; avlegging på puten er utsatt, ikke løst. Eget håndledd,
+fingergrep, kles-/ansiktsdetaljer og per-frame benløsning er lagt til. Treet har
+kontinuerlig prosedural bark, større øyne, asymmetriske bryn og et vedvarende
+reaksjonsuttrykk. Ingen bildegenerator eller innlimte storyboardbilder er brukt.
+
+Gjeldende vurdering: `qa/REVISION_M1.txt`. Den opprinnelige TESTRAPPORT-teksten
+nedenfor revisjonsmerknaden beholdes som historikk. M1 er fortsatt FAIL.
+
+Kontaktmåling etter bygging:
+
+```bash
+blender -b marketing/animation/pilot/edit/Alex_PROOF.blend --python marketing/animation/pilot/blender/check_contacts.py -- marketing/animation/pilot/qa/contact-checks.json
+```
+
 ## Reproduser
 
 Faktisk kjørt versjon: **Blender 4.3.2**, Cycles CPU; **FFmpeg 7.1.5**. Python-standardbibliotek er nok. Ingen betalt API, abonnement, nytt GPU-miljø eller produksjonssystem brukes.

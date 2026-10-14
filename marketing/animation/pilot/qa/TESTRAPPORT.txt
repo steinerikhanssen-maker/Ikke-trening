@@ -1,3 +1,7 @@
+GJELDENDE REVISJON: Se REVISION_M1.txt og contact-checks.json.
+Rapporten nedenfor dokumenterer opprinnelig PR-leveranse før revisjonen.
+Samlet M1 er fortsatt FAIL; ingen fullfilm produsert.
+
 GYMNOTFOUND / THE UGLY TREE / ISSUE #4
 Dato: 2026-10-14
 Leveranse: M0-pipeline og M1-arbeidsprøver, ikke ferdig pilot

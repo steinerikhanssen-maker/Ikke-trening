@@ -265,6 +265,10 @@ elif CHAR=='Tree':
     s.timeline_markers.new('Ordinary bark - hold',frame=1); s.timeline_markers.new('Knot eyes unfold',frame=21); s.timeline_markers.new('Speech blocking - no audio',frame=26)
 else: raise ValueError(CHAR)
 
+# Refine existing Alex/Tree assets; NIM branch remains untouched.
+if CHAR in ('Alex','Tree'):
+    exec(compile((ROOT/'blender/refine_characters.py').read_text(), 'refine_characters.py', 'exec'))
+
 # Add the actual local audition as an editable, packed timeline stem. Rendering
 # uses the scene directly; FFmpeg muxes this same stem into the proof video.
 if CHAR in ['NIM','Tree']:
@@ -314,7 +318,7 @@ bpy.ops.wm.save_as_mainfile(filepath=str(edit/f'{CHAR}_PROOF.blend'))
 frames=ROOT/'renders'/CHAR; frames.mkdir(parents=True,exist_ok=True)
 s.render.filepath=str(frames/'frame_')
 if '--preview' in args:
-    s.render.resolution_percentage=50; s.cycles.samples=8
+    s.render.resolution_percentage=50; s.cycles.samples=32 if CHAR=='Tree' else 8
 if '--render' in args: bpy.ops.render.render(animation=True)
 if '--frame' in args:
     frame=int(args[args.index('--frame')+1]); s.frame_set(frame); s.render.filepath=str(ROOT/'qa'/f'{CHAR}_{frame:03d}.png'); bpy.ops.render.render(write_still=True)

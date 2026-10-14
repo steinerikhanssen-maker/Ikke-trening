@@ -12,7 +12,7 @@
   },
   {
     "file": "previews/Alex_walk.mp4",
-    "sha256": "3752d629685a0c40e7c632ee01a0e4b35f6030ea13e8681610e48844104f5a4e",
+    "sha256": "d0e7bc7a77c4c5c285b36c35f30ebd32385f88a46a91b7b48aac742bfb077547",
     "status": "PASS",
     "duration": "2.000000",
     "width": 540,
@@ -23,7 +23,7 @@
   },
   {
     "file": "previews/Tree_reveal.mp4",
-    "sha256": "84bc24ffe4c9324a5c86d244119465e35664933b7c385a9f5aae48281de32192",
+    "sha256": "4d244989daa017c7b9d47ea0fb246c4980c489a94bc144165f83c9c75aaae5cf",
     "status": "PASS",
     "duration": "2.000000",
     "width": 540,
