@@ -1,0 +1,91 @@
+GYMNOTFOUND – THE UGLY TREE / SLUTTLEVERANSE
+Dato: 2026-10-14 21:45 UTC
+Omfang: én 12-sekunders pilot, tre karakterprøver, redigerbare kilder og lyd.
+Leveransestatus: PASS – full film og kildeprosjekt er eksportert og kontrollert.
+Publiseringsport: NOT TESTED – fysisk telefon og uavhengig seertest gjenstår.
+Ingen publisering eller merge er utført. Ingen sesongproduksjon er startet.
+
+M0 – KILDER OG FAKTISK PIPELINE
+PASS: Originalarkivets 14 deler rekonstruert, 69 filer / 7 864 379 byte,
+      SHA-256 cdf2332a59d40e7ade8d5db839dba1f1d544ae3685449dd9f0cb5b0873283a6e.
+PASS: verify_bundle.py kjørt; faktiske kilder og rigglag finnes.
+PASS: Blender 4.3.2 bygger, lagrer, åpner og renderer prosjektene.
+      Cycles CPU er brukt i sluttfilmen. EEVEE er separat prøvd med Xvfb,
+      men er ikke nødvendig for levering eller gjenoppbygging.
+
+M1 – OPPDATERTE KARAKTERPRØVER / VISUELL EGENKONTROLL
+PASS (egenkontroll av native bilder og kontaktark, ikke ekstern godkjenning):
+- NIM beholder original silhuett, farger, antenne og rigglag. Armgesten har
+  anticipation, hold og retur; uttrykk, blink og lydstyrte munnformer animeres.
+  Armovergangen blandes mot original kroppsfarge ved foreground-gesten.
+- Alex er en voksen tegnet figur med mørk hoodie, grå bukser og samme
+  ansiktsgeometri gjennom alle opptredener. Han setter ned telefonen, bøyer
+  seg fram, reiser seg over plantede føtter og tar ett steg.
+- Treet begynner som et vanlig kroket tre. Knuter/bryn/kjeve deformerer
+  ett sammenhengende 15 617-vertex barkmesh; ingen separat svart munnplate.
+  Furer og tekstur følger samme barkflate, uten tidligere rutete materiale.
+PASS: Native 1080x1920 / 30 fps / 60 frames / 2.00s i alle tre proof-klipp.
+PASS: Telefon/hånd målt i 22 frames, gap <0.000001 world units (grense .025).
+PASS: To faktiske evaluerte skosåler står fast i 45 frames hver, målt mot gulv.
+      Se contact-checks.json, de tre proof-prosjektene og nye kontaktark.
+
+M2 – FULL FILM OG KONTINUITET
+PASS: Sju ekte animerte Blender-scenes i redigerbar VSE, ingen tidslinjehull.
+PASS: Alle 360 native bilder rendret; siste NIM-justering rendret på nytt i
+      159 berørte frames. Faktiske Saved-linjer er bevart i sammendragslogger.
+PASS: Statiske kameraer; karakter-/meshbevegelse, ingen storyboard-pan/zoom.
+PASS (visuell egenkontroll): telefon, dørsteg, pointing, tree reveal, NIMs
+      payoff og sluttmerke gjennomgått i native stillbilder og kontaktark.
+PASS: GymNotFound finnes i telefonshot og på sluttkortet; ingen appbutikk-CTA.
+PASS: Sju engelske captions på egne redigerbare tekstobjekter og i SRT.
+      Faktisk evaluert tekstgeometri er målt innen x72..890 / y1300..1720.
+      Captions viser hele setup/payoff også uten lyd.
+NOT TESTED: En ukjent seers forståelse/humor uten forklaring. Ikke utledet
+            fra tekniske kontroller eller agentens kjennskap til skriptet.
+
+M3 – STEMMER OG LYD
+PASS: Sju lokale Kokoro-stems brukt i filmen, tre ulike stemmer:
+      Alex am_michael, NIM af_heart, Tree bm_george. Speed=1.0; ingen
+      tidsakselerering av replikker. Klipp retimet rundt faktiske varigheter.
+PASS: MIT/Apache-2.0-proveniens og modell-/stemkontrollsummer er vedlagt.
+      Lyden er nevral Kokoro, ikke eSpeak-placeholder. Ingen betalt tjeneste.
+PASS: Seks egne syntetiserte SFX, separat dialog-/effektstem og ferdig miks.
+PASS: Ferdig AAC målt til -14.93 LUFS / -1.47 dBTP,
+      under -1 dBTP, uten klipping. 48 kHz lyd; 24-bit WAV-stems følger med.
+PASS: Munn/ansiktsbevegelse styres av faktisk stemmelyd og slutter etter tale.
+NOT TESTED: Menneskelig castinggodkjenning, 100 % replikkforståelighet,
+            profesjonell acting/leppesynk og faktisk høyttaler-/hodetelefonlytting.
+
+M4 – EKSPORT, AVSPILLING OG ÅPNING AV LEVERANSEN
+PASS: GymNotFound_S01E01_TikTok_FINAL.mp4: 12.000 s, 360 frames,
+      1080x1920, 30/1 fps, H.264 high/yuv420p + AAC 48 kHz; FFmpeg 7.1.5.
+PASS: Alle 540 filmbilder/proof-bilder faktisk dekodet uten FFmpeg-feil.
+PASS: 59 faktiske prosjektkontroller i Blender, alle PASS.
+PASS: Full .blend har pakkede bilder/fonter/stems, relative ressursstier,
+      sju shots, de samme Alex-kildene og separate tekstobjekter.
+PASS: Gjeldende kunst-/riggkilder bygget i en ny /tmp-mappe i faktisk Blender;
+      rendret frame 290 har identiske RGBA-piksler med sluttfilmens shot 6.
+PASS: Kopiert full .blend ALENE til /tmp/gnf-full-relocation, åpnet og
+      rendret frame 333. Dekodede RGBA-piksler er identiske med originalrender.
+      PNG-filhash varierer grunnet Blenders dato-/kildesti-metadata.
+PASS: 10 faktiske avspillinger i Chromium 154.0.8037.57, desktop og
+      390x844 mobil-emulering. Hele filmen spilt til slutt med lyd aktivert
+      og mutet i begge visninger; tre proofs i begge. Ingen mediafeil.
+      Testen registrerer 0–9 dropped frames per run på cloud-maskinen;
+      dette er ingen garanti for null dropped frames på en fysisk telefon.
+      AudioDecodedBytes dokumenterer dekoding, ikke menneskelig lytting.
+PASS: Review-side, cover, nye kontaktark og desktop-/mobilscreenshot er vedlagt.
+NOT TESTED: Fysisk iOS-/Android-telefon, vanlig telefonapp med lyd PÅ/AV,
+            TikTok-UI/appavspilling og første-to-sekunder-scroll med fem seere.
+NOT TESTED: Blender 4.5/5.x, ekstern art director og publikumsgodkjenning.
+
+LEVERANSE OG GJENVÆRENDE GODKJENNING
+Full film, full .blend, tre proofs, redigerbare kunst-/riggkilder, WAV-stems,
+SRT, cover, faktisk QA og rebuild-skript følger med. ZIP bygges med CRC-
+kontroll og medie-/kildekontrollsummer. WordPress-pluginkoden er ikke endret.
+
+De gamle FAIL-resultatene er historiske og bevart i qa/history/.
+Denne leveransen er en full eksport til eierens gjennomgang. Publiseringsklarhet
+og profesjonell/menneskelig kvalitetsgodkjenning hevdes ikke. Fysisk mobiltest,
+fem seere og lyd-/actinggodkjenning må gjennomføres før publisering etter
+brief/release_gate_no.md. Ingen betalt API, produksjonsinstallasjon eller merge.

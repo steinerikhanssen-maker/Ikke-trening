@@ -1,0 +1,232 @@
+[
+  {
+    "file": "edit/NIM_PROOF.blend",
+    "sha256": "7f1b70796cad39bb448befc3e7441d6ec681ba245a662eaff49ef647af912893",
+    "unchanged": true
+  },
+  {
+    "file": "previews/NIM_acting.mp4",
+    "sha256": "bc7d8d458beabc751b334f5013758f59edca0ddfceb97b471fff99df7bc217e8",
+    "unchanged": true
+  },
+  {
+    "file": "assets/nim_rig/layer_bounds.json",
+    "sha256": "50752a7197df8cd9b97758e1f5ca00c6f2502fe5318cb90daaa2601f771a9e32",
+    "unchanged": true
+  },
+  {
+    "file": "assets/nim_rig/nim_neutral_composite.png",
+    "sha256": "ef92d2b53372bf906e1f4dab12f7b54be9cc852e7bb5df2331a8072257121f58",
+    "unchanged": true
+  },
+  {
+    "file": "assets/nim_rig/rig_manifest.json",
+    "sha256": "14dc8da2051116ec967a6bd023b5e6af1063ba615ec551ca2f33449fa882ddf1",
+    "unchanged": true
+  },
+  {
+    "file": "assets/nim_rig/NIM_expression_sheet.png",
+    "sha256": "7072d4f12effd3af874065a6401b80a2bab6f2a5945b85e401a19f3f5f65d9e1",
+    "unchanged": true
+  },
+  {
+    "file": "assets/nim_rig/svg/09_mouth_ah.svg",
+    "sha256": "05bdc01e3a02225b6129e64cb1c58beec640c62b1baf2d0a5a55c74221d54e21",
+    "unchanged": true
+  },
+  {
+    "file": "assets/nim_rig/svg/05_body.svg",
+    "sha256": "90e42bb58a7d34adde8680450f8352458f050a2f82df202abd3f1b81a3d1da2b",
+    "unchanged": true
+  },
+  {
+    "file": "assets/nim_rig/svg/08_eyes_surprised.svg",
+    "sha256": "57253a0b393a407dd98d05bb6e747d5c9a902ffdc1829ac9503a4fc01887758f",
+    "unchanged": true
+  },
+  {
+    "file": "assets/nim_rig/svg/06_highlight.svg",
+    "sha256": "ab239b3cd37498207c98c358d1dec32716a8fc13982b9ac140b4d8f2ecc9a6da",
+    "unchanged": true
+  },
+  {
+    "file": "assets/nim_rig/svg/09_mouth_grin.svg",
+    "sha256": "92c7d1a821f810e2f3dffc527c0f3a59043e9fab9bfad7329c7fb1d937007d57",
+    "unchanged": true
+  },
+  {
+    "file": "assets/nim_rig/svg/00_shadow.svg",
+    "sha256": "4f061e8864df7273c2c16e379251a422c74a375598f9f32153a55b60f4d9dd22",
+    "unchanged": true
+  },
+  {
+    "file": "assets/nim_rig/svg/08_eyes_neutral.svg",
+    "sha256": "dfd4d6766f538fc345b9b64c443ec93d872db0bf99867da2e1e86f7abc1a544e",
+    "unchanged": true
+  },
+  {
+    "file": "assets/nim_rig/svg/08_eyes_squint.svg",
+    "sha256": "3c40ac5b57c6155d92b1a94cf57f87b1af2d786b2c92787c4f46048f1030ba2b",
+    "unchanged": true
+  },
+  {
+    "file": "assets/nim_rig/svg/09_mouth_mm.svg",
+    "sha256": "9a8b3d6495670764401180043357ec0a0aa99b1bed9804d1b669c4c76f809eae",
+    "unchanged": true
+  },
+  {
+    "file": "assets/nim_rig/svg/01_leg_left.svg",
+    "sha256": "4a4b329d048ee98b7bfc9040dc1e9b97a0d03d4505e1b7947b3023967e26bb75",
+    "unchanged": true
+  },
+  {
+    "file": "assets/nim_rig/svg/09_mouth_smirk.svg",
+    "sha256": "3c1367f268861affa66871e43046f3b9ee0f3c6e702d9a91254ba15dba56eb45",
+    "unchanged": true
+  },
+  {
+    "file": "assets/nim_rig/svg/02_leg_right.svg",
+    "sha256": "b5d2a5828b3b55fcd6654b199d208213991cc98453e81ae197eea9ef54fe2ae2",
+    "unchanged": true
+  },
+  {
+    "file": "assets/nim_rig/svg/10_antenna.svg",
+    "sha256": "17d6089e9ada7daf2ae9d55a18e99bc90d6cdd966263a6c7314c26305b6f2f04",
+    "unchanged": true
+  },
+  {
+    "file": "assets/nim_rig/svg/09_mouth_oh.svg",
+    "sha256": "af9555aeab880012029c6eb2e01e3cc800767d1c6919097db303643092052faa",
+    "unchanged": true
+  },
+  {
+    "file": "assets/nim_rig/svg/07_cheeks.svg",
+    "sha256": "0e48f904934879057b4c35eb916363e1f6afb946d0eee9b67a77ae2d2a196747",
+    "unchanged": true
+  },
+  {
+    "file": "assets/nim_rig/svg/04_arm_right.svg",
+    "sha256": "5c24076703bdac4fad6147266aa8a3e4fc4459e63605e9c31bcc4568f98c1c88",
+    "unchanged": true
+  },
+  {
+    "file": "assets/nim_rig/svg/11_sparks.svg",
+    "sha256": "6d8f1a6b9291a48ae3376564ee51da945b35ac070e73fc4c1a2752dfa4733bdd",
+    "unchanged": true
+  },
+  {
+    "file": "assets/nim_rig/svg/03_arm_left.svg",
+    "sha256": "29f808a67b43196b16c762998fef6618bc0a2a4f00a4242056d357db2232bc43",
+    "unchanged": true
+  },
+  {
+    "file": "assets/nim_rig/svg/08_eyes_smug.svg",
+    "sha256": "0377340aa258d057033df93a15c6de34f02374146fb7664a76be2209bc0089a7",
+    "unchanged": true
+  },
+  {
+    "file": "assets/nim_rig/svg/09_mouth_neutral.svg",
+    "sha256": "66123ce7cfd1ee5df342ee121cdd2a8b6710faf54fe16c41de6458a6e2af2d1e",
+    "unchanged": true
+  },
+  {
+    "file": "assets/nim_rig/png/04_arm_right.png",
+    "sha256": "3d2ef88084327b6495ee1c1a2f1ee9fa25ce231ec2c4e0aa2d42110fc662dfb4",
+    "unchanged": true
+  },
+  {
+    "file": "assets/nim_rig/png/08_eyes_squint.png",
+    "sha256": "579a6814ad01c0a3504d62cdec86c455e11528def4c956eff0760df72b73536f",
+    "unchanged": true
+  },
+  {
+    "file": "assets/nim_rig/png/09_mouth_mm.png",
+    "sha256": "c5cf955c6900b980a46cd4e2ac495129d1f320948f54e6a0066ab941ad69abc2",
+    "unchanged": true
+  },
+  {
+    "file": "assets/nim_rig/png/07_cheeks.png",
+    "sha256": "3514760f328f103859ffb37a8a095af5c403987edf4ddd568d2da05a580e4a23",
+    "unchanged": true
+  },
+  {
+    "file": "assets/nim_rig/png/09_mouth_neutral.png",
+    "sha256": "a711695980144cf7efa877fd8d3fa890c3a8ea8343a4b50abe284fdceb62bac6",
+    "unchanged": true
+  },
+  {
+    "file": "assets/nim_rig/png/00_shadow.png",
+    "sha256": "11382a1b7ff77203f948ba754756f76e1971e27213c976ebc307f4473bfdd67c",
+    "unchanged": true
+  },
+  {
+    "file": "assets/nim_rig/png/09_mouth_smirk.png",
+    "sha256": "894e9448f63243e01f9339d2450ead35ed255ce9c0c994e98d74fbb42888ba56",
+    "unchanged": true
+  },
+  {
+    "file": "assets/nim_rig/png/02_leg_right.png",
+    "sha256": "4a0f71ce5ba22175fd5ff29051b5f109956f6e0532808c4c3b70b8990c2ff87c",
+    "unchanged": true
+  },
+  {
+    "file": "assets/nim_rig/png/10_antenna.png",
+    "sha256": "21a40f0669d1fb676f2f4cb07fab96ad1b60de19fdce050d66b26517a68b6a29",
+    "unchanged": true
+  },
+  {
+    "file": "assets/nim_rig/png/11_sparks.png",
+    "sha256": "62b5dec19a14ad7e07b41976c10149058b3ad124d9674b8273c149ccb81979d3",
+    "unchanged": true
+  },
+  {
+    "file": "assets/nim_rig/png/08_eyes_surprised.png",
+    "sha256": "369cd0d22745ea16707a0fc1ec658be9044e1891dfb3ec9c83ad88c2d30a3c30",
+    "unchanged": true
+  },
+  {
+    "file": "assets/nim_rig/png/01_leg_left.png",
+    "sha256": "bce609d0d357fe276cc66d4b0f93aca5439debfbe382ca0e59eb4d89a3a795d4",
+    "unchanged": true
+  },
+  {
+    "file": "assets/nim_rig/png/09_mouth_oh.png",
+    "sha256": "25ba3b0b3b3b03bf1d2aa3d352c49a950f988779d0831717e1822afaaf70aeb4",
+    "unchanged": true
+  },
+  {
+    "file": "assets/nim_rig/png/08_eyes_neutral.png",
+    "sha256": "5cfea56baee2f54e977eee378c4306ba34c6b5876b9da2f8319386038c031424",
+    "unchanged": true
+  },
+  {
+    "file": "assets/nim_rig/png/06_highlight.png",
+    "sha256": "30e71fb4c729fb2c3437de39bc3e7a9c775231b9fc2d1b3b67eefa7a121c2f38",
+    "unchanged": true
+  },
+  {
+    "file": "assets/nim_rig/png/08_eyes_smug.png",
+    "sha256": "e42abfff194e9301948d64e406715ec4959f16e58a22ac70f43a855e61f17d07",
+    "unchanged": true
+  },
+  {
+    "file": "assets/nim_rig/png/09_mouth_grin.png",
+    "sha256": "2681c57268e726032118a56a4793be42e35b69b9f9250674e6b3e6dac2681e55",
+    "unchanged": true
+  },
+  {
+    "file": "assets/nim_rig/png/09_mouth_ah.png",
+    "sha256": "3fcf202881343ec25d45484264b31a366030f32bd6ff6dc0cc8fa3ef851df56b",
+    "unchanged": true
+  },
+  {
+    "file": "assets/nim_rig/png/03_arm_left.png",
+    "sha256": "c7feec980279139c61b38d4bec0c0e9a490c7224637b24c3ef7c5a083e84c809",
+    "unchanged": true
+  },
+  {
+    "file": "assets/nim_rig/png/05_body.png",
+    "sha256": "0fe5c89b0d18cf359d9746f86cca3e7b82e39e3866c169e9e713721f373bf865",
+    "unchanged": true
+  }
+]

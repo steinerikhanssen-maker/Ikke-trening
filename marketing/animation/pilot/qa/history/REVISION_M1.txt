@@ -1,0 +1,60 @@
+GYMNOTFOUND / THE UGLY TREE / M1 REVISION
+2026-10-14 — existing marketing/pilot-animation branch / PR #5
+Base: 0bad7019d821a739f154109af85f1a339e3776f1
+Overall creative gate: FAIL / WORK IN PROGRESS
+
+IMPLEMENTED
+Alex: existing armature retained and extended with independent hand_L wrist.
+Phone stays upright in a visible finger/thumb grip during the rise and step.
+Added facial side plane, cheek/lip detail, hoodie shading/pocket/hem, shoe
+soles and laces. Analytic legs baked each frame; left foot planted throughout,
+right foot lifts and lands. Original unsupported phone-to-cushion interpolation
+removed. Phone placement on the cushion is DEFERRED, not fixed or approved.
+Tree: retained connected bark mesh and speech/reveal shape keys. Replaced
+face-wise bark colours with continuous stretched Noise shading and bump.
+Added larger knot sockets, pupils, highlights, bark lids, asymmetrical brows,
+and a sideways glance. Mouth colouring is continuous shader geometry-space
+mask driven by the existing speech shape key, removing blocky face colouring.
+NIM: original source, saved project and preview preserved byte for byte.
+
+TECHNICAL CHECKS
+PASS: actual Blender 4.3.2 rebuild and reopen of both edited .blend projects.
+PASS: 25 existing project assertions (Alex 11 / Tree 14).
+PASS: check_contacts.py samples evaluated geometry at every frame, 1–60.
+      Left ankle X drift: 0.000000228 scene units.
+      Left/contact-right ankle height error: 0.000000143 scene units.
+      Phone-to-hand centroid offset drift: 0.000000255 scene units.
+      Evidence: contact-checks.json. This is geometric contact, not a
+      biomechanical centre-of-mass or convincing-weight certification.
+PASS: both new videos encoded; all 180 frames across the three previews
+decoded without FFmpeg errors. H.264/yuv420p, 60 frames each, exact 2.00 s.
+Evidence: media-checks.json; Alex-render.log and Tree-render.log each record
+60 freshly saved Blender frames.
+Project size remains 1080x1920; review renders remain 540x960, 30 fps, 2 s.
+Tree uses 32 Cycles CPU samples to reduce visible bark noise. Alex uses 8.
+No rendering of the 12-second full film or the remaining series.
+
+VISUAL REVIEW — ASSISTANT INSPECTION, NOT OWNER/ART-DIRECTOR APPROVAL
+Reviewed rendered key poses and contact sheets. This is not a five-person
+comprehension test, physical-phone playback or a professional casting review.
+PASS, narrow visual comparison: checkerboard bark eliminated; tree eyes and
+brows are markedly more readable; Alex's phone no longer flies to the sofa.
+FAIL, overall Alex art: still a relatively flat procedural cutout; torso and
+head orientation are stiff, with too little facial acting and secondary motion.
+The seated cushion compression, body weight and final stance require art and
+animation polish despite planted ankle coordinates. Detail is not equivalent
+to a professional character redesign.
+REQUIRES REVIEW, tree acting: reaction is now visible but may read as weary or
+sad rather than specifically insulted. Bark/face integration and the transition
+from ordinary tree to reaction need further art direction. Audition-envelope
+jaw movement remains approximate, not approved phoneme sync.
+NOT TESTED THIS REVISION: browser playback, physical mobile, five viewers,
+subjective voice listening/casting, final film timing and final audio mix.
+Earlier browser/audio logs belong to the initial proofs, not these new clips.
+
+NEXT CREATIVE GATE
+Alex needs a stronger silhouette and expressive face/torso performance, plus
+convincing seat compression and settled weight. Tree needs a less sad, more
+personally offended reaction, integrated with bark and dialogue timing.
+Keep M1 FAIL until those points are visually approved. No FINAL deliverable,
+no merge, no season production and no TikTok publication.

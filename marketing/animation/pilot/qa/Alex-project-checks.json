@@ -1,0 +1,42 @@
+{
+  "file": "Alex_PROOF.blend",
+  "blender": "4.3.2",
+  "checks": [
+    {
+      "name": "actual Blender project opens",
+      "status": "PASS"
+    },
+    {
+      "name": "native two-second proof",
+      "status": "PASS"
+    },
+    {
+      "name": "camera remains static",
+      "status": "PASS"
+    },
+    {
+      "name": "file image assets embedded",
+      "status": "PASS"
+    },
+    {
+      "name": "relative image paths",
+      "status": "PASS"
+    },
+    {
+      "name": "real multi-bone rig",
+      "status": "PASS"
+    },
+    {
+      "name": "actual weighted character geometry",
+      "status": "PASS"
+    },
+    {
+      "name": "poses actually differ",
+      "status": "PASS"
+    },
+    {
+      "name": "all mesh coordinates finite",
+      "status": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "clip": "NIM_acting",
+    "input_LUFS": "-25.34",
+    "input_true_peak_dBTP": "-9.08",
+    "status": "PASS",
+    "scope": "No clipping in proof audio, not final-master approval"
+  },
+  {
+    "clip": "Tree_reveal",
+    "input_LUFS": "-24.35",
+    "input_true_peak_dBTP": "-8.81",
+    "status": "PASS",
+    "scope": "No clipping in proof audio, not final-master approval"
+  }
+]

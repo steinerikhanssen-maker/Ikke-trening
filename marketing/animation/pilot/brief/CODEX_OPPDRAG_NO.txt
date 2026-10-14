@@ -1,0 +1,42 @@
+GYMNOTFOUND - BESTILLING TIL CODEX: PROFESJONELL PILOTEPISODE
+
+Du arbeider utelukkende med en animeringspilot for GymNotFound. IKKE endre appens funksjonalitet og IKKE lag ti TikTok-episoder nå. Første leveranse er én godt animert 12-sekunders episode «The Ugly Tree», med 30 fps i vertikalt 1080x1920-format.
+
+LES OG BRUK ALLE DISSE KILDENE I DENNE PAKKEN:
+- GymNotFound_S01E01_Pilot_Brief.pdf
+- brief/shot_plan.json (mål: 360 frames i 7 shots)
+- brief/shotlist_30fps.csv
+- brief/character_bible_no.md
+- brief/animation_direction_no.md
+- brief/script_voice_en.txt
+- brief/release_gate_no.md
+- assets/reference/NIM_original_reference.png, approved_storyboard_REFERENCE_ONLY.png
+- assets/nim_rig/svg/ og /png/ og rig_manifest.json
+- blender/create_project.py (ENKELT STARTPUNKT; ikke ferdig animasjon)
+
+BRUK GRATIS VERKTØY:
+Blender Grease Pencil/2.5D puppet/mesh rigging for karakterenes ekte acting; Audacity eller gratis DaVinci Resolve til stemmer/lyd/redigering, ffmpeg for teknisk levering. Ingen abonnement, ingen betalte AI-API-er som krav. Hvis profesjonelle stemmer ikke finnes, dokumenter det ærlig og be om nødvendig opptak – IKKE lag falskt ferdigbevis.
+
+TEKNISK OG VISUELL OPPGAVE:
+1. Verifiser Blender-versjon og kjør/tett opp blender/create_project.py. Sjekk alpha sorting og at de originale NIM-lagene sammensettes riktig.
+2. Bygg rigg med NIMs armer, ben, kropp, munn og øyne fra SVG/PNG-lagene. Tilfør nødvendige hand-shapes og øyenbryn. Lag timing/poses som følger storyboards og voice takes. NIM skal ha original silhuett og uttrykk.
+3. Lag Alex i rene lag/tegninger med minst 5 distinkte poseringer og ansiktskontroller; modell/rigg må være konsekvent i alle scener. Lage en bark-deformert trefigur (sammensatt i barken, ikke overlay-munn).
+4. Lag egne rene bakgrunnslag for stue, dør/fortau og nabolagspark, med samme lys/farge og kameraretning. Det godkjente storyboardet har tekst og tidsstempler og SKAL IKKE brukes som faktiske bildeplater.
+5. Regissert animasjon for 7 shots: åpning, NIM oppdrag, faktisk exit-bevegelse, tre etableres, tre reagerer, NIM gotcha, kompakt brand. Hold video 12s, men prioriter forståelig tale og vits; om nødvendig kort ned annet, ikke lydhurtigspill.
+6. Spill inn/lag tre separate stemmespor (Alex/NIM/tre) lovlig og konsistent. Lag lip sync, originale lydeffekter, undertekster i redigerbare layers. Ingen musikkrettighetsbrudd.
+7. Eksportér en 1080x1920 30fps 360-frame H.264/AAC TikTok-fil og prosjektfil med alle redigerbare kildeassets. Render minst tre kontrollerte delprøver (åpningsspill, tre-avsløring, NIM gotcha) før full film.
+8. Kritisk kvalitetssjekk mot release_gate_no.md. Vis synlig dokumentert ytelses-/visual QA, ikke bare fil-integritet. Rapportér PASS / FAIL / NOT TESTED og reelle begrensninger.
+
+IKKE GODTA:
+- kun bildepanorering/Ken Burns eller automatiske overganger
+- rektangulære bildeflater over uskarpe gamle scener
+- sirkelformet pålimt munn på treet
+- plakat-typografi som dekker ansiktene
+- generisk ny maskot som ikke er NIM
+- juks med «proff kvalitet» uten bestått visuell gjennomgang
+
+GIT ARBEID:
+Arbeid i egen 'marketing/pilot-animation' gren/prosjektmappe, isolert fra WordPress-pluginens kode. Lag PR når pilotprosjekt og tester er dokumentert. Ikke merge eller publiser på TikTok automatisk.
+
+DEFINISJON AV FERDIG:
+Lever 1) selve publikumsrettede filmen, 2) .blend-prosjekt, 3) kildegrafikk med lag, 4) lyd-/subtitle-stems, 5) korrekt eksport, 6) skjermbilder fra nøkkelframes og 7) en teststatus som dokumenterer at karakteranimasjonen faktisk holder mål. Før alt dette er levert er dette en pilot under produksjon, ikke «klar for publisering».

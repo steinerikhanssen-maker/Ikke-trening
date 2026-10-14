@@ -1,0 +1,66 @@
+{
+  "media": [
+    {
+      "file": "final/GymNotFound_S01E01_TikTok_FINAL.mp4",
+      "frames": 360,
+      "duration_seconds": 12,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "video_codec": "h264",
+      "audio": "AAC 48kHz",
+      "sha256": "30b6cf2f54f509bf10e0059838397eae6dfd631699e5f3bd0a413f465d1022b4",
+      "status": "PASS"
+    },
+    {
+      "file": "previews/NIM_acting.mp4",
+      "frames": 60,
+      "duration_seconds": 2,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "video_codec": "h264",
+      "audio": "AAC 48kHz",
+      "sha256": "1beb789f0ffe92c07c3ec940326131196af69a47c10aca62ba30dd8b4d1a65dd",
+      "status": "PASS"
+    },
+    {
+      "file": "previews/Alex_walk.mp4",
+      "frames": 60,
+      "duration_seconds": 2,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "video_codec": "h264",
+      "audio": "silent movement proof",
+      "sha256": "3313cb0fb01d95060980b1d8658ef8616706cff1c96601ad0bc388361f5e5484",
+      "status": "PASS"
+    },
+    {
+      "file": "previews/Tree_reveal.mp4",
+      "frames": 60,
+      "duration_seconds": 2,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "video_codec": "h264",
+      "audio": "AAC 48kHz",
+      "sha256": "2ffcb6237c52af08439469a7491c7805f1ea63d12a20b892e4ea4e03caeee62f",
+      "status": "PASS"
+    }
+  ],
+  "finished_film_audio": {
+    "integrated_LUFS": "-14.93",
+    "true_peak_dBTP": "-1.47",
+    "status": "PASS"
+  },
+  "scope": "technical validation; physical phone and independent viewers are separate tests"
+}

@@ -1,0 +1,42 @@
+{
+  "file": "Tree_PROOF.blend",
+  "blender": "4.3.2",
+  "checks": [
+    {
+      "name": "actual Blender project opens",
+      "status": "PASS"
+    },
+    {
+      "name": "native two-second proof",
+      "status": "PASS"
+    },
+    {
+      "name": "camera remains static",
+      "status": "PASS"
+    },
+    {
+      "name": "file image assets embedded",
+      "status": "PASS"
+    },
+    {
+      "name": "relative image paths",
+      "status": "PASS"
+    },
+    {
+      "name": "continuous editable bark mesh",
+      "status": "PASS"
+    },
+    {
+      "name": "actual knot/brow/jaw shape keys",
+      "status": "PASS"
+    },
+    {
+      "name": "no mouth overlay object",
+      "status": "PASS"
+    },
+    {
+      "name": "all mesh coordinates finite",
+      "status": "PASS"
+    }
+  ]
+}
