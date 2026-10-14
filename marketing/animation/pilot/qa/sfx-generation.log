@@ -1,0 +1,56 @@
+[
+  {
+    "file": "sfx/ui_ping.wav",
+    "duration_s": 0.35,
+    "sample_rate": 48000,
+    "peak_dBFS": -15.77,
+    "provenance": "Original waveform/noise synthesis by generate_sfx.py; no external samples",
+    "sha256": "a908c466ce711bfe6f1b0049c36e7250024491e407b59ba97d1b13055c6ac18e",
+    "artistic_approval": "NOT TESTED"
+  },
+  {
+    "file": "sfx/footstep.wav",
+    "duration_s": 0.18,
+    "sample_rate": 48000,
+    "peak_dBFS": -16.01,
+    "provenance": "Original waveform/noise synthesis by generate_sfx.py; no external samples",
+    "sha256": "82e3563a20e5a80949d81bb162af6af4fdbc60044e939c9576642e360cf14cce",
+    "artistic_approval": "NOT TESTED"
+  },
+  {
+    "file": "sfx/door_latch.wav",
+    "duration_s": 0.14,
+    "sample_rate": 48000,
+    "peak_dBFS": -16.92,
+    "provenance": "Original waveform/noise synthesis by generate_sfx.py; no external samples",
+    "sha256": "ff7779533f149bb3160f9aa65ae2b7af1f46d7534f4541f9891f3d4c83c07cc2",
+    "artistic_approval": "NOT TESTED"
+  },
+  {
+    "file": "sfx/bark_creak.wav",
+    "duration_s": 0.5,
+    "sample_rate": 48000,
+    "peak_dBFS": -20.63,
+    "provenance": "Original waveform/noise synthesis by generate_sfx.py; no external samples",
+    "sha256": "a18800f3024cbc956a8d212402bf27443ff82421ccf6a5243485fb32e079d5bf",
+    "artistic_approval": "NOT TESTED"
+  },
+  {
+    "file": "sfx/phone_vibration.wav",
+    "duration_s": 0.4,
+    "sample_rate": 48000,
+    "peak_dBFS": -24.44,
+    "provenance": "Original waveform/noise synthesis by generate_sfx.py; no external samples",
+    "sha256": "940edabeba74989fc0e22134b4ee32a01b0de3fb056223c09499fca0c922090c",
+    "artistic_approval": "NOT TESTED"
+  },
+  {
+    "file": "sfx/brand_stinger.wav",
+    "duration_s": 0.6,
+    "sample_rate": 48000,
+    "peak_dBFS": -15.77,
+    "provenance": "Original waveform/noise synthesis by generate_sfx.py; no external samples",
+    "sha256": "64d6129a9d6e520760920333e0c2ab75de56815e31f248f3915472c13bc40fa1",
+    "artistic_approval": "NOT TESTED"
+  }
+]

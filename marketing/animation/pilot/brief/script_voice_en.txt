@@ -1,0 +1,33 @@
+GYMNOTFOUND - THE UGLY TREE | S01E01 PRODUCTION PILOT | 12.0 s | 30 fps
+
+CHARACTERS AND DIALOGUE (LOCKED FOR PILOT)
+00.23-01.47 ALEX, half-asleep, mutters: "I hate exercise."
+01.63-02.03 NIM, delighted but underplayed: "Perfect."
+02.13-03.67 NIM, dry/clear: "Find the ugliest tree."
+04.90-05.60 ALEX, unenthusiastic: "Found it."
+06.43-07.93 TREE, affronted and low: "I can hear you."
+08.57-09.67 NIM, dry: "You went outside."
+09.73-10.73 NIM, tiny satisfied breath: "Gotcha."
+10.80-12.00 BRAND: "GymNotFound. Exercise by accident." (screen text only)
+
+The timecodes are EDIT TARGETS, not speech-synthesis guarantees. Record first and retime the edit so that words are legible and the 12.0 s master remains coherent; do not accelerate dialog unnaturally.
+
+FUNCTION OF THE JOKE
+NIM is not a fitness coach demanding effort: NIM sneaks a very ordinary walk into a ridiculous errand. Tree gets the biggest surprise. NIM gets the quiet last word. Alex is a competent, slightly tired adult, never ridiculed for their body or ability.
+
+VOICE CASTING
+Alex: warm natural adult voice, understated, no cartoon groans. Accent: neutral international English, conversational speed. Take one tired and one dry delivery.
+NIM: mischievous gender-neutral soft youthful/young adult voice, subtle warmth, quick precise consonants. "Perfect" should be serious, not squealed. "Gotcha" nearly whispered.
+Tree: resonant low gravelly character voice, but intelligible. Irritated, not monstrous. The first half-beat of silence before "I" is important.
+Do not imitate or clone recognizable people without permission. Keep spoken audio separate per character in WAV 48kHz/24-bit if possible.
+
+SOUND
+0.0-1.6: room tone, thumb swipe, subtle exhale. No continuous music by default.
+1.6: soft UI ping, 2.9 playful pop.
+3.8-4.8: shoes, door latch, two footsteps. No exaggerated sneaker squeaks.
+6.3: restrained bark creak, release after punchline. No jump-scare boom.
+8.3: phone vibration. 10.8: quiet bright two-note stinger, no heavy logo sound.
+Loudness target for export: roughly -14 LUFS integrated, peaks below -1 dBTP; verify before uploading. Licensed or original audio only.
+
+CAPTIONS
+Burn in from separate text layers in final edit; never use image-generated lettering. Use captions outside TikTok UI safe zones. Do not put a full subtitle line over expressive faces. Keep two lines maximum and brand onscreen before final two seconds if possible.

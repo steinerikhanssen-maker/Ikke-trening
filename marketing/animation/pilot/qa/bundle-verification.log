@@ -1,0 +1,84 @@
+PASS exists brief/shot_plan.json
+PASS exists brief/shotlist_30fps.csv
+PASS exists brief/character_bible_no.md
+PASS exists brief/animation_direction_no.md
+PASS exists brief/release_gate_no.md
+PASS exists assets/nim_rig/rig_manifest.json
+PASS exists blender/create_project.py
+PASS 360 frames / 30 fps plan
+PASS continuous shot 01
+PASS continuous shot 02
+PASS continuous shot 03
+PASS continuous shot 04
+PASS continuous shot 05
+PASS continuous shot 06
+PASS continuous shot 07
+PASS shot boundaries end at frame 360
+PASS rig asset png/00_shadow.png
+PASS rig asset svg/00_shadow.svg
+PASS rig asset png/01_leg_left.png
+PASS rig asset svg/01_leg_left.svg
+PASS rig asset png/02_leg_right.png
+PASS rig asset svg/02_leg_right.svg
+PASS rig asset png/03_arm_left.png
+PASS rig asset svg/03_arm_left.svg
+PASS rig asset png/04_arm_right.png
+PASS rig asset svg/04_arm_right.svg
+PASS rig asset png/05_body.png
+PASS rig asset svg/05_body.svg
+PASS rig asset png/06_highlight.png
+PASS rig asset svg/06_highlight.svg
+PASS rig asset png/07_cheeks.png
+PASS rig asset svg/07_cheeks.svg
+PASS rig asset png/08_eyes_neutral.png
+PASS rig asset svg/08_eyes_neutral.svg
+PASS rig asset png/09_mouth_neutral.png
+PASS rig asset svg/09_mouth_neutral.svg
+PASS rig asset png/10_antenna.png
+PASS rig asset svg/10_antenna.svg
+PASS rig asset png/11_sparks.png
+PASS rig asset svg/11_sparks.svg
+PASS rig asset png/08_eyes_neutral.png
+PASS rig asset svg/08_eyes_neutral.svg
+PASS rig asset png/08_eyes_smug.png
+PASS rig asset svg/08_eyes_smug.svg
+PASS rig asset png/08_eyes_squint.png
+PASS rig asset svg/08_eyes_squint.svg
+PASS rig asset png/08_eyes_surprised.png
+PASS rig asset svg/08_eyes_surprised.svg
+PASS rig asset png/09_mouth_neutral.png
+PASS rig asset svg/09_mouth_neutral.svg
+PASS rig asset png/09_mouth_smirk.png
+PASS rig asset svg/09_mouth_smirk.svg
+PASS rig asset png/09_mouth_grin.png
+PASS rig asset svg/09_mouth_grin.svg
+PASS rig asset png/09_mouth_ah.png
+PASS rig asset svg/09_mouth_ah.svg
+PASS rig asset png/09_mouth_oh.png
+PASS rig asset svg/09_mouth_oh.svg
+PASS rig asset png/09_mouth_mm.png
+PASS rig asset svg/09_mouth_mm.svg
+PASS RGBA 960x920 00_shadow
+PASS RGBA 960x920 01_leg_left
+PASS RGBA 960x920 02_leg_right
+PASS RGBA 960x920 03_arm_left
+PASS RGBA 960x920 04_arm_right
+PASS RGBA 960x920 05_body
+PASS RGBA 960x920 06_highlight
+PASS RGBA 960x920 07_cheeks
+PASS RGBA 960x920 08_eyes_neutral
+PASS RGBA 960x920 09_mouth_neutral
+PASS RGBA 960x920 10_antenna
+PASS RGBA 960x920 11_sparks
+PASS RGBA 960x920 08_eyes_neutral
+PASS RGBA 960x920 08_eyes_smug
+PASS RGBA 960x920 08_eyes_squint
+PASS RGBA 960x920 08_eyes_surprised
+PASS RGBA 960x920 09_mouth_neutral
+PASS RGBA 960x920 09_mouth_smirk
+PASS RGBA 960x920 09_mouth_grin
+PASS RGBA 960x920 09_mouth_ah
+PASS RGBA 960x920 09_mouth_oh
+PASS RGBA 960x920 09_mouth_mm
+PASS Python syntax of Blender starter (NOT Blender runtime)
+PASS: handoff assets validated. Blender animation test NOT RUN.

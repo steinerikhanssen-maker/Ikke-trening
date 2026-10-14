@@ -1,0 +1,65 @@
+Blender 4.3.2
+Fra:34 Mem:16.23M (Peak 16.23M) | Time:00:00.22 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PROOF_TITLE
+Fra:34 Mem:16.30M (Peak 16.30M) | Time:00:00.22 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PROOF_SCOPE
+Fra:34 Mem:16.50M (Peak 16.50M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | BACKGROUND
+Fra:34 Mem:16.56M (Peak 16.56M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PROOF_TITLE_BAND
+Fra:34 Mem:16.56M (Peak 16.56M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PROOF_SCOPE_BAND
+Fra:34 Mem:16.59M (Peak 16.59M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | LEFT_BRANCH
+Fra:34 Mem:16.63M (Peak 16.63M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | LEFT_BRANCH_RIDGE
+Fra:34 Mem:16.66M (Peak 16.66M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PARK_SKY
+Fra:34 Mem:16.66M (Peak 16.66M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | RIGHT_BRANCH
+Fra:34 Mem:16.70M (Peak 16.70M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | RIGHT_BRANCH_RIDGE
+Fra:34 Mem:16.73M (Peak 16.73M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | KNOT_PUPIL.001
+Fra:34 Mem:16.74M (Peak 16.74M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | KNOT_EYE_INTERIOR.001
+Fra:34 Mem:16.74M (Peak 16.74M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | KNOT_PUPIL
+Fra:34 Mem:16.74M (Peak 16.74M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | KNOT_EYE_INTERIOR
+Fra:34 Mem:16.75M (Peak 16.75M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | TREE_CONTINUOUS_BARK_SKIN
+Fra:34 Mem:17.28M (Peak 17.28M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PARK_GROUND
+Fra:34 Mem:17.28M (Peak 17.28M) | Time:00:00.27 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CANOPY
+Fra:34 Mem:17.28M (Peak 17.28M) | Time:00:00.32 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CANOPY_LIGHT
+Fra:34 Mem:17.92M (Peak 17.92M) | Time:00:00.33 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:34 Mem:14.66M (Peak 17.92M) | Time:00:00.33 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:34 Mem:14.66M (Peak 17.92M) | Time:00:00.33 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:34 Mem:14.66M (Peak 17.92M) | Time:00:00.33 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:34 Mem:14.66M (Peak 17.92M) | Time:00:00.33 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:34 Mem:14.75M (Peak 17.92M) | Time:00:00.34 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Procedurals
+Fra:34 Mem:14.75M (Peak 17.92M) | Time:00:00.34 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Background
+Fra:34 Mem:14.75M (Peak 17.92M) | Time:00:00.34 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Camera
+Fra:34 Mem:14.75M (Peak 17.92M) | Time:00:00.34 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:34 Mem:14.75M (Peak 17.92M) | Time:00:00.34 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects
+Fra:34 Mem:14.75M (Peak 17.92M) | Time:00:00.34 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:34 Mem:14.75M (Peak 17.92M) | Time:00:00.34 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:34 Mem:14.75M (Peak 17.92M) | Time:00:00.34 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Particle Systems
+Fra:34 Mem:14.75M (Peak 17.92M) | Time:00:00.34 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:34 Mem:14.75M (Peak 17.92M) | Time:00:00.34 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Meshes
+Fra:34 Mem:15.08M (Peak 17.92M) | Time:00:00.34 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:34 Mem:15.17M (Peak 17.92M) | Time:00:00.34 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:34 Mem:15.17M (Peak 17.92M) | Time:00:00.34 | Mem:0.11M, Peak:0.11M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:34 Mem:15.17M (Peak 17.92M) | Time:00:00.34 | Mem:0.11M, Peak:0.11M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:34 Mem:15.17M (Peak 17.92M) | Time:00:00.35 | Mem:0.75M, Peak:0.75M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:34 Mem:15.17M (Peak 17.92M) | Time:00:00.44 | Mem:1.46M, Peak:2.10M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:34 Mem:15.17M (Peak 17.92M) | Time:00:00.44 | Mem:1.46M, Peak:2.10M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:34 Mem:15.97M (Peak 17.92M) | Time:00:00.44 | Mem:1.46M, Peak:2.10M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:34 Mem:15.97M (Peak 17.92M) | Time:00:00.44 | Mem:2.25M, Peak:2.25M | Scene, ViewLayer | Updating Objects Flags
+Fra:34 Mem:15.97M (Peak 17.92M) | Time:00:00.44 | Mem:2.25M, Peak:2.25M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:34 Mem:15.97M (Peak 17.92M) | Time:00:00.44 | Mem:2.25M, Peak:2.25M | Scene, ViewLayer | Updating Images
+Fra:34 Mem:15.97M (Peak 17.92M) | Time:00:00.44 | Mem:2.25M, Peak:2.25M | Scene, ViewLayer | Updating Camera Volume
+Fra:34 Mem:15.97M (Peak 17.92M) | Time:00:00.44 | Mem:2.25M, Peak:2.25M | Scene, ViewLayer | Updating Lookup Tables
+Fra:34 Mem:15.97M (Peak 17.92M) | Time:00:00.44 | Mem:2.33M, Peak:2.33M | Scene, ViewLayer | Updating Lights
+Fra:34 Mem:15.97M (Peak 17.92M) | Time:00:00.44 | Mem:2.34M, Peak:2.34M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:34 Mem:16.65M (Peak 17.92M) | Time:00:00.53 | Mem:3.02M, Peak:3.02M | Scene, ViewLayer | Updating Integrator
+Fra:34 Mem:16.65M (Peak 17.92M) | Time:00:00.53 | Mem:3.02M, Peak:3.02M | Scene, ViewLayer | Updating Film
+Fra:34 Mem:16.66M (Peak 17.92M) | Time:00:00.53 | Mem:2.94M, Peak:3.02M | Scene, ViewLayer | Updating Lookup Tables
+Fra:34 Mem:16.66M (Peak 17.92M) | Time:00:00.53 | Mem:3.02M, Peak:3.02M | Scene, ViewLayer | Updating Baking
+Fra:34 Mem:16.66M (Peak 17.92M) | Time:00:00.53 | Mem:3.02M, Peak:3.02M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:34 Mem:16.66M (Peak 17.92M) | Time:00:00.53 | Mem:3.02M, Peak:3.02M | Scene, ViewLayer | Sample 0/8
+Fra:34 Mem:34.48M (Peak 34.48M) | Time:00:01.08 | Remaining:00:03.85 | Mem:20.82M, Peak:20.82M | Scene, ViewLayer | Sample 1/8
+Fra:34 Mem:42.39M (Peak 58.21M) | Time:00:06.38 | Mem:20.82M, Peak:20.82M | Scene, ViewLayer | Sample 8/8
+Fra:34 Mem:42.39M (Peak 58.21M) | Time:00:06.39 | Mem:20.82M, Peak:20.82M | Scene, ViewLayer | Finished
+Saved: '/workspace/Ikke-trening/marketing/animation/pilot/qa/Tree_034.png'
+Time: 00:06.70 (Saving: 00:00.29)
+
+Info: Saved "Tree_PROOF.blend"
+PROOF BUILT: Tree Blender 4.3.2
+
+Blender quit

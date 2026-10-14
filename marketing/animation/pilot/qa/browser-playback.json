@@ -1,0 +1,73 @@
+{
+  "browser": "154.0.8037.57",
+  "audioListening": "NOT TESTED",
+  "physicalPhone": "NOT TESTED",
+  "results": [
+    {
+      "mode": "Chromium desktop",
+      "clip": 0,
+      "width": 540,
+      "height": 960,
+      "duration": 2,
+      "currentTime": 2,
+      "error": null,
+      "frames": 60,
+      "status": "PASS"
+    },
+    {
+      "mode": "Chromium desktop",
+      "clip": 1,
+      "width": 540,
+      "height": 960,
+      "duration": 2,
+      "currentTime": 2,
+      "error": null,
+      "frames": 60,
+      "status": "PASS"
+    },
+    {
+      "mode": "Chromium desktop",
+      "clip": 2,
+      "width": 540,
+      "height": 960,
+      "duration": 2,
+      "currentTime": 2,
+      "error": null,
+      "frames": 60,
+      "status": "PASS"
+    },
+    {
+      "mode": "Chromium mobile emulation",
+      "clip": 0,
+      "width": 540,
+      "height": 960,
+      "duration": 2,
+      "currentTime": 2,
+      "error": null,
+      "frames": 60,
+      "status": "PASS"
+    },
+    {
+      "mode": "Chromium mobile emulation",
+      "clip": 1,
+      "width": 540,
+      "height": 960,
+      "duration": 2,
+      "currentTime": 2,
+      "error": null,
+      "frames": 60,
+      "status": "PASS"
+    },
+    {
+      "mode": "Chromium mobile emulation",
+      "clip": 2,
+      "width": 540,
+      "height": 960,
+      "duration": 2,
+      "currentTime": 2,
+      "error": null,
+      "frames": 60,
+      "status": "PASS"
+    }
+  ]
+}

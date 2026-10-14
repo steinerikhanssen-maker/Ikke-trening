@@ -1,0 +1,102 @@
+{
+  "fps": 30,
+  "resolution": [
+    1080,
+    1920
+  ],
+  "total_frames": 360,
+  "aspect": "9:16",
+  "shots": [
+    {
+      "shot": "01",
+      "start_f": 0,
+      "end_f": 48,
+      "duration_s": 1.6,
+      "set": "INT. ALEX STUE / kveld",
+      "framing": "MCU, sofa + telefon",
+      "action": "Alex er midt i scrolling. Øyelokk tunge. Ser ikke i kamera. Etter ca. 8 frames synker han dypere i sofaen.",
+      "dialogue": "ALEX: I hate exercise.",
+      "camera": "Statisk i 0,0-1,25 s. Svært svak push in mot telefonen.",
+      "animation": "Pust, tommel-scrolling, blikk, én liten oppgitt sukk.",
+      "transition": "Motivasjon: telefonen vibrerer."
+    },
+    {
+      "shot": "02",
+      "start_f": 48,
+      "end_f": 114,
+      "duration_s": 2.2,
+      "set": "INT. STUE / telefon & NIM",
+      "framing": "ECU telefon/NIM, cut til Alex reaksjon",
+      "action": "NIM spretter opp ved siden av telefonen: Perfect. Appkortet viser ett oppdrag. Alex fryser i tommelbevegelsen.",
+      "dialogue": "NIM: Perfect. Find the ugliest tree.",
+      "camera": "Rask, ren match cut til skjermen. Ingen rotende zoom.",
+      "animation": "NIM: anticipasjon 4 frames, punch-posering, øyenbryn, kort armgest. Alex: sakte sideblikk.",
+      "transition": "Klipp på lyd av et bestemt oppdrags-ping."
+    },
+    {
+      "shot": "03",
+      "start_f": 114,
+      "end_f": 144,
+      "duration_s": 1.0,
+      "set": "DØR / fortau",
+      "framing": "Sko, hånd på dør, kort total",
+      "action": "Alex kommer seg faktisk ut: sko på, dør igjen, ett steg. Ingen lang gåmontasje.",
+      "dialogue": "INGEN",
+      "camera": "To raske action-cut på sko/dør.",
+      "animation": "Tyngdeforskyvning, kontakt til gulv, antydning av oppgitt holdning.",
+      "transition": "Match cut til trestamme."
+    },
+    {
+      "shot": "04",
+      "start_f": 144,
+      "end_f": 189,
+      "duration_s": 1.5,
+      "set": "EXT. KROKETE TRE / dag",
+      "framing": "To-skudd med Alex og tre i samme bilde",
+      "action": "Alex står foran et sært knudrete tre og peker: Found it. Treet ser inaktivt ut frem til siste 8 frames.",
+      "dialogue": "ALEX: Found it.",
+      "camera": "Ro, filmisk komposisjon.",
+      "animation": "Alex holder ansiktsuttrykk tørt. Treet rører seg ikke før avsløringen.",
+      "transition": "Liten stillhet, deretter smash-in."
+    },
+    {
+      "shot": "05",
+      "start_f": 189,
+      "end_f": 240,
+      "duration_s": 1.7,
+      "set": "EXT. KROKETE TRE / close",
+      "framing": "CU treets øyne og barkmunn",
+      "action": "Treet åpner øynene og sier fornærmet: I CAN HEAR YOU. Alex rekker så vidt å reagere.",
+      "dialogue": "TREE: I can hear you.",
+      "camera": "Hard cut inn, ikke fake digital zoom.",
+      "animation": "Øyenlokk → bryn → barkmunn; deformér bark, ikke legg sirkel oppå. Ingen skjelving unntatt kort reaksjon.",
+      "transition": "Klipp etter pausen i siste ord."
+    },
+    {
+      "shot": "06",
+      "start_f": 240,
+      "end_f": 324,
+      "duration_s": 2.8,
+      "set": "EXT. TRE / telefon i forgrunn",
+      "framing": "Reaksjon MCU Alex + telefon med NIM",
+      "action": "Alex stirrer sjokkert på treet. Telefonen plinger. NIM virker fornøyd, men ikke skrytete.",
+      "dialogue": "NIM: You went outside. Gotcha.",
+      "camera": "Hold Alex reaksjon i 0,35s før NIM dukker fram, kort to-fokus komposisjon.",
+      "animation": "Alex: mikroblunk + sakte sideblikk. NIM: skjev munn, én triumferende gest, ikke konfettiregn.",
+      "transition": "Klipp på Gotcha."
+    },
+    {
+      "shot": "07",
+      "start_f": 324,
+      "end_f": 360,
+      "duration_s": 1.2,
+      "set": "SLUTTKORT INTEGRERT I MILJØ",
+      "framing": "GymNotFound på telefonskjerm + liten tagline",
+      "action": "GymNotFound - Exercise by accident. NIM kikker diskret frem. Ingen ekstra voiceover.",
+      "dialogue": "INGEN",
+      "camera": "Rolig avslutning. Hold lesbar fra frame 327 til slutten.",
+      "animation": "Én liten NIM blink / armbevegelse.",
+      "transition": "Vurder naturlig loop til Alex på sofaen."
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+# Rebuilt original is reproducible from the tracked parts.
+source-archive/GymNotFound_Codex_Profesjonell_Animasjon.zip
+pilot/renders/
+pilot/**/*.blend1
+pilot/**/__pycache__/
+pilot/dist/
+pilot/qa/raw-render/

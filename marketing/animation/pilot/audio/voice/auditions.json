@@ -1,0 +1,103 @@
+{
+  "engine": "kokoro-onnx 0.6.1",
+  "engine_license": "MIT",
+  "model_license_reported_by_distribution": "Apache-2.0",
+  "release": "model-files-v1.1",
+  "source": "https://github.com/thewh1teagle/kokoro-onnx",
+  "models": [
+    {
+      "file": "kokoro-v1.0.int8.onnx",
+      "sha256": "ae315a79b623f244700e4afb9246c46a26066782e049ba174bf3ba433970ee9c"
+    },
+    {
+      "file": "voices-v1.0.bin",
+      "sha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d"
+    }
+  ],
+  "auditions": [
+    {
+      "file": "voice/Alex_01_AUDITION.wav",
+      "text": "I hate exercise.",
+      "voice_id": "am_michael",
+      "speed": 1.0,
+      "sample_rate": 24000,
+      "duration_s": 1.7493,
+      "peak_dBFS": -10.88,
+      "sha256": "aaffe07618932fd8e79228edf3bc9fde96df06e01128fe46bfc12eb9b5676c58",
+      "acting_approval": "NOT TESTED",
+      "purpose": "casting audition, not final film dialogue"
+    },
+    {
+      "file": "voice/NIM_01_AUDITION.wav",
+      "text": "Perfect.",
+      "voice_id": "af_heart",
+      "speed": 1.0,
+      "sample_rate": 24000,
+      "duration_s": 0.896,
+      "peak_dBFS": -9.08,
+      "sha256": "709120d786a1d589569740c529224bf296f01b74248b5a6c8a9dc7fc2ab8bb04",
+      "acting_approval": "NOT TESTED",
+      "purpose": "casting audition, not final film dialogue"
+    },
+    {
+      "file": "voice/NIM_02_AUDITION.wav",
+      "text": "Find the ugliest tree.",
+      "voice_id": "af_heart",
+      "speed": 1.0,
+      "sample_rate": 24000,
+      "duration_s": 1.572,
+      "peak_dBFS": -7.88,
+      "sha256": "9d26d1994dc5f1a4ac896a6d146f2737bd73ac75262605263d698ec63ca319b1",
+      "acting_approval": "NOT TESTED",
+      "purpose": "casting audition, not final film dialogue"
+    },
+    {
+      "file": "voice/Alex_02_AUDITION.wav",
+      "text": "Found it.",
+      "voice_id": "am_michael",
+      "speed": 1.0,
+      "sample_rate": 24000,
+      "duration_s": 1.0427,
+      "peak_dBFS": -7.37,
+      "sha256": "d19e50c50d886c324eee31ccc0431aed70a654f6b2befb08fd4317cd938cd14a",
+      "acting_approval": "NOT TESTED",
+      "purpose": "casting audition, not final film dialogue"
+    },
+    {
+      "file": "voice/Tree_01_AUDITION.wav",
+      "text": "I can hear you.",
+      "voice_id": "bm_george",
+      "speed": 1.0,
+      "sample_rate": 24000,
+      "duration_s": 1.4827,
+      "peak_dBFS": -8.86,
+      "sha256": "3f2b5de0c06215290188fd9678dc06a27ac5f797d528402d285e8b594046ad54",
+      "acting_approval": "NOT TESTED",
+      "purpose": "casting audition, not final film dialogue"
+    },
+    {
+      "file": "voice/NIM_03_AUDITION.wav",
+      "text": "You went outside.",
+      "voice_id": "af_heart",
+      "speed": 1.0,
+      "sample_rate": 24000,
+      "duration_s": 1.2333,
+      "peak_dBFS": -10.22,
+      "sha256": "ef694348cb9667b2a3417d6f61a5d91bea1d3b74e40b727ea1047ea097cefdc2",
+      "acting_approval": "NOT TESTED",
+      "purpose": "casting audition, not final film dialogue"
+    },
+    {
+      "file": "voice/NIM_04_AUDITION.wav",
+      "text": "Gotcha.",
+      "voice_id": "af_heart",
+      "speed": 1.0,
+      "sample_rate": 24000,
+      "duration_s": 0.9273,
+      "peak_dBFS": -8.38,
+      "sha256": "2c5273a32c543ef48ed3b0f7750bc12974c686a302df419c76282691590c8305",
+      "acting_approval": "NOT TESTED",
+      "purpose": "casting audition, not final film dialogue"
+    }
+  ]
+}

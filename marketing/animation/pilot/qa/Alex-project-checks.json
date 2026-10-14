@@ -1,0 +1,50 @@
+{
+  "version": "4.3.2",
+  "file": "Alex_PROOF.blend",
+  "checks": [
+    {
+      "name": "editable project opens in actual Blender",
+      "status": "PASS"
+    },
+    {
+      "name": "60 frames at 30 fps",
+      "status": "PASS"
+    },
+    {
+      "name": "project configured 1080x1920",
+      "status": "PASS"
+    },
+    {
+      "name": "not marked publication ready",
+      "status": "PASS"
+    },
+    {
+      "name": "camera does not substitute for character acting",
+      "status": "PASS"
+    },
+    {
+      "name": "all external image textures packed",
+      "status": "PASS"
+    },
+    {
+      "name": "relative image references",
+      "status": "PASS"
+    },
+    {
+      "name": "real multi-bone armature",
+      "status": "PASS"
+    },
+    {
+      "name": "weighted character meshes",
+      "status": "PASS"
+    },
+    {
+      "name": "bone poses differ across frames",
+      "status": "PASS"
+    },
+    {
+      "name": "all geometry coordinates finite",
+      "status": "PASS"
+    }
+  ]
+}

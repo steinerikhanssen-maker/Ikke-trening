@@ -1,0 +1,104 @@
+GYMNOTFOUND / THE UGLY TREE / ISSUE #4
+Dato: 2026-10-14
+Leveranse: M0-pipeline og M1-arbeidsprøver, ikke ferdig pilot
+Samlet release gate: FAIL / IKKE PUBLISERINGSKLAR
+
+KONKRET AVGRENSNING
+Oppdraget krever tre visuelt beståtte karakterprøver før M2/fullfilm. Det
+kravet er ikke oppnådd. Etter utbedring av alfa, leddflater og barkmunn har
+Alex og treet fortsatt enkel konseptkunst og utilstrekkelig karakterspill.
+Fullfilmen er derfor holdt igjen. Det finnes ingen falsk FINAL.mp4 eller
+FINAL.blend. Issue #4 skal fortsatt være åpen. Ingen ti-episoders sesong.
+
+M0 – KILDEPAKKE / FAKTISK BLENDER
+PASS: 14 deler rekonstruert, 7 864 379 byte, 69 ZIP-entries, ZIP-integritet.
+SHA-256: cdf2332a59d40e7ade8d5db839dba1f1d544ae3685449dd9f0cb5b0873283a6e
+PASS: verify_bundle.py kjørt mot filer, PNG/SVG-lag og kontinuerlig
+      360-frame shot-plan. Dette verifiserer ikke animasjonskvalitet.
+PASS: Det opprinnelige create_project.py faktisk kjørt i Blender 4.3.2;
+      GymNotFound_S01E01_STARTER.blend lagret. Logg: blender-starter.log.
+PASS: Egne karakterprosjekter faktisk bygget og rendret i Cycles CPU.
+PASS: NIMs fullkanvas/UV/pivoter bevart; svart alfaflate rettet med flere
+      transparente ray-bounces. Tom meshflate redusert uten å beskjære kunst.
+FAIL (miljø): EEVEE fikk EGL_BAD_MATCH; grafikkontekst utilgjengelig.
+FAIL (miljø): Installert bygg mangler OpenImageDenoise. Denoising slått av.
+PASS (alternativ): Cycles CPU renderer faktiske karakterbilder uten disse
+      funksjonene. Ingen stillfoto-pan/zoom erstatter karakterbevegelse.
+NOT TESTED: Blender 4.5 LTS/5.x. Faktisk testet: 4.3.2.
+
+M1 – KARAKTERPRØVER / VISUELL GJENNOMGANG
+PASS (teknisk): NIM har ekte armature med separate, vektede bildeflater,
+      arm-/antenneposering, uttrykksbytte og bevisst blink. Original NIM-kunst.
+PASS (teknisk): Alex har ekte armature og vektede mesh-/kurvelag for kropp,
+      ledd, hode og lemmer. Oppreisning og steg endrer kroppsposering.
+PASS (teknisk): Tree har sammenhengende barkmesh, knute-/bryn- og kjeve-shape
+      keys. Munnfargen ligger i deformert barkmesh, ingen separat munnflate.
+PASS (teknisk): Kameraet er statisk i prøvene; rigger/mesh/uttrykk beveger seg.
+PASS (visuell delkontroll): NIM-silhuett, mintfarge og checkmark-antenne er
+      bevart. Ingen stor rektangulær alfaflate i siste prøve.
+FAIL (visuell): Alex er enkel konseptkunst og holder ikke den bestilte
+      profesjonelle 2.5D-estetikken. Telefonen frigjøres uten overbevisende
+      hånd-/kushionkontakt. Fotkontakt og vektfølelse krever videre posering.
+FAIL (visuell): Tree-materialet har et syntetisk, rutete preg. Bryn/øyne er
+      for svake og uttrykket leses ikke tydelig som fornærmet. Barkens
+      geometriske deformasjon er ekte, men scenekunsten er ikke godkjent.
+NOT TESTED: Profesjonell skuespillerkvalitet og presis fonem/leppesynk. NIM
+      har lydtilpassede munnnøkler; Tree følger faktisk talelyds energi.
+      Dette er ikke tilstrekkelig til å erklære profesjonell dialogsynk.
+Samlet M1: FAIL. Å kalle disse prøvene «proff ferdig animasjon» ville være
+      uriktig. Rigg/kunst/acting må videreutvikles før M2.
+Bevis: previews/*.mp4, *-contact-sheet.png, NIM_020.png, Alex_001.png,
+      Alex_034.png, Tree_034.png, *-project-checks.json, *-reopen.log.
+
+M2 – SJU SHOTS / KOMEDIE / FULLFILM
+NOT TESTED / IKKE STARTET: Kvalitetsporten M1 er ikke bestått.
+      Shot-plan, manus og subtitles_en.srt er referansekilder i brief/.
+      De fremstilles ikke som ferdig timeline, retiming eller sluttcaptions.
+NOT TESTED: Samme Alex i alle sju shots, brand på telefon før finalen,
+      klipperetning, komisk payoff, lydløs forståelse og CTA/sluttkort.
+
+M3 – CASTING / LYD
+PASS (teknisk): Sju replikker faktisk syntetisert lokalt med kokoro-onnx
+      0.6.1, tre stemme-ID-er: am_michael, af_heart, bm_george.
+PASS (teknisk): speed=1.0 for alle replikker; ingen taleakselerering.
+PASS (proveniens): Distribusjonen oppgir MIT/Apache-2.0; lisensfiler og
+      modell-/stemmekontrollsummer er vedlagt. Ingen betalt tjeneste brukt.
+PASS (teknisk): WAV-stems er 24 kHz/24-bit PCM. AAC i to proof-klipp er
+      48 kHz. Målte proof-peaks er under -1 dBTP; se audio-checks.json.
+PASS (proveniens): Seks SFX er egen bølge-/støy-syntese, uten tredjeparts
+      opptak eller musikk. Kildekode og manifest vedlagt.
+NOT TESTED: Auditions hørt/godkjent som særpreget, forståelig og profesjonelt
+      karakterspill. Det er ikke gjort en menneskelig lyttevurdering.
+NOT TESTED: Profesjonell SFX-kvalitet, ferdig 12-sekunders miks, -14 LUFS
+      master, endelige dialogpauser og mobillyd. Casting er ikke godkjent.
+Se audio/VOICE_BLOCKER.md. Den opprinnelige pakken hadde ingen lydopptak;
+      arbeidsleveransen har nå lokale auditions, ikke ferdig casting.
+
+M4 – FILER / AVSPILLING / LEVERANSE
+PASS (teknisk): 3 faktiske MP4-er, hver 540x960 / 30 fps / 60 frames / 2.00s,
+      H.264 yuv420p. NIM/Tree har AAC; Alex er en stum bevegelsesprøve.
+      Preview-formatet er bevisst ikke oppgitt som sluttfilmformat.
+PASS (teknisk): Alle 180 videoframes dekodet med FFmpeg uten feil.
+PASS (teknisk): Alle tre proof-prosjekter åpnet igjen i faktisk Blender;
+      NIM-teksturer og brukte stems pakket, referanser relative. Separate
+      karakter-, bakgrunns- og tekstobjekter er redigerbare.
+PASS (teknisk): MP4-ene spilt til slutt i faktisk Chromium på desktop og
+      mobil-emulering, seks avspillingsløp. browser-playback.json og bilder.
+NOT TESTED: Fysisk telefon/vanlig telefonapp med lyd PÅ og AV. Emulering
+      er ikke en fysisk mobiltest; browser-testen kjøres med muted=true.
+NOT TESTED: Første to sekunder i en faktisk feed og fem seere uten kontekst.
+IKKE LEVERT: 12.00s 1080x1920 FINAL.mp4, full FINAL.blend, endelig miks,
+      forsidebilde og endelige captions. Disse krever bestått M1 først.
+PASS (arbeidsgrense): Kun marketing/animation er endret. WordPress-issue #1,
+      pluginfiler, produksjon, domene, betaling og TikTok er ikke endret.
+
+NESTE PRODUKSJONSARBEID
+1. Erstatt/utvikle Alex- og trekunst til ønsket kvalitet. Den opprinnelige
+   69-filspakken har NIM-lag og konseptreferanser, ingen ferdige Alex-/trerigger.
+2. Posisjonér telefon/arm/føtter med troverdig kontakt og karaktervekt.
+3. Godkjenn naturlige stemmer, retim shots etter opptak og rett uttrykk/synk.
+4. Gjennomgå tre nye M1-prøver. Først når de består: bygg de sju shottene,
+   miks, captions, forside, 12-sekunders master og fysisk mobil-/seer-QA.
+
+Denne rapporten skiller tekniske PASS fra kreativ godkjenning og arbeid
+som ikke er testet. Ingen automatisk merge eller publisering.

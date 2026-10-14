@@ -1,0 +1,63 @@
+{
+  "source": "GymNotFound 4.1 mascot SVG (recreated as separate layers)",
+  "status": "real editable SVG/PNG artwork, no finished character rig/animation",
+  "coordinate_system": "all layers rendered on same transparent 240x230 viewBox at 4x pixel scale (960x920)",
+  "layer_order": [
+    "00_shadow",
+    "01_leg_left",
+    "02_leg_right",
+    "03_arm_left",
+    "04_arm_right",
+    "05_body",
+    "06_highlight",
+    "07_cheeks",
+    "08_eyes_neutral",
+    "09_mouth_neutral",
+    "10_antenna",
+    "11_sparks"
+  ],
+  "variants": {
+    "eyes": [
+      "08_eyes_neutral",
+      "08_eyes_smug",
+      "08_eyes_squint",
+      "08_eyes_surprised"
+    ],
+    "mouth": [
+      "09_mouth_neutral",
+      "09_mouth_smirk",
+      "09_mouth_grin",
+      "09_mouth_ah",
+      "09_mouth_oh",
+      "09_mouth_mm"
+    ]
+  },
+  "pivots_svg_viewbox": {
+    "01_leg_left": [
+      89,
+      182
+    ],
+    "02_leg_right": [
+      151,
+      184
+    ],
+    "03_arm_left": [
+      60,
+      116
+    ],
+    "04_arm_right": [
+      174,
+      116
+    ],
+    "05_body": [
+      120,
+      113
+    ],
+    "10_antenna": [
+      123,
+      43
+    ]
+  },
+  "composite": "All PNGs must retain their original 960x920 transparent canvas; never auto-trim sprites because that breaks alignment.",
+  "instructions": "Use SVG as master and one rig/controller per limb, eye/mouth swapping with keyed visibility; add extra hand poses, blinks, brow/tilt before approval."
+}
