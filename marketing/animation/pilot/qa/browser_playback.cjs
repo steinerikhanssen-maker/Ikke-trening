@@ -1,8 +1,8 @@
 // Actual Chromium playback in desktop and mobile emulation; no physical-phone claim.
-const {chromium}=require(process.cwd()+'/node_modules/@playwright/test');
+const {chromium}=require('@playwright/test');
 const fs=require('node:fs'); const path=require('node:path');
 (async()=>{
- const browser=await chromium.launch({executablePath:'/usr/bin/chromium',headless:true,args:['--no-sandbox']});
+ const browser=await chromium.launch({executablePath:process.env.GNF_CHROMIUM_PATH||'/usr/bin/chromium',headless:true,args:['--no-sandbox']});
  const results=[];
  for(const mobile of [false,true]){
   const context=await browser.newContext({viewport:mobile?{width:390,height:844}:{width:1440,height:1000},isMobile:mobile,hasTouch:mobile});

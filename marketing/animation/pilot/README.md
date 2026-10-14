@@ -32,6 +32,19 @@ Blender utenfor skymiljøet: åpne en `edit/*_PROOF.blend`, velg armaturen i Pos
 
 EEVEE kunne ikke opprette en grafikkontekst i dette miljøet. Cycles fungerer. Den installerte Blender-byggen mangler OpenImageDenoise; den funksjonen er derfor slått av. Blender 4.5 LTS/5.x er ikke testet.
 
+Valgfri browser-QA bruker Node og `@playwright/test` 1.56.1 med systemets Chromium 154.0.8037.57. Kjør HTTP-serveren fra repoets rot i én terminal, og QA i en annen:
+
+```bash
+python3 -m http.server 8090 --bind 127.0.0.1 --directory marketing/animation/pilot
+```
+
+```bash
+npm install --prefix /tmp/gnf-animation-browser --ignore-scripts --no-audit --no-fund @playwright/test@1.56.1
+NODE_PATH=/tmp/gnf-animation-browser/node_modules node marketing/animation/pilot/qa/browser_playback.cjs
+```
+
+`GNF_CHROMIUM_PATH` kan settes til en annen lokal Chromium-fil; standard er `/usr/bin/chromium`. Testen måler faktisk dekodet avspilling, ikke menneskelig lytting eller fysisk mobiltest.
+
 ## Kvalitetsport og videre arbeid
 
 Les [qa/TESTRAPPORT.txt](qa/TESTRAPPORT.txt) og [audio/VOICE_BLOCKER.md](audio/VOICE_BLOCKER.md). Tekniske PASS er ikke kreativ godkjenning. M2 holdes igjen etter oppdragets regel om tre beståtte karakterprøver. De sju shottene, manus og undertekstreferansen er bevart i `brief/` for senere regiarbeid; de er **ikke** fremstilt som ferdig klippet timeline.
