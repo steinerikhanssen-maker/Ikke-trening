@@ -1,0 +1,2 @@
+const {chromium}=require('@playwright/test');
+(async()=>{const b=await chromium.launch({executablePath:'/usr/bin/chromium',args:['--no-sandbox']});try{const p=await b.newPage();await p.goto('http://localhost:8080'+(process.env.GNF_APP_PATH||'/?page_id=40'));await p.locator('#gnf-try').waitFor();const title=await p.locator('#gnf-title').textContent();if(!title)throw new Error('Missing real activity');console.log('PASS guest card, no registration or location needed');}finally{await b.close();}})().catch(e=>{console.error(e.message);process.exitCode=1;});

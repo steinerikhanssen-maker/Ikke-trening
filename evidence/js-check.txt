@@ -1,0 +1,3 @@
+
+> gymnotfound@0.1.0-beta.1 check
+> node --check plugin/gymnotfound/assets/app.js && node --check plugin/gymnotfound/assets/engine.js && node --check plugin/gymnotfound/assets/storage.js
