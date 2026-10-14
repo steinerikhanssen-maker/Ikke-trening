@@ -11,6 +11,7 @@
 | Dialog, effekter og miks | `audio/` |
 | Engelske undertekster | `subtitles.srt` |
 | Faktiske kontroller og kjente begrensninger | `qa/TESTRAPPORT.txt` |
+| Komplett ZIP med kilde, film, lyd og QA | `dist/GymNotFound_S01E01_COMPLETE.zip` |
 
 Åpne [review.html](review.html) lokalt for film og prøver. Historiske M1-rapporter ligger i `qa/history/`. De beskriver den første arbeidsleveransen, ikke den oppdaterte eksporten.
 
@@ -34,7 +35,7 @@ bash marketing/animation/pilot/blender/render_pilot.sh
 
 Skriptet bygger kilder og tidslinje, lager lydmiks, renderer de tre prøvene og alle 360 native filmbilder, encoder MP4, verifiserer og pakker leveransen. Rendering bruker Cycles CPU som standard. EEVEE er også prøvd med en lokal virtuell X-skjerm, men er ikke en nødvendig avhengighet. Blender 4.5/5.x er ikke testet.
 
-Primær kunst-/riggkilde er `blender/create_full_pilot.py` og `blender/lib/drawing.py`. `build_proofs.py` og det opprinnelige `create_project.py` er tidligere arbeids-/startskript; de er ikke sluttfilmens kilde. Rå bilder, verbose logger og Blender-backup er utelatt fra Git/ZIP. Sammendragslogger og kontrollsummer er vedlagt.
+Primær kunst-/riggkilde er `blender/create_full_pilot.py` og `blender/lib/drawing.py`. `build_proofs.py`, `refine_characters.py`, `blender/check_contacts.py` og det opprinnelige `create_project.py` er tidligere arbeids-/startskript; de er ikke sluttfilmens kilde. Gjeldende kontakter og prosjektkontroller bruker skriptene i `qa/`. Rå bilder, verbose logger og Blender-backup er utelatt fra Git/ZIP. Sammendragslogger og kontrollsummer er vedlagt.
 
 For å pakke de eksisterende sluttfilene uten ny rendering:
 
