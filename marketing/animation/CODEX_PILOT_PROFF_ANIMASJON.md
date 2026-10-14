@@ -1,6 +1,6 @@
 # GymNotFound – animasjonspilot «The Ugly Tree» – produksjonsoppdrag
 
-**Dato:** 2026-10-14. **Egen oppgave, helt isolert fra WordPress-pluginkoden i [issue #1](../../issues/1).**
+**Dato:** 2026-10-14. Oppdrag: [issue #4](https://github.com/steinerikhanssen-maker/Ikke-trening/issues/4). **Egen oppgave, helt isolert fra WordPress-pluginkoden i [issue #1](https://github.com/steinerikhanssen-maker/Ikke-trening/issues/1).**
 
 ## Beslutning og mål
 Vi har produsert flere 12-sekunders prototyper, men kvaliteten ble for lav: Ken Burns/pan/zoom, harde lagkanter, dårlig tre-munn, stivt kroppsspråk og billige robotstemmer. **Ikke gjenta denne metoden.** Nå skal vi produsere én reell 2D/2.5D karakteranimert TikTok-pilot med høy visuell kvalitet og komisk timing. Første episode **«The Ugly Tree»**. Ingen ti-episoders sesong før piloten passerer kvalitetssjekk.
