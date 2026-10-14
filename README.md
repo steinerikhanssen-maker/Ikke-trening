@@ -1,28 +1,31 @@
 # GymNotFound
 
-**Offentlig internasjonalt merkenavn:** GymNotFound. **Tidligere arbeidsnavn og GitHub-prosjekt:** IKKE TRENING.
+**En morsom, overraskende intelligent aktivitetskamerat som får folk bort fra skjermen og ut i livet.** Ikke en vanlig treningsapp; ikke et sosialt nettverk.
 
-[Merkevarebeslutning og navnekrav](docs/09_MERKEVARE_GYMNOTFOUND.md).
+Offentlig navn: **GymNotFound**. Teknisk slug: **gymnotfound**. NIM er en valgfri maskot. Engelsk og norsk fra første versjon.
 
-En webapp for mennesker som ønsker mer fysisk aktivitet, men misliker tradisjonell trening eller strever med å komme i gang og opprettholde vaner.
+## Gjeldende byggemål fra 14.10.2026
 
-**Status:** Produkt- og utviklingsspesifikasjon for versjon 5.0. Ingen fungerende WordPress-plugin er levert ennå.
+**GymNotFound 0.1.0-beta.1 – første installérbare WordPress-beta.**
 
-## Utviklingsoppdrag
+Den eldre «IKKE TRENING 5.0»-spesifikasjonen var for omfattende som første leveranse. Eier har nå besluttet en smalere MVP med én hovedskjerm, relevant aktivitetsforslag, ekte vær- og stedsintegrasjoner der datakilder er tilgjengelige, by/land-tilpasning og enkel privat historikk. AI, Ticketmaster, større fortellinger og venne-/kontosystem er utsatt.
 
-Start med [Codex-oppdraget](docs/05_CODEX_OPPDRAG_KOPIER_TIL_CODEX.md) og [leserekkefølgen](docs/00_START_HER.md). Kravene i [produktspesifikasjonen](docs/02_PRODUKTKRAV_5_0.md), [WordPress-arkitekturen](docs/03_TEKNISK_ARKITEKTUR_WORDPRESS.md), [testplanen](docs/04_AKSEPTANSEKRAV_OG_TESTPLAN.md) og [presiseringen om integrerte aktivitetsdrypp](docs/08_PRESISERING_INTEGRERT_AKTIVITET.md) er styrende.
+**Start hos [MVP produktkrav og datakilder](docs/10_MVP_0_1_AKTIVITETSKAMERAT.md) og [MVP akseptanse- og testkrav](docs/11_MVP_0_1_AKSEPTANSETEST.md).**
 
-## Bindende prinsipper
+[AGENTS.md](AGENTS.md) bestemmer dokumentenes prioritet. Eldre dokumenter i docs/00–09 er beholdt som konseptgrunnlag, senere backlog og bindende sikkerhetsprinsipper der de ikke står i konflikt med MVP-scope.
 
-- **Én installerbar WordPress-plugin med innebygd webapp-grensesnitt**, ikke krav om eget tema.
-- Én atferds- og anbefalingsmotor som velger passende hjelp basert på hindringer og brukerrespons.
-- **Exercise snacks/aktivitetsdrypp med hverdagsankre er integrert i hovedflyten**, ikke en egen fane eller et parallelt treningsprogram.
-- Maskoten NIM, oppdagelser og sosialt samarbeid skal være frivillige lag.
-- Ingen tapte rekker, straff ved pause eller ubegrunnede medisinske påstander.
-- Ingen betalte AI-API-er eller faste lisensutgifter.
-- Faktisk gjennomført aktivitet registreres separat fra avtaler, starttrykk og belønninger.
-- Faglig vurdering kreves før konkrete bevegelsesinstruksjoner publiseres for vanlige brukere.
+## Hva første versjon gjør
 
-## Leveranse og installasjon
+- Gjest åpner appen uten konto og får straks ett relevant og lavterskel aktivitetsforslag.
+- Tid, overskudd, svarhistorikk og valgfri urban/landlig kontekst påvirker en **regelbasert** motor. NIM tilfører tørr humor uten å skape press.
+- Minimum 36 redigerte aktivitetsmaler på engelsk og norsk. Fungerer uten GPS, API-nøkler eller nettbaserte stedstreff.
+- **MET Norway** leverer gratis værdata når lokasjon er kjent (server-side og cached).
+- Valgfri gratis **Geoapify Places**-nøkkel gir faktiske steder, kategorier og stedstype; ingen fantasisteder eller krav om Google Places. Google Maps URLs brukes bare til å åpne veibeskrivelser.
+- «Gjort» er egenrapportert, «Prøv» er ikke fullført. Lokal historikk, eksport/sletting og enkel administrasjon.
+- Én selvstendig WordPress-plugin ZIP med ferdigbygde assets. Ingen obligatorisk WP-theme, AI-API, betalingsabonnement eller eksterne trackingtjenester.
 
-Codex skal utvikle med kode, tester, dokumentasjon og et **installerbart WordPress-plugin ZIP**. Installer kun i et isolert testmiljø først. Ingen produksjonsinstallasjon er godkjent gjennom dette dokumentet.
+## Status
+
+**Spesifikasjon levert til Codex, pluginen er ikke ferdig utviklet eller installert.** 4.1-prototypen i reference/ er en statisk demo/teknisk referanse, ikke en ferdig WordPress-plugin. Ved ferdig utvikling skal Codex levere dist/gymnotfound-0.1.0-beta.1.zip, PR og dokumentert teststatus.
+
+Ingen merge eller produksjonsinstallasjon uten uttrykkelig eiergodkjenning.
