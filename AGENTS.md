@@ -1,31 +1,35 @@
-# AGENTS.md – GymNotFound (IKKE TRENING 5.0)
+# AGENTS.md – GymNotFound
 
-Dette dokumentet er bindende for Codex og andre kodeagenter i dette repositoriet.
+Dette er hovedinstruksen til Codex og kodeagenter. **Gjeldende første leveranse er GymNotFound 0.1.0-beta.1**, en enkel, overraskende intelligent aktivitetskamerat som får folk bort fra skjermen og ut i livet. Besluttet av eier 14.10.2026.
 
-**Brandbeslutning:** Offentlig navn, UI, plugin-navn og teknisk slug skal være **GymNotFound**. Se `docs/09_MERKEVARE_GYMNOTFOUND.md`. GitHub-repositoriet og gamle spesifikasjonsfilnavn kan fortsatt hete IKKE TRENING.
+## Lesefølge og gjeldende prioritet
 
-## Arbeidsoppdrag og rekkefølge
+1. **docs/10_MVP_0_1_AKTIVITETSKAMERAT.md** – bindende produkt, omfang og arkitektur for FØRSTE installérbare beta.
+2. **docs/11_MVP_0_1_AKSEPTANSETEST.md** – bindende MVP release-gate.
+3. **docs/09_MERKEVARE_GYMNOTFOUND.md** – offentlig navn GymNotFound, slug/text-domain gymnotfound, NIM.
+4. **docs/08_PRESISERING_INTEGRERT_AKTIVITET.md** og **docs/07_HVERDAGSANKRE_OG_MIKROBEVEGELSE.md** – én anbefalingsmotor; ingen medisinske/konkrete øvelser uten godkjenning.
+5. **docs/03_TEKNISK_ARKITEKTUR_WORDPRESS.md** – gjenbruk tekniske WP-/sikkerhetsprinsipper der de passer med MVP.
+6. **docs/02_PRODUKTKRAV_5_0.md**, **docs/04_AKSEPTANSEKRAV_OG_TESTPLAN.md**, **docs/05_CODEX_OPPDRAG_KOPIER_TIL_CODEX.md** og 4.1-referansen – TIDLIGERE større målbilde, ikke release-gate for første MVP.
 
-Bygg **IKKE TRENING 5.0** som én installérbar WordPress-plugin med mobiltilpasset webapp. Følg `docs/05_CODEX_OPPDRAG_KOPIER_TIL_CODEX.md` og de øvrige dokumentene i `docs/`.
-
-**Prioritet ved motstrid:** sikkerhet/personvern og `docs/04_AKSEPTANSEKRAV_OG_TESTPLAN.md` > `docs/07_HVERDAGSANKRE_OG_MIKROBEVEGELSE.md` > `docs/08_PRESISERING_INTEGRERT_AKTIVITET.md` > `docs/03_TEKNISK_ARKITEKTUR_WORDPRESS.md` > `docs/02_PRODUKTKRAV_5_0.md` > `docs/01_KRITISK_EVALUERING.md` > tidligere demo.
-
-Tidligere grunnmodell og demo finnes under `reference/`. Disse brukes **kun som referanser**, ikke som installérbar produksjonskode. Eldre dokumenter som viser til `kilder_prototype_4_1/` og `dokumentasjon/`, mener materialet under `reference/` i dette repositoriet.
+**Ved motstrid:** (i) personvern, sikkerhet, lovkrav og publiseringsport for faglige øvelser, deretter (ii) MVP akseptansekrav i dokument 11, (iii) MVP produktbestilling i dokument 10, (iv) merkevarevalg og samme-motor-prinsippet, (v) eldre fremtidsdokumenter. Gamle krav om to fortellingsverdener, full vennedeling og påloggingssynk er UTSATT, ikke P0.
 
 ## Ufravikelige produktregler
 
-- **Én integrert hovedflyt.** *Exercise snacks*, mikrobevegelser og rutineankre (kaffe, tannpuss, sofa osv.) er ordinære kandidater i den SAMME anbefalings-/motivasjonsmotoren som turer, ærend, opplevelser og sosial støtte. Ikke lag egen synlig mikrobevegelsesfane, egen poengvaluta eller separat onboarding.
-- Atferdsmotoren velger riktig **type hjelp** ut fra hindring (evne/mulighet/motivasjon), deretter relevant handling. Den skal tåle «ikke nå», hvile og avslag.
-- Gamification med NIM, kapitler og venner er valgfri; ingen tapte rekker, skyldsignaler eller obligatorisk konkurranse.
-- Skille logisk og i databasen mellom planlagt, startet og **egenrapportert gjennomført** aktivitet; repetisjoner/sekunder må ikke oppfinnes som aktivitetsminutter.
-- Ikke publiser konkrete bevegelsesinstruksjoner før det finnes registrert faglig godkjenning for kortet. Ved ubehag, smerter eller usikkerhet: sikre alternativer og relevante advarsler, ingen automatisk medisinsk personalisering.
-- Ingen eksterne betalte API-er, tracking, CDN, lisenskrav eller nye faste utgifter; ingen hemmeligheter i repo eller logger.
-- Bygg en WordPress-plugin med eget responsivt appskall. **Eget WordPress-tema er ikke påkrevd.** Ingen produksjonsinstallasjon fra Codex uten særskilt godkjenning.
+- Ett lett tilgjengelig forslag av gangen; uten registreringsplikt, uten skam/tapte streaks og uten å holde brukeren inne i appen. «Gjør noe ute i livet», ikke «få flere skjermminutter».
+- Ett regelbasert forslagssystem for hjemme, hverdagsanker, by, landlige områder og ekte POI-er. Aldri fantasisteder, fantasivær, oppdiktede åpningstider eller falske tidsberegninger.
+- Integrasjoner: MET Norway via server med korrekt cache/attribution; Geoapify Places kun med frivillig gratis API-nøkkel og eget kvotetak; Google Maps URLs kun som ekstern lenke uten API-nøkkel. IKKE Google Places, Ticketmaster, betalt AI eller kostnadsplikt.
+- Offline/ingen posisjon/feil hos kilder: appen fungerer med minst 12 generiske, relevante, redigerte aktiviteter.
+- NIM valgfri og voksen/vennlig humor. Engelsk og norsk i første versjon.
+- Ikke vis instruerende øvelseskort før dokumentert faglig godkjenning. Legg rutineankre i SAMME anbefalingsflyt, ikke egen modul i grensesnittet.
+- Skill «prøver»/«planlagt» og «gjennomført»; kun selvrapportert utført aktivitet i historikk. Ingen oppdiktede minutter/skritt, ingen tracking eller helsediagnoser.
+- Data lokalt i gjestemodus. Ingen falske vennekontoer og ingen automatisk konto-/sosialfunksjon i MVP.
+- Secure WP PHP: capabilities og nonce for admin, sanitizing/escaping, begrensede eksterne serverkall, rate-limit, aldri nøkkel i klienten eller logger, håndter feil og kvoter.
+- Installerbar én-ZIP-plugin, eget appskall uten nødvendig WP-tema. Ikke Node/Composer i produksjonsinstallasjonen.
 
-## Gjennomføring og kontroll
+## Arbeidsmetode og begrensninger
 
-- Implementer i avgrensede, testbare steg med egne fornuftige commits/PR-er. Ikke be om nye avgjørelser for rutinemessige utviklingsvalg som allerede er avklart.
-- Kjør lokale tester først. Hold GitHub Actions-kjøringer på et minimum; ikke legg til ressurskrevende matriser eller automatiske jobber ved hvert push.
-- Kontroller WordPress-autorisasjon, nonces, validering, utgående tekst, brukerisolasjon og vennedeling.
-- Lever en ZIP som kan installeres via **WordPress → Utvidelser → Legg til ny → Last opp utvidelse** uten Node/npm/Composer på webhotellet.
-- Oppgi faktisk testet WordPress/PHP-miljø og eventuelle blockerfunn. Ikke skriv «produksjonsklar» bare fordi ZIP bygges.
+- Opprett egen implementasjonsgren og PR. Codex skal bygge kode, teste og levere ZIP dist/gymnotfound-0.1.0-beta.1.zip, installasjonsveiledning, testbevis, skjermbilder og personverndokumentasjon.
+- Gjør rutinemessige utviklingsvalg autonomt innen spesifikasjonen. Bruk ekte tester og oppgi PASS/FAIL/NOT RUN – ikke hev produksjonsklarhet uten verifikasjon.
+- Kjør lokale tester først og minimer GitHub Actions-minutter; unngå CI-jobber på hvert push.
+- Ikke merge PR, ikke installer på noe live nettsted, ikke endre andre prosjekter, domene, DNS, betaling eller åpne offentlig pilot uten uttrykkelig eiergodkjenning.
+- Reference/ med 4.1-prototypen er kun DESIGN-/idé-/kodehistorikk. Den er ikke en installérbar WordPress-plugin.
