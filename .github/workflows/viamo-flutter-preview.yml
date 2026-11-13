@@ -1,0 +1,58 @@
+name: Build and serve isolated Viamo Flutter preview
+
+on:
+  push:
+    branches: [viamo-flutter-preview-20261113]
+    paths:
+      - 'viamo-flutter-preview/main.dart'
+      - 'viamo-flutter-preview/pubspec.yaml'
+      - 'viamo-flutter-preview/test/**'
+      - '.github/workflows/viamo-flutter-preview.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  flutter-web:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+      - name: Generate Flutter web shell
+        run: |
+          cd viamo-flutter-preview
+          mkdir -p lib
+          cp main.dart lib/main.dart
+          flutter create --platforms=web --project-name=viamo_social .
+          flutter pub get
+      - name: Analyze and test
+        run: |
+          cd viamo-flutter-preview
+          flutter analyze --no-fatal-infos
+          flutter test
+      - name: Compile real Flutter web app
+        run: |
+          cd viamo-flutter-preview
+          flutter build web --release
+          sed -i 's#<base href="/">#<base href="./">#' build/web/index.html
+      - name: Publish isolated preview assets to this branch
+        run: |
+          mkdir -p viamo-flutter-preview/site
+          cp -a viamo-flutter-preview/build/web/. viamo-flutter-preview/site/
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add viamo-flutter-preview/site
+          if ! git diff --cached --quiet; then
+            git commit -m "preview: compiled Flutter web app [skip ci]"
+            git push origin HEAD:viamo-flutter-preview-20261113
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: viamo-real-flutter-compiled
+          path: viamo-flutter-preview/build/web/
+          retention-days: 7
