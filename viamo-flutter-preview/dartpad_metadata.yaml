@@ -1,0 +1,4 @@
+name: Viamo Social Flutter preview
+mode: flutter
+files:
+  - name: main.dart
