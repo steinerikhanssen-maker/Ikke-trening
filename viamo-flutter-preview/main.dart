@@ -103,12 +103,12 @@ class _SocialHomeState extends State<SocialHome> {
            Container(padding:const EdgeInsets.only(left:8),decoration:BoxDecoration(color:cream,borderRadius:BorderRadius.circular(10)),
              child:Row(children:[
                const Icon(Icons.place_outlined,size:17,color:green),
-               DropdownButtonHideUnderline(child:DropdownButton<String>(value:city,
+               SizedBox(width:roomy?175:140,child:DropdownButtonHideUnderline(child:DropdownButton<String>(isExpanded:true,value:city,
                  style:const TextStyle(color:ink,fontSize:12,fontWeight:FontWeight.w700),
                  items:['Bologna','Napoli','Santa Marinella'].map((v)=>DropdownMenuItem(value:v,child:Text(v))).toList(),
-                 onChanged:(v)=>setState((){city=v??city;filter='Alt';query='';}))),
+                 onChanged:(v)=>setState((){city=v??city;filter='Alt';query='';})))),
              ])),
-           const SizedBox(width:9),const Tooltip(message:'Eksempelinnhold',child:Icon(Icons.science_outlined,color:muted)),
+           if(roomy)...[const SizedBox(width:9),const Tooltip(message:'Eksempelinnhold',child:Icon(Icons.science_outlined,color:muted))],
          ])),
        const Divider(height:1,color:line),
        Expanded(child:desktop?Row(crossAxisAlignment:CrossAxisAlignment.start,children:[
