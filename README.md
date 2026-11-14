@@ -24,8 +24,29 @@ Den eldre «IKKE TRENING 5.0»-spesifikasjonen var for omfattende som første le
 - «Gjort» er egenrapportert, «Prøv» er ikke fullført. Lokal historikk, eksport/sletting og enkel administrasjon.
 - Én selvstendig WordPress-plugin ZIP med ferdigbygde assets. Ingen obligatorisk WP-theme, AI-API, betalingsabonnement eller eksterne trackingtjenester.
 
-## Status
+## Installérbar beta
 
-**Spesifikasjon levert til Codex, pluginen er ikke ferdig utviklet eller installert.** 4.1-prototypen i reference/ er en statisk demo/teknisk referanse, ikke en ferdig WordPress-plugin. Ved ferdig utvikling skal Codex levere dist/gymnotfound-0.1.0-beta.1.zip, PR og dokumentert teststatus.
+[Last ned ZIP](dist/gymnotfound-0.1.0-beta.1.zip) og følg [installasjonsguiden](docs/INSTALLASJON.md). På webhotellet trengs bare WordPress 6.7+ og PHP 8.2+; Node og Composer er ikke nødvendig. Aktivering oppretter 36 redigerbare maler, mens appsiden opprettes som utkast først ved adminens uttrykkelige handling.
+
+Implementasjonen er testet i lokal WordPress/MariaDB, med faktisk ZIP-opplasting i WP-admin, Chromium, provider-fixtures og en ekte MET-forespørsel. [Testmatrisen](docs/TESTRAPPORT.md) inneholder bevis, miljø og begrensninger. Firefox og direkte Geoapify-livetest er **NOT RUN**, med begrunnelse. [Personvern og datakilder](docs/PERSONVERN.md) beskriver lokal historikk, frivillig område og eksterne lenker.
+
+![Mobil: ett forslag og handlingene på første skjerm](screenshots/mobile-first-screen.png)
+
+4.1-prototypen i reference/ er fortsatt historisk designreferanse. Den inngår ikke i pluginen.
+
+## Lokal utvikling
+
+```sh
+npm ci --ignore-scripts
+bash scripts/cloud-start.sh
+npm run check
+npm run test:unit
+docker compose run --rm cli wp eval-file gnf-tests/integration.php
+docker compose run --rm cli wp eval-file gnf-tests/concurrency.php
+npm test
+npm run build
+```
+
+Kjør backend-testene ferdig før nettlesertestene, siden de bruker samme lokale database. Standardnettleseren er `/usr/bin/chromium`. Kjerneflyten krever ingen API-nøkkel. ZIP-teststakken i compose.zip.yaml har egne volum og kun en lokal tillitsfil for skymiljøets CA, uten montert plugin-kildekode. Se installasjonsguidens utviklingsdel for en ren ZIP-test. Ingen tunge Actions-jobber på hvert push.
 
 Ingen merge eller produksjonsinstallasjon uten uttrykkelig eiergodkjenning.

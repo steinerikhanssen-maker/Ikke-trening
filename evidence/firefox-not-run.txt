@@ -1,0 +1,13 @@
+NOT RUN: Firefox 142.0.1 / Playwright build 1495 visitor tests.
+The official browser download succeeded. Two actual launch attempts timed out,
+including a 20-second probe with the content sandbox disabled for local testing.
+The browser never exposed a page to Playwright. Report this as an environment
+limitation, not a passed compatibility test or a proven application failure.
+
+Observed launch output:
+Fontconfig error: No writable cache directories
+Sandbox: writing /proc/self/uid_map: EROFS
+RenderCompositorSWGL failed mapping default framebuffer, no dt
+glxtest: libpci missing
+
+Chromium is the executed browser in evidence/browser-results.json.

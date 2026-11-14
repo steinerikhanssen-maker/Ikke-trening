@@ -1,0 +1,2 @@
+PASS [gymnotfound_app] on an ordinary theme page from the installed ZIP
+PASS theme shell retained and activity Try -> pending works

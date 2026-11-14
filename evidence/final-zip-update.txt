@@ -1,0 +1,2 @@
+PASS final ZIP uploaded through native WordPress replacement
+PASS standalone preview and Norwegian Try -> Done from the uploaded ZIP

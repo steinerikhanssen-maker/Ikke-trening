@@ -1,0 +1,28 @@
+
+> gymnotfound@0.1.0-beta.1 test:unit
+> node --test tests/engine.test.cjs tests/storage.test.cjs
+
+✔ 36 genuinely distinct bilingual templates; >=12 source-free fallbacks (26.016691ms)
+✔ C1 urban chooses an actual named source place; no invented destination (59.497475ms)
+✔ C2 sparse countryside never fabricates a cafe or museum (6.513663ms)
+✔ C3 zero places yields >=3 different generic tasks, with >=8 consecutive choices (8.076546ms)
+✔ C4 two rejections change the family and remember feedback (15.891411ms)
+✔ C5 private/unsafe/closed/paid places cannot enter a free recommendation (1.257613ms)
+✔ C6 Google Maps URLs are fixed, encoded, with only a public destination (7.812487ms)
+✔ C7 explicit environment overrides source density (1.690972ms)
+✔ Weather fair / rain / wind / cold / unknown / stale controls outdoor eligibility (7.400144ms)
+✔ Time and energy are hard constraints, all combinations remain usable (5.942719ms)
+✔ Unreviewed instructional cards stay hidden, including reviewed cards offline (1.42766ms)
+✔ Empty/exhausted catalog yields an honest no-match, never bypasses safety (0.550336ms)
+✔ Try/plan never completes; Done is explicit and idempotent, no GPS or measured duration (11.867159ms)
+✔ Versioned migration, rejected unknown versions and invalid/extra personal fields (4.112548ms)
+✔ Local feedback and history survive reopening, export is a normalized JSON snapshot (8.315153ms)
+✔ Delete clears only app data; denied storage and corrupt JSON still allow generic use (3.947701ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 16
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 498.449162

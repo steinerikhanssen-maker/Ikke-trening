@@ -1,0 +1,13 @@
+ Container gymnotfound-test-db-1  Running
+ Container gymnotfound-test-wordpress-1  Recreate
+ Container gymnotfound-test-wordpress-1  Recreated
+ Container gymnotfound-test-db-1  Waiting
+ Container gymnotfound-test-db-1  Healthy
+ Container gymnotfound-test-wordpress-1  Starting
+ Container gymnotfound-test-wordpress-1  Started
+ Container gymnotfound-test-db-1  Running
+ Container gymnotfound-test-db-1  Running
+Warning: Plugin 'gymnotfound' is already active.
+Success: Plugin already activated.
+PASS guest card, no registration or location needed
+PASS GymNotFound local WordPress runtime; app page 40

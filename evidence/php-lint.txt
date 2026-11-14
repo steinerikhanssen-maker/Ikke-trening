@@ -1,0 +1,6 @@
+No syntax errors detected in wp-content/plugins/gymnotfound/gymnotfound.php
+No syntax errors detected in wp-content/plugins/gymnotfound/includes/Plugin.php
+No syntax errors detected in wp-content/plugins/gymnotfound/includes/Content.php
+No syntax errors detected in wp-content/plugins/gymnotfound/includes/Providers.php
+No syntax errors detected in wp-content/plugins/gymnotfound/includes/Api.php
+No syntax errors detected in wp-content/plugins/gymnotfound/templates/app.php

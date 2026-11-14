@@ -1,0 +1,5 @@
+
+> gymnotfound@0.1.0-beta.1 build
+> python3 scripts/build.py
+
+/workspace/Ikke-trening/dist/gymnotfound-0.1.0-beta.1.zip

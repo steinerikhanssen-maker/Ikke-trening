@@ -1,0 +1,59 @@
+ Container gymnotfound-test-db-1  Running
+PASS A4 36 editable published bilingual templates
+PASS A2 reactivation seed is idempotent
+PASS D3 no position means zero external requests
+PASS D5 unconfigured Geoapify never calls places
+PASS D8 five area requests make one MET call
+PASS D2 only rounded coordinates sent
+PASS D2 identifying User-Agent
+PASS E5 fixed TLS endpoint allowlist, timeout, size and no redirects
+PASS D2 Last-Modified conditional revalidation / 304
+PASS D1 real adapter parses forecast 14/2/0
+PASS D1 real adapter parses forecast 14/2/3
+PASS D1 real adapter parses forecast 14/15/0
+PASS D1 real adapter parses forecast -4/2/0
+PASS D1 stale data never shown as current
+PASS D4 MET fallback / backoff 403
+PASS D4 MET fallback / backoff 429
+PASS D4 MET fallback / backoff 500
+PASS D4 MET fallback / backoff timeout
+PASS D4 MET fallback / backoff invalid
+PASS D4 MET fallback / backoff oversized
+PASS A5 key is encrypted server-side
+PASS D6/D8 normalized, deduped, filtered and cached POIs
+PASS C5/D12 costs cautious; injected markup removed
+PASS A5 no key in responses or diagnostics
+PASS D6 bounded Geoapify request
+PASS D7 Geoapify bounded fallback 401
+PASS D7 Geoapify bounded fallback 403
+PASS D7 Geoapify bounded fallback 429
+PASS D7 Geoapify bounded fallback 500
+PASS D7 Geoapify bounded fallback timeout
+PASS D7 Geoapify bounded fallback invalid
+PASS D7 Geoapify bounded fallback oversized
+PASS C3 empty rural result remains empty
+PASS C3 capped 10 km search, no invented time
+PASS D7 hard hourly quota
+PASS D7 hard daily quota
+PASS D9 explicit manual town search is coarse and cached
+PASS E5 reject malformed or SSRF parameters
+PASS E5 reject malformed or SSRF parameters
+PASS E5 reject malformed or SSRF parameters
+PASS E5 reject malformed or SSRF parameters
+PASS E5 reject malformed or SSRF parameters
+PASS E5 reject town input injection
+PASS D12 reject oversized public request
+PASS D12 public rate limit: 30/min, no provider calls
+PASS E4 anonymous diagnostics denied
+PASS E4 admin without nonce denied
+PASS E4 admin with capability and nonce allowed
+PASS E3 unreviewed exercise hidden
+PASS E3 recognised exercise instructions cannot bypass the gate with an unchecked flag
+PASS E3 exact reviewed version accepted
+PASS E3 reject invalid approval date
+PASS E3 reject invalid approval sources
+PASS E3 reject invalid approval safety
+PASS E3 reject invalid approval hash
+PASS E3 any content change invalidates approval
+PASS Test counter verifies execution
+TOTAL 57 assertions
