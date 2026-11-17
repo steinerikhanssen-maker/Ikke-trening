@@ -49,22 +49,54 @@ jobs:
         env:
           WORK: ${{ runner.temp }}/cubehaos-build
         run: bash ./scripts/bootstrap.sh "$WORK"
-      - name: Check U-Boot 2026.01 patch against the actual release tarball (zero fuzz)
+      - name: Verify/cache U-Boot 2026.01 and dry-run HAOS patch (zero fuzz)
         working-directory: cubehaos
         env:
           WORK: ${{ runner.temp }}/cubehaos-build
+          CACHE_DIR: ${{ runner.temp }}/hassos-cache
         run: |
           set -euo pipefail
-          archive="$RUNNER_TEMP/u-boot-2026.01.tar.bz2"
+          # Buildroot's pinned Cube defconfig uses BR2_DL_DIR="/cache/dl".
+          # Share the verified source with the later Docker build to avoid the
+          # unreachable ftp.denx.de server and repeat downloads.
+          archive="$CACHE_DIR/dl/uboot/u-boot-2026.01.tar.bz2"
           patch_tree="$RUNNER_TEMP/uboot-patch-preflight"
-          mkdir -p "$patch_tree"
-          curl --fail --location --silent --show-error --retry 3 --retry-delay 2 \
-            --output "$archive" 'https://ftp.denx.de/pub/u-boot/u-boot-2026.01.tar.bz2'
-          test -s "$archive"
+          # SHA-256 of the official U-Boot release archive, recorded by Buildroot
+          # in package/uboot-tools/uboot-tools.hash (2026.01).
+          expected_sha256="b60d5865cefdbc75da8da4156c56c458e00de75a49b80c1a2e58a96e30ad0d54"
+          mkdir -p "$(dirname "$archive")" "$patch_tree"
+          sources=(
+            'https://sources.buildroot.net/uboot/u-boot-2026.01.tar.bz2'
+            'https://u-boot.osuosl.org/u-boot-2026.01.tar.bz2'
+            'https://ftp.denx.de/pub/u-boot/u-boot-2026.01.tar.bz2'
+            'https://mirror.nju.edu.cn/buildroot/uboot-tools/u-boot-2026.01.tar.bz2'
+          )
+          verified=false
+          for url in "${sources[@]}"; do
+            echo "Checking U-Boot release archive from $url"
+            rm -f "${archive}.part"
+            if curl --fail --location --silent --show-error \
+                 --connect-timeout 10 --max-time 150 \
+                 --output "${archive}.part" "$url"; then
+              if printf '%s  %s\n' "$expected_sha256" "${archive}.part" | sha256sum --check --status; then
+                mv "${archive}.part" "$archive"
+                verified=true
+                break
+              fi
+              echo "Rejecting source archive with incorrect SHA-256 from $url" >&2
+            fi
+          done
+          rm -f "${archive}.part"
+          if [ "$verified" != true ]; then
+            echo "No SHA-256-verified U-Boot 2026.01 release archive available" >&2
+            exit 1
+          fi
+          printf '%s  %s\n' "$expected_sha256" "$archive" | sha256sum --check
           tar -xjf "$archive" --strip-components=1 -C "$patch_tree" \
             u-boot-2026.01/cmd/Makefile u-boot-2026.01/cmd/Kconfig
           patch --batch --fuzz=0 --dry-run -p1 -d "$patch_tree" \
             -i "$WORK/operating-system/buildroot-external/patches/uboot/0001-CMD-read-string-from-fileinto-env.patch"
+          echo "Verified U-Boot 2026.01 cached for Buildroot; patch applies with zero fuzz."
       - name: Build full Home Assistant OS Cube image and inspect GPT / RAUC presence
         working-directory: cubehaos
         env:
