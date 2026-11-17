@@ -1,0 +1,77 @@
+name: CubeHAOS public free image build
+
+on:
+  push:
+    branches:
+      - feature/cubehaos-public-build-20261117
+    paths:
+      - 'cubehaos/**'
+      - '.github/workflows/cubehaos-public-build.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event_name }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  source-tests:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Check Cube source, script syntax and fail-closed validators
+        working-directory: cubehaos
+        run: |
+          python3 -m unittest discover -s tests -p 'test_*.py' -v
+          for sh in scripts/*.sh; do bash -n "$sh"; done
+          python3 -m compileall -q scripts tests
+
+  build-image:
+    needs: source-tests
+    runs-on: ubuntu-22.04
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Free space for the Buildroot cross-compilation
+        run: |
+          df -h .
+          sudo rm -rf /usr/local/lib/android /usr/share/dotnet /opt/hostedtoolcache /usr/local/share/powershell
+          df -h .
+      - name: Check out the exact pinned OS and Cube board sources
+        working-directory: cubehaos
+        env:
+          WORK: ${{ runner.temp }}/cubehaos-build
+        run: bash ./scripts/bootstrap.sh "$WORK"
+      - name: Build full Home Assistant OS Cube image and inspect GPT / RAUC presence
+        working-directory: cubehaos
+        env:
+          WORK: ${{ runner.temp }}/cubehaos-build
+          CACHE_DIR: ${{ runner.temp }}/hassos-cache
+        run: bash ./scripts/build.sh "$WORK"
+      - name: Validate candidate release identity
+        if: success()
+        working-directory: cubehaos
+        env:
+          WORK: ${{ runner.temp }}/cubehaos-build
+        run: |
+          python3 scripts/release_gate.py "$WORK/operating-system/output/images" --help || true
+          test -s "$WORK/operating-system/output/images/cube-release-inspection.json"
+      - name: Upload candidate disk image, RAUC bundle and inspection log
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cubehaos-NOT-HARDWARE-TESTED-${{ github.sha }}
+          path: |
+            ${{ runner.temp }}/cubehaos-build/operating-system/output/images/haos_cube2v0eu-*.img.xz
+            ${{ runner.temp }}/cubehaos-build/operating-system/output/images/haos_cube2v0eu-*.raucb
+            ${{ runner.temp }}/cubehaos-build/operating-system/output/images/cube-release-inspection.json
+          if-no-files-found: error
+          compression-level: 0
+          retention-days: 7
