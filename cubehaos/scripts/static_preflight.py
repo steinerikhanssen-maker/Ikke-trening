@@ -34,7 +34,8 @@ def preflight(haos: Path) -> dict:
        'RK3328 source patches':'rk3328-futurehome-cube-2v0-eu.dts' in patch,
        'blob source pinned fork':'github.com/armbian/rkbin/archive' in blobs,
        'fileenv patch compatible with U-Boot 2026.01':(
-           '@@ -175,5 +175,6 @@ obj-$(CONFIG_CMD_SHA1SUM)' in fileenv
+           '@@ -175,6 +175,7 @@ obj-$(CONFIG_CMD_SHA1SUM)' in fileenv
+           and ' obj-$(CONFIG_CMD_SMBIOS) += smbios.o' in fileenv
            and '+obj-$(CONFIG_CMD_FILEENV) += fileenv.o' in fileenv
            and ' obj-$(CONFIG_CMD_SM3SUM) += sm3sum.o' not in fileenv),
        'no Green board target':'board/nabucasa/green' not in cfg,
