@@ -54,7 +54,8 @@ def replace_unique(s: str, old: str, new: str) -> str:
 
 # HAOS pins a global fileenv command patch written for U-Boot 2026.04.
 # Cube intentionally builds 2026.01: that version has no CMD_SM3SUM Makefile line.
-# Only the Makefile hunk context changes; the Kconfig and C implementation do not.
+# Preserve all three trailing Makefile context lines for Buildroot's zero-fuzz patcher.
+# Only the Makefile hunk context changes; Kconfig and C stay intact.
 HAOS_FILEENV_PATCH = Path("buildroot-external/patches/uboot/0001-CMD-read-string-from-fileinto-env.patch")
 FILEENV_2026_04_HUNK = """@@ -176,6 +176,7 @@ obj-$(CONFIG_CMD_SHA1SUM) += sha1sum.o
  obj-$(CONFIG_CMD_SEAMA) += seama.o
@@ -65,13 +66,14 @@ FILEENV_2026_04_HUNK = """@@ -176,6 +176,7 @@ obj-$(CONFIG_CMD_SHA1SUM) += sha1s
  obj-$(CONFIG_CMD_STRINGS) += strings.o
  obj-$(CONFIG_CMD_SM3SUM) += sm3sum.o
 """
-FILEENV_2026_01_HUNK = """@@ -175,5 +175,6 @@ obj-$(CONFIG_CMD_SHA1SUM) += sha1sum.o
+FILEENV_2026_01_HUNK = """@@ -175,6 +175,7 @@ obj-$(CONFIG_CMD_SHA1SUM) += sha1sum.o
  obj-$(CONFIG_CMD_SEAMA) += seama.o
  obj-$(CONFIG_CMD_SETEXPR) += setexpr.o
  obj-$(CONFIG_CMD_SETEXPR_FMT) += printf.o
 +obj-$(CONFIG_CMD_FILEENV) += fileenv.o
  obj-$(CONFIG_CMD_SPI) += spi.o
  obj-$(CONFIG_CMD_STRINGS) += strings.o
+ obj-$(CONFIG_CMD_SMBIOS) += smbios.o
 """
 
 

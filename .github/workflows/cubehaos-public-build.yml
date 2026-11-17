@@ -49,6 +49,22 @@ jobs:
         env:
           WORK: ${{ runner.temp }}/cubehaos-build
         run: bash ./scripts/bootstrap.sh "$WORK"
+      - name: Check U-Boot 2026.01 patch against the actual release tarball (zero fuzz)
+        working-directory: cubehaos
+        env:
+          WORK: ${{ runner.temp }}/cubehaos-build
+        run: |
+          set -euo pipefail
+          archive="$RUNNER_TEMP/u-boot-2026.01.tar.bz2"
+          patch_tree="$RUNNER_TEMP/uboot-patch-preflight"
+          mkdir -p "$patch_tree"
+          curl --fail --location --silent --show-error --retry 3 --retry-delay 2 \
+            --output "$archive" 'https://ftp.denx.de/pub/u-boot/u-boot-2026.01.tar.bz2'
+          test -s "$archive"
+          tar -xjf "$archive" --strip-components=1 -C "$patch_tree" \
+            u-boot-2026.01/cmd/Makefile u-boot-2026.01/cmd/Kconfig
+          patch --batch --fuzz=0 --dry-run -p1 -d "$patch_tree" \
+            -i "$WORK/operating-system/buildroot-external/patches/uboot/0001-CMD-read-string-from-fileinto-env.patch"
       - name: Build full Home Assistant OS Cube image and inspect GPT / RAUC presence
         working-directory: cubehaos
         env:

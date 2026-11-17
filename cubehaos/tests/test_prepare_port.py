@@ -113,6 +113,7 @@ BR2_PACKAGE_LINUX_FIRMWARE_USB_SERIAL_TI=y
             body = patch.read_text()
             self.assertIn(port.FILEENV_2026_01_HUNK, body)
             self.assertNotIn(port.FILEENV_2026_04_HUNK, body)
+            self.assertIn(' obj-$(CONFIG_CMD_SMBIOS) += smbios.o', body)
             # Reproduce the relevant upstream v2026.01 Makefile context.
             # v2026.01 lacks the CMD_SM3SUM line added in later U-Boot.
             tree = d / "u-boot-2026.01"
@@ -128,7 +129,7 @@ BR2_PACKAGE_LINUX_FIRMWARE_USB_SERIAL_TI=y
                 "obj-$(CONFIG_CMD_SMBIOS) += smbios.o\n"
             )
             result = subprocess.run(
-                ["patch", "-d", str(tree), "-p1", "--batch", "--dry-run", "-i", str(patch)],
+                ["patch", "-d", str(tree), "-p1", "--batch", "--fuzz=0", "--dry-run", "-i", str(patch)],
                 capture_output=True, text=True
             )
             self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
