@@ -52,6 +52,42 @@ def replace_unique(s: str, old: str, new: str) -> str:
     return s.replace(old, new)
 
 
+# HAOS pins a global fileenv command patch written for U-Boot 2026.04.
+# Cube intentionally builds 2026.01: that version has no CMD_SM3SUM Makefile line.
+# Only the Makefile hunk context changes; the Kconfig and C implementation do not.
+HAOS_FILEENV_PATCH = Path("buildroot-external/patches/uboot/0001-CMD-read-string-from-fileinto-env.patch")
+FILEENV_2026_04_HUNK = """@@ -176,6 +176,7 @@ obj-$(CONFIG_CMD_SHA1SUM) += sha1sum.o
+ obj-$(CONFIG_CMD_SEAMA) += seama.o
+ obj-$(CONFIG_CMD_SETEXPR) += setexpr.o
+ obj-$(CONFIG_CMD_SETEXPR_FMT) += printf.o
++obj-$(CONFIG_CMD_FILEENV) += fileenv.o
+ obj-$(CONFIG_CMD_SPI) += spi.o
+ obj-$(CONFIG_CMD_STRINGS) += strings.o
+ obj-$(CONFIG_CMD_SM3SUM) += sm3sum.o
+"""
+FILEENV_2026_01_HUNK = """@@ -175,5 +175,6 @@ obj-$(CONFIG_CMD_SHA1SUM) += sha1sum.o
+ obj-$(CONFIG_CMD_SEAMA) += seama.o
+ obj-$(CONFIG_CMD_SETEXPR) += setexpr.o
+ obj-$(CONFIG_CMD_SETEXPR_FMT) += printf.o
++obj-$(CONFIG_CMD_FILEENV) += fileenv.o
+ obj-$(CONFIG_CMD_SPI) += spi.o
+ obj-$(CONFIG_CMD_STRINGS) += strings.o
+"""
+
+
+def adapt_fileenv_patch(haos: Path) -> tuple[Path, str]:
+    """Return a pinned, minimal patch correction for the Cube's U-Boot 2026.01.
+
+    Never change the upstream repository: bootstrap uses an isolated checkout.
+    Reject unrecognized upstream patch content instead of applying a fuzzy fix.
+    """
+    path = require(haos / HAOS_FILEENV_PATCH)
+    content = path.read_text()
+    if content.count(FILEENV_2026_04_HUNK) != 1:
+        raise RuntimeError("Pinned HAOS fileenv patch changed; refuse U-Boot 2026.01 build")
+    return path, content.replace(FILEENV_2026_04_HUNK, FILEENV_2026_01_HUNK, 1)
+
+
 def build_port(haos: Path, source: Path) -> dict:
     haos, source = haos.resolve(), source.resolve()
     external = require(haos / "buildroot-external")
@@ -88,6 +124,9 @@ def build_port(haos: Path, source: Path) -> dict:
             raise RuntimeError(f'Unexpected HAOS Green config: {expected}')
     if "i2c dev 0\nsetenv check_btn_pressed" not in gr_boot or "# HAOS system A/B" not in gr_boot:
         raise RuntimeError('Unexpected HAOS boot script')
+    # Validate before generating board files; only write the corrected upstream
+    # patch when all Cube port generation has completed successfully.
+    fileenv_patch_path, corrected_fileenv_patch = adapt_fileenv_patch(haos)
 
     bdir.mkdir(parents=True)
     (bdir / "dts/rockchip").mkdir(parents=True)
@@ -284,6 +323,8 @@ CONFIG_CMD_BOOTFLOW=y
         rauc_hook_path.write_text(rauc_hook)
     else:
         raise FileNotFoundError("HAOS RAUC hook missing; cannot enforce boot partition freeze")
+
+    fileenv_patch_path.write_text(corrected_fileenv_patch)
 
     (bdir / "UPSTREAM_NOTES.txt").write_text("""Source: RockPaperPencil/futurehome-cube2v0eu-boardsupport, pinned by bootstrap.sh.
 Base: home-assistant/operating-system dev, pinned by bootstrap.sh.

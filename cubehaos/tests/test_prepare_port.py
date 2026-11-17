@@ -42,6 +42,13 @@ BR2_PACKAGE_ROCKCHIP_BLOBS_TPL="bin/rk35/rk3566_ddr_1056MHz_v1.18.bin"
 BR2_PACKAGE_LINUX_FIRMWARE_BRCM_BCM43XX=y
 BR2_PACKAGE_LINUX_FIRMWARE_USB_SERIAL_TI=y
 ''')
+        common_patch = haos / "buildroot-external/patches/uboot/0001-CMD-read-string-from-fileinto-env.patch"
+        common_patch.parent.mkdir(parents=True)
+        common_patch.write_text(
+            "diff --git a/cmd/Makefile b/cmd/Makefile\\n"
+            "--- a/cmd/Makefile\\n+++ b/cmd/Makefile\\n"
+            + port.FILEENV_2026_04_HUNK
+        )
         (haos/"buildroot-external/ota").mkdir(parents=True)
         (haos/"buildroot-external/ota/rauc-hook").write_text(
             '#!/bin/sh\ninstall_spl() {\n    echo write-loader\n}\ninstall_boot() {\n    echo write-fat\n}\n')
@@ -97,6 +104,43 @@ BR2_PACKAGE_LINUX_FIRMWARE_USB_SERIAL_TI=y
             with self.assertRaises(RuntimeError):
                 port.build_port(haos,board)
 
+
+    def test_retargets_global_fileenv_patch_to_exact_2026_01_makefile(self):
+        with TemporaryDirectory() as s:
+            d=Path(s); haos, board=self.fixture(d)
+            port.build_port(haos, board)
+            patch = haos / port.HAOS_FILEENV_PATCH
+            body = patch.read_text()
+            self.assertIn(port.FILEENV_2026_01_HUNK, body)
+            self.assertNotIn(port.FILEENV_2026_04_HUNK, body)
+            # Reproduce the relevant upstream v2026.01 Makefile context.
+            # v2026.01 lacks the CMD_SM3SUM line added in later U-Boot.
+            tree = d / "u-boot-2026.01"
+            cmd = tree / "cmd"
+            cmd.mkdir(parents=True)
+            (cmd / "Makefile").write_text(
+                "obj-$(CONFIG_CMD_SHA1SUM) += sha1sum.o\\n"
+                "obj-$(CONFIG_CMD_SEAMA) += seama.o\\n"
+                "obj-$(CONFIG_CMD_SETEXPR) += setexpr.o\\n"
+                "obj-$(CONFIG_CMD_SETEXPR_FMT) += printf.o\\n"
+                "obj-$(CONFIG_CMD_SPI) += spi.o\\n"
+                "obj-$(CONFIG_CMD_STRINGS) += strings.o\\n"
+                "obj-$(CONFIG_CMD_SMBIOS) += smbios.o\\n"
+            )
+            result = subprocess.run(
+                ["patch", "-d", str(tree), "-p1", "--batch", "--dry-run", "-i", str(patch)],
+                capture_output=True, text=True
+            )
+            self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+
+    def test_unknown_fileenv_patch_does_not_generate_board(self):
+        with TemporaryDirectory() as s:
+            d=Path(s); haos, board=self.fixture(d)
+            target = haos / port.HAOS_FILEENV_PATCH
+            target.write_text(target.read_text().replace("CMD_SM3SUM", "CHANGED_UPSTREAM"))
+            with self.assertRaisesRegex(RuntimeError, "fileenv patch changed"):
+                port.build_port(haos, board)
+            self.assertFalse((haos / port.HAOS_BOARD_REL).exists())
 
     def test_missing_rauc_hook_stops_before_partial_port(self):
         with TemporaryDirectory() as t:
