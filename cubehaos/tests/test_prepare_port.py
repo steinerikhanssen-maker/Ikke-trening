@@ -45,8 +45,8 @@ BR2_PACKAGE_LINUX_FIRMWARE_USB_SERIAL_TI=y
         common_patch = haos / "buildroot-external/patches/uboot/0001-CMD-read-string-from-fileinto-env.patch"
         common_patch.parent.mkdir(parents=True)
         common_patch.write_text(
-            "diff --git a/cmd/Makefile b/cmd/Makefile\\n"
-            "--- a/cmd/Makefile\\n+++ b/cmd/Makefile\\n"
+            "diff --git a/cmd/Makefile b/cmd/Makefile\n"
+            "--- a/cmd/Makefile\n+++ b/cmd/Makefile\n"
             + port.FILEENV_2026_04_HUNK
         )
         (haos/"buildroot-external/ota").mkdir(parents=True)
@@ -119,13 +119,13 @@ BR2_PACKAGE_LINUX_FIRMWARE_USB_SERIAL_TI=y
             cmd = tree / "cmd"
             cmd.mkdir(parents=True)
             (cmd / "Makefile").write_text(
-                "obj-$(CONFIG_CMD_SHA1SUM) += sha1sum.o\\n"
-                "obj-$(CONFIG_CMD_SEAMA) += seama.o\\n"
-                "obj-$(CONFIG_CMD_SETEXPR) += setexpr.o\\n"
-                "obj-$(CONFIG_CMD_SETEXPR_FMT) += printf.o\\n"
-                "obj-$(CONFIG_CMD_SPI) += spi.o\\n"
-                "obj-$(CONFIG_CMD_STRINGS) += strings.o\\n"
-                "obj-$(CONFIG_CMD_SMBIOS) += smbios.o\\n"
+                "obj-$(CONFIG_CMD_SHA1SUM) += sha1sum.o\n"
+                "obj-$(CONFIG_CMD_SEAMA) += seama.o\n"
+                "obj-$(CONFIG_CMD_SETEXPR) += setexpr.o\n"
+                "obj-$(CONFIG_CMD_SETEXPR_FMT) += printf.o\n"
+                "obj-$(CONFIG_CMD_SPI) += spi.o\n"
+                "obj-$(CONFIG_CMD_STRINGS) += strings.o\n"
+                "obj-$(CONFIG_CMD_SMBIOS) += smbios.o\n"
             )
             result = subprocess.run(
                 ["patch", "-d", str(tree), "-p1", "--batch", "--dry-run", "-i", str(patch)],
