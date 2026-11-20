@@ -1,0 +1,20 @@
+name: Hall4 begrenset utgivelse
+version: "0.1.0"
+slug: hall4_release_agent
+description: Administratorstyrt, hash-pinnet Hall4-kodeoppdatering med automatisk tilbakeføring
+arch:
+  - aarch64
+  - amd64
+startup: services
+boot: auto
+init: false
+stdin: true
+hassio_api: true
+hassio_role: homeassistant
+homeassistant_api: true
+map:
+  - type: homeassistant_config
+    read_only: false
+    path: /config
+options: {}
+schema: {}
